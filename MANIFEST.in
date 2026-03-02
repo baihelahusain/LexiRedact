@@ -1,0 +1,17 @@
+include README.md
+include LICENSE*
+
+recursive-include vectorshield *.py
+recursive-include vectorshield *.typed
+
+prune backend
+prune data
+prune dist
+prune vectorshield_data
+prune venv
+
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude *.so
+exclude mlflow.db
+exclude requirements-backend.txt

@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vectorshield"
+version = "0.1.0"
+description = "Privacy-First Vector Database for Sensitive Data"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Shwetan Londhe", email = "shwetan.college@gmail.com"},
+    {name = "Varad Limbkar", email = "varadlimbkar@gmail.com"},
+    {name = "Baihela Husain", email = "baihelahusain@gmail.com"}
+]
+keywords = ["pii", "privacy", "vector-database", "embedding", "rag"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "presidio-analyzer>=2.2.0",
+    "presidio-anonymizer>=2.2.0",
+    "fastembed>=0.2.0",
+    "chromadb>=0.4.0",
+    "pydantic>=2.0.0",
+    "pyyaml>=6.0",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+redis = ["redis[async]>=5.0.0"]
+mlflow = ["mlflow>=2.10.0"]
+all = [
+    "redis[async]>=5.0.0",
+    "mlflow>=2.10.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/vectorshield/vectorshield"
+Repository = "https://github.com/vectorshield/vectorshield"
+Documentation = "https://github.com/vectorshield/vectorshield#documentation"
+Issues = "https://github.com/vectorshield/vectorshield/issues"
+
+[project.scripts]
+vectorshield = "vectorshield.cli:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["vectorshield*"]
+
+[tool.setuptools.package-data]
+vectorshield = ["py.typed"]

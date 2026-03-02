@@ -1,0 +1,50 @@
+﻿# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Logs and local environment
+*.log
+.env
+.env.*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project-specific generated/demo data
+mlflow.db
+mlruns/
+dump.rdb
+backend/
+data/
+vectorshield_data/
+tmpclaude-*/
+vectorshield/input.json
+vectorshield/output.json
+.tmp-build/
+package_out/
