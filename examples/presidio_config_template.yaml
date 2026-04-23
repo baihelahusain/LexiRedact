@@ -1,0 +1,30 @@
+pii_entities:
+  - PERSON
+  - EMAIL_ADDRESS
+  - PHONE_NUMBER
+  - US_SSN
+  - EMPLOYEE_ID
+presidio_language: en
+presidio_score_threshold: 0.55
+presidio_allow_list:
+  - LexiRedact
+  - support@company.internal
+presidio_allow_list_match: exact
+presidio_custom_patterns:
+  - entity_name: EMPLOYEE_ID
+    regex_pattern: "\\bEMP\\d{6}\\b"
+    score: 0.85
+presidio_operator_map:
+  PERSON:
+    operator: replace
+    params:
+      new_value: "<PERSON>"
+  EMAIL_ADDRESS:
+    operator: replace
+    params:
+      new_value: "<EMAIL>"
+  EMPLOYEE_ID:
+    operator: replace
+    params:
+      new_value: "<EMPLOYEE_ID>"
+presidio_default_replacement: "<{entity_type}>"

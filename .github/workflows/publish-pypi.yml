@@ -1,0 +1,143 @@
+name: Publish to PyPI
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Publish target (testpypi or pypi)"
+        required: true
+        default: "testpypi"
+        type: choice
+        options:
+          - testpypi
+          - pypi
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      wheel: ${{ steps.build.outputs.wheel }}
+      sdist: ${{ steps.build.outputs.sdist }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install build tooling
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install build twine
+
+      - name: Build distribution
+        id: build
+        run: |
+          python -m build
+          echo "wheel=$(ls dist/*.whl)" >> $GITHUB_OUTPUT
+          echo "sdist=$(ls dist/*.tar.gz)" >> $GITHUB_OUTPUT
+          ls -lh dist/
+
+      - name: Validate package metadata
+        run: python -m twine check dist/*
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-dist
+          path: dist/*
+          retention-days: 30
+
+  test-build:
+    needs: build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install build tooling
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install build twine
+
+      - name: Build distribution
+        run: python -m build
+
+      - name: Validate package metadata
+        run: python -m twine check dist/*
+
+      - name: Test installation
+        run: |
+          python -m pip install dist/lexiredact-*.whl
+          python -c "import lexiredact; print('✓ Installation successful'); print('Version:', lexiredact.__version__)"
+
+  publish-testpypi:
+    needs: [build, test-build]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'testpypi'
+    environment:
+      name: testpypi
+      url: https://test.pypi.org/p/lexiredact
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: package-dist
+          path: dist
+
+      - name: Publish to Test PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+
+  publish-pypi:
+    needs: [build, test-build]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    environment:
+      name: pypi
+      url: https://pypi.org/p/lexiredact
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: package-dist
+          path: dist
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+
+  create-release:
+    needs: publish-pypi
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          generate_release_notes: true
+          files: dist/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

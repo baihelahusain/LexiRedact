@@ -1,155 +1,123 @@
 """
 Custom Vector Store Example
 
-Demonstrates how to integrate VectorShield with a custom vector database.
-Could be: Pinecone, Weaviate, Qdrant, Milvus, or any custom storage.
+Reference example for plugging a custom storage backend into LexiRedact.
+
+Use this file for the smallest possible adapter pattern.
+Use `custom_vectordb_comparison.py` when you want a side-by-side example with
+real backends such as Qdrant and LanceDB.
 """
+
 import asyncio
-from typing import List, Dict, Any, Optional
-import vectorshield as vs
+from typing import Any, Dict, List, Optional
+
+from _bootstrap import ensure_project_root
+
+ensure_project_root()
+
+import lexiredact as vs
 
 
-class CustomVectorStore(vs.VectorStore):
-    """
-    Example custom vector store implementation.
-    
-    In production, replace with actual database client logic.
-    Could integrate with:
-    - Pinecone (cloud vector DB)
-    - Weaviate (open source)
-    - Qdrant (high performance)
-    - Milvus (scalable)
-    - Custom storage backend
-    """
-    
-    def __init__(self, connection_string: str = "custom://localhost"):
-        """Initialize custom vector store."""
-        self.connection_string = connection_string
-        self.storage: Dict[str, Dict[str, Any]] = {}  # Mock storage
-        print(f"🔧 Initialized custom vector store: {connection_string}")
-    
+class InMemoryVectorStore(vs.VectorStore):
+    """Minimal VectorStore implementation you can copy into your own backend adapter."""
+
+    def __init__(self) -> None:
+        self.storage: Dict[str, Dict[str, Any]] = {}
+
     async def connect(self) -> None:
-        """Connect to vector database."""
-        # In production: establish actual connection
-        print(f"✅ Connected to custom vector store")
-    
+        print("Connected in-memory vector store")
+
     async def close(self) -> None:
-        """Close connection."""
-        print("👋 Closed custom vector store connection")
-    
+        print("Closed in-memory vector store")
+
     async def add_vectors(
         self,
         ids: List[str],
         embeddings: List[List[float]],
         documents: List[str],
-        metadata: Optional[List[Dict[str, Any]]] = None
+        metadata: Optional[List[Dict[str, Any]]] = None,
     ) -> None:
-        """
-        Add vectors to storage.
-        
-        In production: call actual vector DB API
-        """
         metadata = metadata or [{} for _ in ids]
-        
+
         for doc_id, embedding, document, meta in zip(ids, embeddings, documents, metadata):
             self.storage[doc_id] = {
                 "embedding": embedding,
                 "document": document,
-                "metadata": meta
+                "metadata": meta,
             }
-        
-        print(f"   Added {len(ids)} vectors to custom store")
-    
+
     async def query(
         self,
         query_embedding: List[float],
         top_k: int = 5,
-        filter_metadata: Optional[Dict[str, Any]] = None
+        filter_metadata: Optional[Dict[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
-        """
-        Query for similar vectors.
-        
-        In production: implement actual similarity search
-        """
-        # Mock: return all documents with fake scores
+        del query_embedding, filter_metadata
+
         results = []
-        for doc_id, data in list(self.storage.items())[:top_k]:
-            results.append({
-                "id": doc_id,
-                "document": data["document"],
-                "score": 0.95,  # Mock score
-                "metadata": data["metadata"]
-            })
+        for doc_id, row in list(self.storage.items())[:top_k]:
+            results.append(
+                {
+                    "id": doc_id,
+                    "document": row["document"],
+                    "score": 0.95,
+                    "metadata": row["metadata"],
+                }
+            )
         return results
-    
+
     async def delete(self, ids: List[str]) -> None:
-        """Delete vectors by ID."""
         for doc_id in ids:
             self.storage.pop(doc_id, None)
-        print(f"   Deleted {len(ids)} vectors from custom store")
-    
-    def count(self) -> int:
-        """Get number of vectors stored."""
-        return len(self.storage)
 
 
-async def main():
-    """Custom vector store example."""
-    
+async def main() -> None:
     print("=" * 60)
-    print("VectorShield - Custom Vector Store Example")
+    print("LexiRedact - Minimal Custom Vector Store")
     print("=" * 60)
     print()
-    
-    # Create custom vector store instance
-    custom_store = CustomVectorStore(connection_string="custom://my-db:5432")
-    
-    # Create pipeline with custom vector store
-    print("Creating pipeline with custom vector store...")
-    pipeline = vs.IngestionPipeline(vectorstore=custom_store)
-    
+
+    store = InMemoryVectorStore()
+    pipeline = vs.IngestionPipeline(vectorstore=store)
     await pipeline.initialize()
-    print()
-    
-    # Process documents
+
     documents = [
         vs.Document(
-            id="store1",
+            id="user-1",
             text="User John Doe registered with email john@example.com",
-            metadata={"type": "user_registration"}
+            metadata={"type": "user_registration"},
         ),
         vs.Document(
-            id="store2",
-            text="Payment processed for credit card ending in 1234",
-            metadata={"type": "payment"}
+            id="billing-1",
+            text="The refund workflow requires manager approval and invoice review",
+            metadata={"type": "billing_workflow"},
         ),
     ]
-    
-    print("Processing documents...")
-    result = await pipeline.process_batch(documents)
-    
-    print(f"\n📊 Results:")
-    print(f"   Documents Processed: {result['total_processed']}")
-    print(f"   Vectors in Custom Store: {custom_store.count()}")
+
+    batch_result = await pipeline.process_batch(documents)
+
+    print("Stored sanitized documents:")
+    for item in batch_result["results"]:
+        print(f"   {item['id']}: {item['clean_text']}")
+        print(f"      PII found: {item['pii_found']}")
     print()
-    
-    # Display what was stored
-    for doc_result in result['results']:
-        print(f"📄 Stored Document {doc_result['id']}:")
-        print(f"   Clean Text: {doc_result['clean_text']}")
-        print(f"   PII Redacted: {doc_result['pii_found']}")
-        print()
-    
-    print("💡 Key Points:")
-    print("   - Only SANITIZED text is stored in the vector database")
-    print("   - Original PII never touches the database")
-    print("   - Embeddings are from original text (preserves semantic quality)")
-    print("   - Any vector DB can be used via the VectorStore interface")
+
+    query = "How are invoice refunds reviewed?"
+    results = await pipeline.retrieve(query_text=query, top_k=2)
+    print(f"Sample query: {query}")
+    for index, item in enumerate(results, start=1):
+        print(f"   {index}. {item['id']} score={item['score']:.4f}")
+        print(f"      {item['document']}")
     print()
-    
-    # Cleanup
+
+    print("What to copy from this example:")
+    print("   - The adapter only implements `connect`, `close`, `add_vectors`, `query`, and `delete`.")
+    print("   - LexiRedact still handles PII detection, redaction, metrics, and embeddings.")
+    print("   - Your real backend only needs to store sanitized text plus vectors.")
+
     await pipeline.shutdown()
-    print("✅ Custom vector store example complete!")
+    print()
+    print("See `custom_vectordb_comparison.py` for Qdrant and LanceDB adapters.")
 
 
 if __name__ == "__main__":

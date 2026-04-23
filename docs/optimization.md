@@ -1,6 +1,6 @@
 # Optimization Guide
 
-This guide focuses on practical performance tuning for VectorShield.
+This guide focuses on practical performance tuning for LexiRedact.
 
 ## 1. Enable Parallel Processing
 
@@ -101,7 +101,7 @@ parallel_processing: true
 cache_backend: redis
 cache_ttl: 3600
 vectorstore_backend: chroma
-vectorstore_path: ./vectorshield_data
+vectorstore_path: ./lexiredact_data
 tracking_enabled: false
 max_batch_size: 1000
 embedding_batch_size: 32

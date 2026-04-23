@@ -1,13 +1,15 @@
 include README.md
 include LICENSE*
 
-recursive-include vectorshield *.py
-recursive-include vectorshield *.typed
+recursive-include lexiredact *.py
+recursive-include lexiredact *.typed
 
 prune backend
+prune benchmarks
 prune data
 prune dist
-prune vectorshield_data
+prune .tmp-build
+prune lexiredact_data
 prune venv
 
 global-exclude *.py[cod]

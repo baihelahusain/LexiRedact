@@ -3,12 +3,12 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vectorshield"
+name = "lexiredact"
 version = "0.1.0"
 description = "Privacy-First Vector Database for Sensitive Data"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Shwetan Londhe", email = "shwetan.college@gmail.com"},
     {name = "Varad Limbkar", email = "varadlimbkar@gmail.com"},
@@ -37,27 +37,29 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+pdf = ["pypdf>=4.0.0"]
 redis = ["redis[async]>=5.0.0"]
 mlflow = ["mlflow>=2.10.0"]
 all = [
+    "pypdf>=4.0.0",
     "redis[async]>=5.0.0",
     "mlflow>=2.10.0",
 ]
 
 [project.urls]
-Homepage = "https://github.com/vectorshield/vectorshield"
-Repository = "https://github.com/vectorshield/vectorshield"
-Documentation = "https://github.com/vectorshield/vectorshield#documentation"
-Issues = "https://github.com/vectorshield/vectorshield/issues"
+Homepage = "https://github.com/lexiredact/lexiredact"
+Repository = "https://github.com/lexiredact/lexiredact"
+Documentation = "https://github.com/lexiredact/lexiredact#documentation"
+Issues = "https://github.com/lexiredact/lexiredact/issues"
 
 [project.scripts]
-vectorshield = "vectorshield.cli:main"
+lexiredact = "lexiredact.cli:main"
 
 [tool.setuptools]
 include-package-data = false
 
 [tool.setuptools.packages.find]
-include = ["vectorshield*"]
+include = ["lexiredact*"]
 
 [tool.setuptools.package-data]
-vectorshield = ["py.typed"]
+lexiredact = ["py.typed"]

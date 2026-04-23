@@ -1,4 +1,4 @@
-# VectorShield Documentation
+# LexiRedact Documentation
 
 Use this index as the starting point for project docs.
 
@@ -11,6 +11,11 @@ Use this index as the starting point for project docs.
 
 ## Practical Docs
 
+- [User Guide](./user_guide.md)
 - [Configuration](./configuration.md)
 - [CLI Usage](./cli.md)
+- [Chunking Guide](./chunking.md)
+- [Metrics Guide](./metrics.md)
+- [Integrations](./integrations.md)
+- [MLflow Guide](./mlflow.md)
 - [Deployment Checklist](./deployment.md)

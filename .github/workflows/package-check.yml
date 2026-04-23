@@ -38,3 +38,77 @@ jobs:
         with:
           name: package-dist
           path: dist/*
+
+  test-install:
+    needs: build-and-check
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install build tooling
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install build
+
+      - name: Build distribution
+        run: python -m build
+
+      - name: Test wheel installation
+        run: |
+          python -m pip install dist/lexiredact-*.whl
+          python -c "import lexiredact; print('✓ Wheel installation successful')"
+
+      - name: Test sdist installation
+        run: |
+          python -m pip uninstall -y lexiredact
+          python -m pip install dist/lexiredact-*.tar.gz
+          python -c "import lexiredact; print('✓ Sdist installation successful')"
+
+  verify-imports:
+    needs: build-and-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package
+        run: |
+          python -m pip install -e .
+
+      - name: Verify core imports
+        run: |
+          python -c "
+          import lexiredact as lr
+          print('✓ Main package import')
+          from lexiredact.pipeline import IngestionPipeline
+          print('✓ IngestionPipeline import')
+          from lexiredact.privacy import PIIDetector
+          print('✓ PIIDetector import')
+          from lexiredact.config import load_config
+          print('✓ Configuration import')
+          from lexiredact.implementations.embedding import FastEmbedder
+          print('✓ Embedding implementation import')
+          from lexiredact.implementations.vectorstore import ChromaVectorStore
+          print('✓ VectorStore implementation import')
+          print('✓ All core imports successful')
+          "
+
+      - name: Verify CLI
+        run: |
+          lexiredact --help
+          lexiredact version

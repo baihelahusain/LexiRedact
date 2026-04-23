@@ -41,10 +41,11 @@ mlflow.db
 mlruns/
 dump.rdb
 backend/
+benchmarks/
 data/
-vectorshield_data/
+lexiredact_data/
+lexiredact/vectorshield_data/
 tmpclaude-*/
-vectorshield/input.json
-vectorshield/output.json
 .tmp-build/
 package_out/
+PyPI-Recovery-Codes-*.txt

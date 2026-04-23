@@ -1,6 +1,6 @@
 # Evaluation Guide
 
-This document describes how to evaluate VectorShield for correctness, privacy behavior, and performance.
+This document describes how to evaluate LexiRedact for correctness, privacy behavior, and performance.
 
 ## Evaluation Dimensions
 

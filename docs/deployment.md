@@ -1,6 +1,6 @@
 # Deployment Checklist
 
-This checklist helps prepare VectorShield for production use.
+This checklist helps prepare LexiRedact for production use.
 
 ## 1. Packaging and Release
 
@@ -15,10 +15,10 @@ This checklist helps prepare VectorShield for production use.
 ## 2. Runtime Dependencies
 
 - Install base package:
-  - `pip install vectorshield`
+  - `pip install lexiredact`
 - Optional extras:
-  - Redis: `pip install vectorshield[redis]`
-  - MLflow: `pip install vectorshield[mlflow]`
+  - Redis: `pip install lexiredact[redis]`
+  - MLflow: `pip install lexiredact[mlflow]`
 
 ## 3. Infrastructure
 
@@ -61,7 +61,7 @@ cache_backend: redis
 cache_ttl: 3600
 parallel_processing: true
 vectorstore_backend: chroma
-vectorstore_path: /var/lib/vectorshield
+vectorstore_path: /var/lib/lexiredact
 tracking_enabled: false
 max_batch_size: 1000
 timeout_seconds: 30

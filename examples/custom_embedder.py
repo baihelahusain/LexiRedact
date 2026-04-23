@@ -1,104 +1,89 @@
 """
 Custom Embedder Example
 
-Demonstrates how to use VectorShield with a custom embedding provider.
-Shows the dependency injection pattern.
+Reference example for swapping LexiRedact's default FastEmbed model with a
+SentenceTransformers model through the Embedder interface.
+
+Use this when you want one custom model in production.
+Use `embedding_model_comparision.py` when you want to compare multiple models
+before choosing one.
 """
+
 import asyncio
-from typing import List
-import vectorshield as vs
+from pathlib import Path
+
+from _bootstrap import ensure_project_root
+
+ensure_project_root()
+
+import lexiredact as vs
+from _embedding_reference import (
+    DOCUMENTS,
+    QUERIES,
+    SentenceTransformerLexiRedactEmbedder,
+)
 
 
-class CustomEmbedder(vs.Embedder):
-    """
-    Example custom embedder implementation.
-    
-    In production, you might use:
-    - OpenAI embeddings (text-embedding-3-small)
-    - Cohere embeddings
-    - Custom fine-tuned models
-    - Any other embedding service
-    """
-    
-    def __init__(self, model_name: str = "custom-model"):
-        """Initialize custom embedder."""
-        self.model_name = model_name
-        self.dimension = 768  # Example dimension
-        print(f"🔧 Initialized custom embedder: {model_name}")
-    
-    async def embed_text(self, text: str) -> List[float]:
-        """
-        Generate embedding for text.
-        
-        This is a mock implementation. In production, replace with
-        actual API calls to your embedding service.
-        """
-        # Mock: Generate random embedding (replace with real logic)
-        import hashlib
-        import struct
-        
-        # Deterministic "embedding" based on text hash
-        hash_bytes = hashlib.sha256(text.encode()).digest()
-        embedding = []
-        
-        for i in range(self.dimension):
-            # Use hash bytes to generate pseudo-random floats
-            idx = (i * 4) % len(hash_bytes)
-            value = struct.unpack('f', hash_bytes[idx:idx+4])[0] if idx + 4 <= len(hash_bytes) else 0.0
-            embedding.append(value)
-        
-        return embedding
-    
-    async def embed_batch(self, texts: List[str]) -> List[List[float]]:
-        """Generate embeddings for multiple texts."""
-        # Process in parallel
-        tasks = [self.embed_text(text) for text in texts]
-        return await asyncio.gather(*tasks)
-    
-    def get_embedding_dimension(self) -> int:
-        """Get embedding dimension."""
-        return self.dimension
-
-
-async def main():
-    """Custom embedder example."""
-    
+async def main() -> None:
     print("=" * 60)
-    print("VectorShield - Custom Embedder Example")
+    print("LexiRedact - Custom SentenceTransformers Embedder")
     print("=" * 60)
     print()
-    
-    # Create custom embedder instance
-    custom_embedder = CustomEmbedder(model_name="my-custom-model-v1")
-    
-    # Create pipeline with custom embedder
-    # All other components use defaults
-    print("Creating pipeline with custom embedder...")
-    pipeline = vs.IngestionPipeline(embedder=custom_embedder)
-    
-    await pipeline.initialize()
-    print()
-    
-    # Process sample document
-    doc = vs.Document(
-        id="custom_doc_1",
-        text="This document uses a custom embedding model for vector generation",
-        metadata={"embedder": "custom"}
+
+    try:
+        embedder = SentenceTransformerLexiRedactEmbedder(
+            model_name="sentence-transformers/all-MiniLM-L6-v2",
+            local_files_only=True,
+        )
+    except ImportError as exc:
+        print(exc)
+        return
+    except Exception as exc:
+        print(f"Model load failed: {exc}")
+        print("If the model is not cached locally, install it or rerun a comparison with downloads enabled.")
+        return
+
+    config = vs.load_config(
+        config_dict={
+            "vectorstore_path": str(Path(".tmp-build") / "custom_embedder_data"),
+            "vectorstore_collection": "custom_embedder_reference",
+            "mlflow_log_artifacts": False,
+        }
     )
-    
-    print("Processing document with custom embedder...")
-    result = await pipeline.process_document(doc)
-    
-    print(f"\n📄 Result:")
-    print(f"   Document ID: {result.id}")
-    print(f"   Clean Text: {result.clean_text}")
-    print(f"   Embedding Dimension: {len(result.embedding_preview) if result.status == 'success' else 'N/A'}")
-    print(f"   Embedding Preview: {result.embedding_preview}")
+
+    pipeline = vs.IngestionPipeline(config=config, embedder=embedder)
+    await pipeline.initialize()
+
+    print(f"Model: {embedder.model_name}")
+    print(f"Embedding dimension: {embedder.get_embedding_dimension()}")
+    print("Processing reference documents...")
     print()
-    
-    # Cleanup
+
+    batch_result = await pipeline.process_batch(list(DOCUMENTS))
+
+    print("Stored documents:")
+    for item in batch_result["results"]:
+        print(f"   {item['id']}: {item['clean_text']}")
+    print()
+
+    sample_query = QUERIES[0].query
+    query_embedding = await embedder.embed_query(sample_query)
+    results = await pipeline.vectorstore.query(query_embedding=query_embedding, top_k=3)
+
+    print(f"Sample query: {sample_query}")
+    for index, item in enumerate(results, start=1):
+        print(f"   {index}. {item['id']} score={item['score']:.4f}")
+        print(f"      {item['document']}")
+    print()
+
+    print("Reference pattern:")
+    print("   1. Implement `embed_text`, `embed_batch`, and `get_embedding_dimension`.")
+    print("   2. Pass the embedder into `vs.IngestionPipeline(embedder=your_embedder)`.")
+    print("   3. Keep query embedding logic next to the model if it needs query prefixes.")
+
     await pipeline.shutdown()
-    print("✅ Custom embedder example complete!")
+    print()
+    print("See `embedding_model_comparision.py` for side-by-side model comparison.")
 
 
 if __name__ == "__main__":

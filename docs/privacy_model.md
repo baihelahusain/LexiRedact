@@ -2,7 +2,7 @@
 
 ## Objective
 
-VectorShield is designed to minimize exposure of personally identifiable information (PII)
+LexiRedact is designed to minimize exposure of personally identifiable information (PII)
 while still enabling high-quality vector search.
 
 ## Core Strategy: Embed Original, Store Sanitized

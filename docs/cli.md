@@ -1,16 +1,16 @@
 # CLI Usage
 
-VectorShield installs a `vectorshield` command.
+LexiRedact installs a `lexiredact` command.
 
 ## Commands
 
-- `vectorshield version`
-- `vectorshield process`
+- `lexiredact version`
+- `lexiredact process`
 
 ## Show Version
 
 ```bash
-vectorshield version
+lexiredact version
 ```
 
 ## Process Documents
@@ -28,25 +28,25 @@ Input JSON shape:
 Run from file:
 
 ```bash
-vectorshield process -i input.json -o output.json
+lexiredact process -i input.json -o output.json
 ```
 
 Run from stdin:
 
 ```bash
-cat input.json | vectorshield process -i -
+cat input.json | lexiredact process -i -
 ```
 
 Use config file:
 
 ```bash
-vectorshield process -i input.json -o output.json -c config.yaml
+lexiredact process -i input.json -o output.json -c config.yaml
 ```
 
 Show stats on stderr:
 
 ```bash
-vectorshield process -i input.json --stats
+lexiredact process -i input.json --stats
 ```
 
 ## Output
