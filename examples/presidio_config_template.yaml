@@ -1,0 +1,28 @@
+pipeline_mode: dual
+
+pii:
+  entities:
+    - PERSON
+    - EMAIL_ADDRESS
+    - PHONE_NUMBER
+    - LOCATION
+    - CREDIT_CARD
+    - IBAN_CODE
+    - IP_ADDRESS
+  language: en
+  nlp_engine: spacy
+  nlp_model: en_core_web_lg
+  score_threshold: 0.7
+  batch_size: 16
+
+embedder:
+  backend: sentence_transformers
+  model_name: intfloat/e5-small-v2
+  dimension: 384
+  document_prefix: "passage: "
+  query_prefix: "query: "
+
+store:
+  provider: chroma
+  collection_name: lexiredact
+  persist_directory: ./chroma_db
