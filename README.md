@@ -34,8 +34,8 @@ lexiredact --help
 This project publishes to PyPI from GitHub Actions when a version tag is pushed:
 
 ```bash
-git tag v0.0.2
-git push origin v0.0.2
+git tag v0.2.0
+git push origin v0.2.0
 ```
 
 The PyPI project must be configured for Trusted Publishing with the `pypi` environment and the `.github/workflows/publish.yml` workflow.
