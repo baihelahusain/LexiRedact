@@ -1,16 +1,6 @@
 """
-Configuration module for LexiRedact.
+config — Configuration schema and loader for Lexiredact.
 
-Provides safe defaults and configuration loading utilities.
+- schema.py — Pydantic v2 models for all pipeline settings.
+- loader.py — load_config() entry point (dict / YAML path).
 """
-
-from .defaults import DEFAULT_CONFIG, get_default_config, validate_config
-from .loader import load_config, save_config_to_yaml
-
-__all__ = [
-    "DEFAULT_CONFIG",
-    "get_default_config",
-    "validate_config",
-    "load_config",
-    "save_config_to_yaml",
-]

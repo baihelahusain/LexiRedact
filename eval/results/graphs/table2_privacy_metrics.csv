@@ -1,0 +1,4 @@
+Mode,Precision,Recall_PII,F1,FNR,FP_Rate_of_Detections,Total_Annotated,Total_Detected_TP,Total_Missed_FN,Total_FP
+Raw (Baseline),0.0000,0.0000,0.0000,1.0000,0.0000,789,0,789,0
+Pre-Redacted,0.8528,0.7858,0.8179,0.2142,0.1472,789,620,169,107
+Dual (Proposed),0.8528,0.7858,0.8179,0.2142,0.1472,789,620,169,107

@@ -1,0 +1,8181 @@
+{
+  "mode": "raw",
+  "warmup_latency_ms": 269.1981599899009,
+  "warmup_chunk_count": 5,
+  "latency_ms_list": [
+    248.56,
+    136.5,
+    140.38,
+    129.69,
+    127.0,
+    132.03,
+    132.2,
+    145.27,
+    140.71,
+    143.77,
+    138.74,
+    129.49,
+    139.62,
+    156.87,
+    130.31,
+    125.79,
+    122.82,
+    121.28,
+    120.04,
+    124.02,
+    130.33,
+    139.0,
+    133.96,
+    142.86,
+    137.39,
+    131.08,
+    124.42,
+    130.38,
+    134.6,
+    140.97,
+    127.48,
+    138.87,
+    129.77,
+    141.81,
+    116.53,
+    129.57,
+    139.63,
+    135.86,
+    130.94,
+    129.57,
+    136.63,
+    131.43,
+    142.88,
+    133.53,
+    141.24,
+    136.06,
+    135.85,
+    139.14,
+    129.12,
+    134.45,
+    129.28,
+    127.38,
+    134.09,
+    127.93,
+    125.98,
+    144.34,
+    136.02,
+    129.97,
+    136.77,
+    124.62,
+    124.05,
+    148.29,
+    128.78,
+    132.95,
+    141.56,
+    125.75,
+    130.81,
+    139.96,
+    135.52,
+    133.42,
+    129.98,
+    126.36,
+    132.17,
+    134.87,
+    136.11,
+    131.8,
+    130.45,
+    124.21,
+    139.84,
+    144.74,
+    133.78,
+    212.67,
+    143.79,
+    142.2,
+    140.47,
+    135.02,
+    135.54,
+    128.1,
+    128.53,
+    140.04,
+    135.57,
+    129.8,
+    131.8,
+    133.11,
+    131.03,
+    128.85,
+    130.41,
+    127.69,
+    137.86,
+    137.83,
+    131.66,
+    139.58,
+    136.5,
+    144.74,
+    130.6,
+    134.2,
+    126.0,
+    132.42,
+    142.54,
+    133.72,
+    129.71,
+    133.66,
+    127.49,
+    122.4,
+    128.24,
+    124.33,
+    112.11,
+    108.77,
+    115.71,
+    135.46,
+    134.56,
+    133.01,
+    134.38,
+    122.43,
+    138.67,
+    138.01,
+    142.39,
+    138.53,
+    134.4,
+    134.2,
+    136.36,
+    129.37,
+    142.12,
+    137.71,
+    125.06,
+    140.95,
+    120.46,
+    133.08,
+    126.44,
+    125.72,
+    131.3,
+    138.69,
+    120.97,
+    141.11,
+    145.65,
+    130.65,
+    123.78,
+    141.36,
+    129.33,
+    145.13,
+    144.61,
+    202.94,
+    130.77,
+    129.52,
+    128.47,
+    128.09,
+    138.44,
+    146.72,
+    140.09,
+    133.29,
+    126.84,
+    132.01,
+    132.63,
+    124.16,
+    153.35,
+    135.97,
+    136.86,
+    143.36,
+    151.99,
+    130.55,
+    134.34,
+    142.09,
+    135.15,
+    133.68,
+    124.94,
+    134.19,
+    133.87,
+    139.8,
+    139.03,
+    139.75,
+    130.51,
+    138.52,
+    138.16,
+    137.47,
+    146.32,
+    145.23,
+    129.86,
+    125.77,
+    134.15,
+    146.19,
+    131.03,
+    136.63,
+    142.07,
+    137.71,
+    127.29,
+    144.8,
+    126.39,
+    133.4,
+    131.87,
+    137.56,
+    137.56,
+    149.76,
+    141.64,
+    143.66,
+    140.73,
+    126.73,
+    139.67,
+    140.59,
+    128.57,
+    138.46,
+    137.89,
+    138.36,
+    141.73,
+    138.33,
+    140.75,
+    134.12,
+    141.81,
+    131.89,
+    138.37,
+    148.65,
+    133.35,
+    138.42,
+    142.76,
+    144.79,
+    146.86,
+    133.51,
+    136.9,
+    140.58,
+    133.36,
+    134.31,
+    136.54,
+    141.88,
+    133.17,
+    211.99,
+    124.13,
+    125.25,
+    129.01,
+    130.65,
+    132.16,
+    134.82,
+    130.49,
+    131.05,
+    127.01,
+    124.6,
+    134.28,
+    143.09,
+    137.14,
+    134.14,
+    138.33,
+    138.62,
+    144.43,
+    132.63,
+    148.06,
+    148.92,
+    137.19,
+    134.28,
+    136.68,
+    150.86,
+    145.62,
+    140.63,
+    145.2,
+    139.14,
+    140.79,
+    145.93,
+    149.9,
+    160.19,
+    137.93,
+    131.59,
+    108.38,
+    110.79,
+    122.0,
+    127.68,
+    132.29,
+    117.22,
+    97.87,
+    125.96,
+    125.85,
+    133.51,
+    129.2,
+    143.5,
+    118.59,
+    128.93,
+    126.7,
+    129.88,
+    120.63,
+    132.68,
+    139.56,
+    134.18,
+    132.88,
+    137.06,
+    134.2,
+    135.4,
+    126.93,
+    133.15,
+    140.87,
+    143.94,
+    139.46,
+    135.34,
+    130.26,
+    136.66,
+    151.42,
+    130.03,
+    124.62,
+    119.09,
+    142.94,
+    131.89,
+    146.27,
+    143.57,
+    132.95,
+    131.4,
+    138.35,
+    140.22,
+    127.37,
+    146.47,
+    218.8,
+    133.25,
+    133.87,
+    120.29,
+    111.34,
+    133.81,
+    128.84,
+    128.4,
+    124.42,
+    121.29,
+    126.62,
+    122.12,
+    122.21,
+    127.42,
+    133.8,
+    129.73,
+    137.38,
+    127.59,
+    122.64,
+    140.8,
+    140.35,
+    138.54,
+    144.99,
+    136.26,
+    132.3,
+    141.51,
+    123.06,
+    143.8,
+    144.73,
+    137.01,
+    142.08,
+    148.43,
+    137.29,
+    136.98,
+    138.05,
+    144.81,
+    132.31,
+    141.85,
+    141.19,
+    130.31,
+    134.11,
+    142.4,
+    139.6,
+    140.25,
+    144.61,
+    146.86,
+    141.32,
+    151.35,
+    139.21,
+    137.52,
+    135.62,
+    152.45,
+    137.1,
+    141.74,
+    141.29,
+    154.06,
+    141.88,
+    160.16,
+    179.66,
+    192.3,
+    133.28,
+    180.47,
+    153.91,
+    191.98,
+    158.12,
+    201.6,
+    151.75,
+    167.56,
+    162.43,
+    154.6,
+    153.49,
+    156.37,
+    165.05,
+    141.6,
+    171.61,
+    129.28,
+    152.07,
+    156.4,
+    153.55,
+    141.39,
+    156.72,
+    172.7
+  ],
+  "ingest_results": [
+    {
+      "chunk_id": "chunk_0120",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 248.56,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 208.74,
+        "store_ms": 39.79
+      }
+    },
+    {
+      "chunk_id": "chunk_0228",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.5,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.26,
+        "store_ms": 41.22
+      }
+    },
+    {
+      "chunk_id": "chunk_0319",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.38,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.16,
+        "store_ms": 44.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0278",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.69,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.54,
+        "store_ms": 43.11
+      }
+    },
+    {
+      "chunk_id": "chunk_0183",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.0,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.12,
+        "store_ms": 37.85
+      }
+    },
+    {
+      "chunk_id": "chunk_0163",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.03,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.81,
+        "store_ms": 39.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0056",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.2,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.05,
+        "store_ms": 40.12
+      }
+    },
+    {
+      "chunk_id": "chunk_0258",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 145.27,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 103.8,
+        "store_ms": 41.44
+      }
+    },
+    {
+      "chunk_id": "chunk_0215",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.71,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.14,
+        "store_ms": 39.55
+      }
+    },
+    {
+      "chunk_id": "chunk_0008",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.77,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.38,
+        "store_ms": 42.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0391",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.74,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.81,
+        "store_ms": 40.91
+      }
+    },
+    {
+      "chunk_id": "chunk_0105",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.49,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.76,
+        "store_ms": 41.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0362",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.62,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 100.6,
+        "store_ms": 38.99
+      }
+    },
+    {
+      "chunk_id": "chunk_0285",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 156.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 122.62,
+        "store_ms": 34.22
+      }
+    },
+    {
+      "chunk_id": "chunk_0122",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.31,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.86,
+        "store_ms": 39.43
+      }
+    },
+    {
+      "chunk_id": "chunk_0077",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.79,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.31,
+        "store_ms": 38.45
+      }
+    },
+    {
+      "chunk_id": "chunk_0072",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 122.82,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.16,
+        "store_ms": 37.63
+      }
+    },
+    {
+      "chunk_id": "chunk_0254",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 121.28,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.96,
+        "store_ms": 35.28
+      }
+    },
+    {
+      "chunk_id": "chunk_0323",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 120.04,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.55,
+        "store_ms": 34.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0185",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.02,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.94,
+        "store_ms": 38.06
+      }
+    },
+    {
+      "chunk_id": "chunk_0192",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.33,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.82,
+        "store_ms": 42.47
+      }
+    },
+    {
+      "chunk_id": "chunk_0103",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.0,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.32,
+        "store_ms": 40.65
+      }
+    },
+    {
+      "chunk_id": "chunk_0267",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.96,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.54,
+        "store_ms": 41.39
+      }
+    },
+    {
+      "chunk_id": "chunk_0341",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.69,
+        "store_ms": 47.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0140",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.39,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.86,
+        "store_ms": 38.5
+      }
+    },
+    {
+      "chunk_id": "chunk_0279",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.08,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.27,
+        "store_ms": 39.79
+      }
+    },
+    {
+      "chunk_id": "chunk_0205",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.42,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.63,
+        "store_ms": 40.76
+      }
+    },
+    {
+      "chunk_id": "chunk_0006",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.38,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.99,
+        "store_ms": 38.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0246",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.6,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.76,
+        "store_ms": 41.81
+      }
+    },
+    {
+      "chunk_id": "chunk_0372",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.97,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.22,
+        "store_ms": 41.71
+      }
+    },
+    {
+      "chunk_id": "chunk_0081",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.48,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.13,
+        "store_ms": 39.32
+      }
+    },
+    {
+      "chunk_id": "chunk_0299",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.79,
+        "store_ms": 42.05
+      }
+    },
+    {
+      "chunk_id": "chunk_0251",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.77,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.08,
+        "store_ms": 42.66
+      }
+    },
+    {
+      "chunk_id": "chunk_0252",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.81,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.37,
+        "store_ms": 43.41
+      }
+    },
+    {
+      "chunk_id": "chunk_0173",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 116.53,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 80.31,
+        "store_ms": 36.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0134",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.57,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.14,
+        "store_ms": 41.4
+      }
+    },
+    {
+      "chunk_id": "chunk_0339",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.63,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.88,
+        "store_ms": 41.72
+      }
+    },
+    {
+      "chunk_id": "chunk_0316",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.14,
+        "store_ms": 41.69
+      }
+    },
+    {
+      "chunk_id": "chunk_0265",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.94,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.84,
+        "store_ms": 41.07
+      }
+    },
+    {
+      "chunk_id": "chunk_0271",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.57,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.8,
+        "store_ms": 40.75
+      }
+    },
+    {
+      "chunk_id": "chunk_0370",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.63,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.72,
+        "store_ms": 39.88
+      }
+    },
+    {
+      "chunk_id": "chunk_0314",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.43,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.66,
+        "store_ms": 40.74
+      }
+    },
+    {
+      "chunk_id": "chunk_0045",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.88,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.22,
+        "store_ms": 41.62
+      }
+    },
+    {
+      "chunk_id": "chunk_0378",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.53,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.39,
+        "store_ms": 39.1
+      }
+    },
+    {
+      "chunk_id": "chunk_0023",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.24,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.08,
+        "store_ms": 42.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0074",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.06,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.77,
+        "store_ms": 40.26
+      }
+    },
+    {
+      "chunk_id": "chunk_0017",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.85,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.67,
+        "store_ms": 42.16
+      }
+    },
+    {
+      "chunk_id": "chunk_0366",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.14,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.97,
+        "store_ms": 40.14
+      }
+    },
+    {
+      "chunk_id": "chunk_0281",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.12,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.12,
+        "store_ms": 43.98
+      }
+    },
+    {
+      "chunk_id": "chunk_0306",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.45,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.0,
+        "store_ms": 43.41
+      }
+    },
+    {
+      "chunk_id": "chunk_0332",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.28,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.89,
+        "store_ms": 35.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0395",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.38,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.1,
+        "store_ms": 40.25
+      }
+    },
+    {
+      "chunk_id": "chunk_0025",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.09,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.88,
+        "store_ms": 42.18
+      }
+    },
+    {
+      "chunk_id": "chunk_0002",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.93,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.66,
+        "store_ms": 40.25
+      }
+    },
+    {
+      "chunk_id": "chunk_0152",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.98,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.37,
+        "store_ms": 39.59
+      }
+    },
+    {
+      "chunk_id": "chunk_0363",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.34,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.82,
+        "store_ms": 42.49
+      }
+    },
+    {
+      "chunk_id": "chunk_0051",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.02,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.9,
+        "store_ms": 39.09
+      }
+    },
+    {
+      "chunk_id": "chunk_0148",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.97,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.61,
+        "store_ms": 40.33
+      }
+    },
+    {
+      "chunk_id": "chunk_0313",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.77,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.04,
+        "store_ms": 39.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0063",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.62,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.85,
+        "store_ms": 40.73
+      }
+    },
+    {
+      "chunk_id": "chunk_0110",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.05,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.06,
+        "store_ms": 41.96
+      }
+    },
+    {
+      "chunk_id": "chunk_0275",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 148.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 106.03,
+        "store_ms": 42.22
+      }
+    },
+    {
+      "chunk_id": "chunk_0188",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.78,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.12,
+        "store_ms": 39.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0104",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.95,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.82,
+        "store_ms": 42.1
+      }
+    },
+    {
+      "chunk_id": "chunk_0193",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.56,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.77,
+        "store_ms": 42.75
+      }
+    },
+    {
+      "chunk_id": "chunk_0270",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.75,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.16,
+        "store_ms": 42.57
+      }
+    },
+    {
+      "chunk_id": "chunk_0143",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.81,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.38,
+        "store_ms": 37.4
+      }
+    },
+    {
+      "chunk_id": "chunk_0360",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.96,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.13,
+        "store_ms": 42.8
+      }
+    },
+    {
+      "chunk_id": "chunk_0099",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.52,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.33,
+        "store_ms": 43.16
+      }
+    },
+    {
+      "chunk_id": "chunk_0177",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.42,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.37,
+        "store_ms": 43.02
+      }
+    },
+    {
+      "chunk_id": "chunk_0239",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.98,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.48,
+        "store_ms": 43.48
+      }
+    },
+    {
+      "chunk_id": "chunk_0310",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.36,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.34,
+        "store_ms": 38.99
+      }
+    },
+    {
+      "chunk_id": "chunk_0083",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.17,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.58,
+        "store_ms": 41.56
+      }
+    },
+    {
+      "chunk_id": "chunk_0066",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.04,
+        "store_ms": 41.8
+      }
+    },
+    {
+      "chunk_id": "chunk_0255",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.11,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.43,
+        "store_ms": 42.65
+      }
+    },
+    {
+      "chunk_id": "chunk_0069",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.2,
+        "store_ms": 44.57
+      }
+    },
+    {
+      "chunk_id": "chunk_0064",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.45,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.6,
+        "store_ms": 37.82
+      }
+    },
+    {
+      "chunk_id": "chunk_0277",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.21,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.72,
+        "store_ms": 41.45
+      }
+    },
+    {
+      "chunk_id": "chunk_0009",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.84,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.82,
+        "store_ms": 43.99
+      }
+    },
+    {
+      "chunk_id": "chunk_0342",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.74,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.47,
+        "store_ms": 48.24
+      }
+    },
+    {
+      "chunk_id": "chunk_0216",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.78,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.29,
+        "store_ms": 40.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0054",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 212.67,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 175.86,
+        "store_ms": 36.8
+      }
+    },
+    {
+      "chunk_id": "chunk_0194",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.79,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.62,
+        "store_ms": 45.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0221",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.2,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.12,
+        "store_ms": 43.05
+      }
+    },
+    {
+      "chunk_id": "chunk_0016",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.47,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.7,
+        "store_ms": 46.74
+      }
+    },
+    {
+      "chunk_id": "chunk_0248",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.02,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.9,
+        "store_ms": 40.1
+      }
+    },
+    {
+      "chunk_id": "chunk_0385",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.54,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.16,
+        "store_ms": 40.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0371",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.1,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.65,
+        "store_ms": 41.42
+      }
+    },
+    {
+      "chunk_id": "chunk_0015",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.53,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.7,
+        "store_ms": 42.8
+      }
+    },
+    {
+      "chunk_id": "chunk_0207",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.04,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 102.43,
+        "store_ms": 37.59
+      }
+    },
+    {
+      "chunk_id": "chunk_0068",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.57,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.04,
+        "store_ms": 39.5
+      }
+    },
+    {
+      "chunk_id": "chunk_0291",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.89,
+        "store_ms": 41.88
+      }
+    },
+    {
+      "chunk_id": "chunk_0071",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.61,
+        "store_ms": 40.15
+      }
+    },
+    {
+      "chunk_id": "chunk_0266",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.11,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.73,
+        "store_ms": 43.34
+      }
+    },
+    {
+      "chunk_id": "chunk_0028",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.03,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.47,
+        "store_ms": 40.54
+      }
+    },
+    {
+      "chunk_id": "chunk_0249",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.85,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.37,
+        "store_ms": 43.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0003",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.41,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.87,
+        "store_ms": 41.51
+      }
+    },
+    {
+      "chunk_id": "chunk_0123",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.69,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.52,
+        "store_ms": 42.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0001",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.17,
+        "store_ms": 43.66
+      }
+    },
+    {
+      "chunk_id": "chunk_0327",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.83,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.28,
+        "store_ms": 41.51
+      }
+    },
+    {
+      "chunk_id": "chunk_0202",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.66,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.72,
+        "store_ms": 41.91
+      }
+    },
+    {
+      "chunk_id": "chunk_0117",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.58,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.58,
+        "store_ms": 39.97
+      }
+    },
+    {
+      "chunk_id": "chunk_0388",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.5,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.97,
+        "store_ms": 45.5
+      }
+    },
+    {
+      "chunk_id": "chunk_0158",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.74,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.38,
+        "store_ms": 49.32
+      }
+    },
+    {
+      "chunk_id": "chunk_0111",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.6,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.3,
+        "store_ms": 41.26
+      }
+    },
+    {
+      "chunk_id": "chunk_0138",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.2,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.98,
+        "store_ms": 39.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0175",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.0,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.79,
+        "store_ms": 41.18
+      }
+    },
+    {
+      "chunk_id": "chunk_0196",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.42,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.69,
+        "store_ms": 42.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0243",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.54,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.79,
+        "store_ms": 49.72
+      }
+    },
+    {
+      "chunk_id": "chunk_0211",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.72,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.55,
+        "store_ms": 45.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0018",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.71,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.74,
+        "store_ms": 38.94
+      }
+    },
+    {
+      "chunk_id": "chunk_0019",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.66,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.51,
+        "store_ms": 42.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0128",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.49,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.86,
+        "store_ms": 42.61
+      }
+    },
+    {
+      "chunk_id": "chunk_0222",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 122.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 80.03,
+        "store_ms": 42.31
+      }
+    },
+    {
+      "chunk_id": "chunk_0084",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.24,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.82,
+        "store_ms": 40.39
+      }
+    },
+    {
+      "chunk_id": "chunk_0092",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.33,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.08,
+        "store_ms": 37.22
+      }
+    },
+    {
+      "chunk_id": "chunk_0250",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 112.11,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 80.5,
+        "store_ms": 31.59
+      }
+    },
+    {
+      "chunk_id": "chunk_0013",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 108.77,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 74.18,
+        "store_ms": 34.55
+      }
+    },
+    {
+      "chunk_id": "chunk_0352",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 115.71,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 78.92,
+        "store_ms": 36.76
+      }
+    },
+    {
+      "chunk_id": "chunk_0004",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.46,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.25,
+        "store_ms": 43.18
+      }
+    },
+    {
+      "chunk_id": "chunk_0307",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.56,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.52,
+        "store_ms": 42.0
+      }
+    },
+    {
+      "chunk_id": "chunk_0126",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.01,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.93,
+        "store_ms": 44.06
+      }
+    },
+    {
+      "chunk_id": "chunk_0367",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.38,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.48,
+        "store_ms": 39.87
+      }
+    },
+    {
+      "chunk_id": "chunk_0164",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 122.43,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.53,
+        "store_ms": 38.86
+      }
+    },
+    {
+      "chunk_id": "chunk_0031",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.67,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.43,
+        "store_ms": 41.2
+      }
+    },
+    {
+      "chunk_id": "chunk_0048",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.01,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.03,
+        "store_ms": 45.95
+      }
+    },
+    {
+      "chunk_id": "chunk_0151",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.39,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.31,
+        "store_ms": 44.04
+      }
+    },
+    {
+      "chunk_id": "chunk_0330",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.53,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.1,
+        "store_ms": 42.4
+      }
+    },
+    {
+      "chunk_id": "chunk_0245",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.38,
+        "store_ms": 46.98
+      }
+    },
+    {
+      "chunk_id": "chunk_0107",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.2,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.54,
+        "store_ms": 41.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0007",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.36,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.39,
+        "store_ms": 42.94
+      }
+    },
+    {
+      "chunk_id": "chunk_0312",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.37,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.01,
+        "store_ms": 40.33
+      }
+    },
+    {
+      "chunk_id": "chunk_0394",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.12,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.2,
+        "store_ms": 43.89
+      }
+    },
+    {
+      "chunk_id": "chunk_0057",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.71,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.76,
+        "store_ms": 40.92
+      }
+    },
+    {
+      "chunk_id": "chunk_0217",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.06,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.82,
+        "store_ms": 42.21
+      }
+    },
+    {
+      "chunk_id": "chunk_0112",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.95,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.05,
+        "store_ms": 47.87
+      }
+    },
+    {
+      "chunk_id": "chunk_0304",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 120.46,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.19,
+        "store_ms": 37.25
+      }
+    },
+    {
+      "chunk_id": "chunk_0336",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.08,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.74,
+        "store_ms": 44.31
+      }
+    },
+    {
+      "chunk_id": "chunk_0116",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.44,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.52,
+        "store_ms": 41.89
+      }
+    },
+    {
+      "chunk_id": "chunk_0070",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.72,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.91,
+        "store_ms": 41.77
+      }
+    },
+    {
+      "chunk_id": "chunk_0154",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.3,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.11,
+        "store_ms": 44.16
+      }
+    },
+    {
+      "chunk_id": "chunk_0301",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.69,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.02,
+        "store_ms": 41.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0298",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 120.97,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.59,
+        "store_ms": 39.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0283",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.11,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.73,
+        "store_ms": 47.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0133",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 145.65,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.24,
+        "store_ms": 44.37
+      }
+    },
+    {
+      "chunk_id": "chunk_0263",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.65,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.47,
+        "store_ms": 47.15
+      }
+    },
+    {
+      "chunk_id": "chunk_0142",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 123.78,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.76,
+        "store_ms": 41.0
+      }
+    },
+    {
+      "chunk_id": "chunk_0096",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.36,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.99,
+        "store_ms": 50.34
+      }
+    },
+    {
+      "chunk_id": "chunk_0124",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.33,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.83,
+        "store_ms": 43.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0014",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 145.13,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.64,
+        "store_ms": 49.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0065",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.61,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.15,
+        "store_ms": 48.43
+      }
+    },
+    {
+      "chunk_id": "chunk_0201",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 202.94,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 160.01,
+        "store_ms": 42.9
+      }
+    },
+    {
+      "chunk_id": "chunk_0052",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.77,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.56,
+        "store_ms": 40.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0184",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.52,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.35,
+        "store_ms": 41.14
+      }
+    },
+    {
+      "chunk_id": "chunk_0108",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.47,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.88,
+        "store_ms": 41.56
+      }
+    },
+    {
+      "chunk_id": "chunk_0136",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.09,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.17,
+        "store_ms": 43.89
+      }
+    },
+    {
+      "chunk_id": "chunk_0129",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.44,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.95,
+        "store_ms": 49.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0098",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 146.72,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.69,
+        "store_ms": 47.0
+      }
+    },
+    {
+      "chunk_id": "chunk_0347",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.09,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.39,
+        "store_ms": 46.67
+      }
+    },
+    {
+      "chunk_id": "chunk_0119",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.1,
+        "store_ms": 44.15
+      }
+    },
+    {
+      "chunk_id": "chunk_0324",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.84,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.6,
+        "store_ms": 42.21
+      }
+    },
+    {
+      "chunk_id": "chunk_0320",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.01,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.94,
+        "store_ms": 46.03
+      }
+    },
+    {
+      "chunk_id": "chunk_0095",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.63,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.96,
+        "store_ms": 43.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0311",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.16,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.45,
+        "store_ms": 40.68
+      }
+    },
+    {
+      "chunk_id": "chunk_0334",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 153.35,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.05,
+        "store_ms": 52.27
+      }
+    },
+    {
+      "chunk_id": "chunk_0393",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.97,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.82,
+        "store_ms": 47.12
+      }
+    },
+    {
+      "chunk_id": "chunk_0062",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.0,
+        "store_ms": 43.83
+      }
+    },
+    {
+      "chunk_id": "chunk_0137",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.36,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.0,
+        "store_ms": 48.33
+      }
+    },
+    {
+      "chunk_id": "chunk_0060",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 151.99,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.27,
+        "store_ms": 50.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0115",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.55,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.24,
+        "store_ms": 43.28
+      }
+    },
+    {
+      "chunk_id": "chunk_0073",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.34,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.88,
+        "store_ms": 45.42
+      }
+    },
+    {
+      "chunk_id": "chunk_0157",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.09,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.96,
+        "store_ms": 48.11
+      }
+    },
+    {
+      "chunk_id": "chunk_0348",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.15,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.75,
+        "store_ms": 45.37
+      }
+    },
+    {
+      "chunk_id": "chunk_0061",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.68,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.69,
+        "store_ms": 42.96
+      }
+    },
+    {
+      "chunk_id": "chunk_0264",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.94,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.91,
+        "store_ms": 38.99
+      }
+    },
+    {
+      "chunk_id": "chunk_0094",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.19,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.28,
+        "store_ms": 47.86
+      }
+    },
+    {
+      "chunk_id": "chunk_0106",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.96,
+        "store_ms": 42.88
+      }
+    },
+    {
+      "chunk_id": "chunk_0012",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.88,
+        "store_ms": 48.88
+      }
+    },
+    {
+      "chunk_id": "chunk_0113",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.03,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.54,
+        "store_ms": 48.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0043",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.75,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.16,
+        "store_ms": 43.56
+      }
+    },
+    {
+      "chunk_id": "chunk_0160",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.51,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.98,
+        "store_ms": 42.49
+      }
+    },
+    {
+      "chunk_id": "chunk_0178",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.52,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.3,
+        "store_ms": 41.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0368",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.16,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.55,
+        "store_ms": 49.58
+      }
+    },
+    {
+      "chunk_id": "chunk_0042",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.47,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.1,
+        "store_ms": 45.34
+      }
+    },
+    {
+      "chunk_id": "chunk_0200",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 146.32,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 98.8,
+        "store_ms": 47.48
+      }
+    },
+    {
+      "chunk_id": "chunk_0229",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 145.23,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.56,
+        "store_ms": 45.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0234",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.11,
+        "store_ms": 44.72
+      }
+    },
+    {
+      "chunk_id": "chunk_0242",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.77,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.57,
+        "store_ms": 41.18
+      }
+    },
+    {
+      "chunk_id": "chunk_0308",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.15,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.97,
+        "store_ms": 47.16
+      }
+    },
+    {
+      "chunk_id": "chunk_0346",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 146.19,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.59,
+        "store_ms": 49.57
+      }
+    },
+    {
+      "chunk_id": "chunk_0292",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.03,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.59,
+        "store_ms": 44.41
+      }
+    },
+    {
+      "chunk_id": "chunk_0381",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.63,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.01,
+        "store_ms": 42.59
+      }
+    },
+    {
+      "chunk_id": "chunk_0218",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.07,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.73,
+        "store_ms": 45.31
+      }
+    },
+    {
+      "chunk_id": "chunk_0376",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.71,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.46,
+        "store_ms": 43.22
+      }
+    },
+    {
+      "chunk_id": "chunk_0139",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.55,
+        "store_ms": 43.71
+      }
+    },
+    {
+      "chunk_id": "chunk_0256",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.81,
+        "store_ms": 47.96
+      }
+    },
+    {
+      "chunk_id": "chunk_0026",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.39,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.69,
+        "store_ms": 44.66
+      }
+    },
+    {
+      "chunk_id": "chunk_0335",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.23,
+        "store_ms": 42.15
+      }
+    },
+    {
+      "chunk_id": "chunk_0300",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.27,
+        "store_ms": 45.57
+      }
+    },
+    {
+      "chunk_id": "chunk_0296",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.56,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.57,
+        "store_ms": 44.95
+      }
+    },
+    {
+      "chunk_id": "chunk_0036",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.56,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.67,
+        "store_ms": 44.86
+      }
+    },
+    {
+      "chunk_id": "chunk_0058",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 149.76,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.77,
+        "store_ms": 47.95
+      }
+    },
+    {
+      "chunk_id": "chunk_0050",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.64,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.34,
+        "store_ms": 50.28
+      }
+    },
+    {
+      "chunk_id": "chunk_0357",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.66,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.51,
+        "store_ms": 47.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0293",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.73,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.62,
+        "store_ms": 45.07
+      }
+    },
+    {
+      "chunk_id": "chunk_0365",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.73,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.87,
+        "store_ms": 40.83
+      }
+    },
+    {
+      "chunk_id": "chunk_0358",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.67,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.77,
+        "store_ms": 43.87
+      }
+    },
+    {
+      "chunk_id": "chunk_0377",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.59,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.13,
+        "store_ms": 47.44
+      }
+    },
+    {
+      "chunk_id": "chunk_0282",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.57,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.71,
+        "store_ms": 44.84
+      }
+    },
+    {
+      "chunk_id": "chunk_0212",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.46,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.08,
+        "store_ms": 47.35
+      }
+    },
+    {
+      "chunk_id": "chunk_0005",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.89,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.34,
+        "store_ms": 49.52
+      }
+    },
+    {
+      "chunk_id": "chunk_0093",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.36,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.77,
+        "store_ms": 51.56
+      }
+    },
+    {
+      "chunk_id": "chunk_0131",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.73,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.44,
+        "store_ms": 49.27
+      }
+    },
+    {
+      "chunk_id": "chunk_0109",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.33,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.18,
+        "store_ms": 49.12
+      }
+    },
+    {
+      "chunk_id": "chunk_0223",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.75,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.83,
+        "store_ms": 44.89
+      }
+    },
+    {
+      "chunk_id": "chunk_0373",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.12,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.92,
+        "store_ms": 41.17
+      }
+    },
+    {
+      "chunk_id": "chunk_0024",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.81,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.09,
+        "store_ms": 48.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0135",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.89,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.79,
+        "store_ms": 43.06
+      }
+    },
+    {
+      "chunk_id": "chunk_0280",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.37,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.43,
+        "store_ms": 48.91
+      }
+    },
+    {
+      "chunk_id": "chunk_0190",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 148.65,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 103.22,
+        "store_ms": 45.39
+      }
+    },
+    {
+      "chunk_id": "chunk_0213",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.35,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.07,
+        "store_ms": 40.25
+      }
+    },
+    {
+      "chunk_id": "chunk_0337",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.42,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.71,
+        "store_ms": 45.68
+      }
+    },
+    {
+      "chunk_id": "chunk_0340",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.76,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.73,
+        "store_ms": 48.99
+      }
+    },
+    {
+      "chunk_id": "chunk_0033",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.79,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.37,
+        "store_ms": 50.39
+      }
+    },
+    {
+      "chunk_id": "chunk_0209",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 146.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 103.29,
+        "store_ms": 43.55
+      }
+    },
+    {
+      "chunk_id": "chunk_0085",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.51,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.2,
+        "store_ms": 45.27
+      }
+    },
+    {
+      "chunk_id": "chunk_0351",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.9,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.88,
+        "store_ms": 46.99
+      }
+    },
+    {
+      "chunk_id": "chunk_0389",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.58,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.15,
+        "store_ms": 44.4
+      }
+    },
+    {
+      "chunk_id": "chunk_0288",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.36,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.29,
+        "store_ms": 43.05
+      }
+    },
+    {
+      "chunk_id": "chunk_0144",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.31,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.58,
+        "store_ms": 44.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0240",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.54,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.53,
+        "store_ms": 41.97
+      }
+    },
+    {
+      "chunk_id": "chunk_0318",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.88,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.9,
+        "store_ms": 46.95
+      }
+    },
+    {
+      "chunk_id": "chunk_0387",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.17,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.63,
+        "store_ms": 44.51
+      }
+    },
+    {
+      "chunk_id": "chunk_0153",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 211.99,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 171.75,
+        "store_ms": 40.21
+      }
+    },
+    {
+      "chunk_id": "chunk_0261",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.13,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.47,
+        "store_ms": 40.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0101",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.25,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.72,
+        "store_ms": 43.5
+      }
+    },
+    {
+      "chunk_id": "chunk_0286",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.01,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.36,
+        "store_ms": 43.63
+      }
+    },
+    {
+      "chunk_id": "chunk_0338",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.65,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.03,
+        "store_ms": 40.59
+      }
+    },
+    {
+      "chunk_id": "chunk_0168",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.16,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.72,
+        "store_ms": 45.4
+      }
+    },
+    {
+      "chunk_id": "chunk_0080",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.82,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.74,
+        "store_ms": 42.05
+      }
+    },
+    {
+      "chunk_id": "chunk_0396",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.49,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.14,
+        "store_ms": 41.33
+      }
+    },
+    {
+      "chunk_id": "chunk_0235",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.05,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.8,
+        "store_ms": 42.22
+      }
+    },
+    {
+      "chunk_id": "chunk_0386",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.01,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.06,
+        "store_ms": 34.93
+      }
+    },
+    {
+      "chunk_id": "chunk_0170",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.6,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.55,
+        "store_ms": 38.03
+      }
+    },
+    {
+      "chunk_id": "chunk_0150",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.28,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.15,
+        "store_ms": 45.11
+      }
+    },
+    {
+      "chunk_id": "chunk_0276",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.09,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.91,
+        "store_ms": 46.15
+      }
+    },
+    {
+      "chunk_id": "chunk_0086",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.14,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.19,
+        "store_ms": 43.92
+      }
+    },
+    {
+      "chunk_id": "chunk_0326",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.14,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.57,
+        "store_ms": 46.53
+      }
+    },
+    {
+      "chunk_id": "chunk_0356",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.33,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.44,
+        "store_ms": 48.85
+      }
+    },
+    {
+      "chunk_id": "chunk_0155",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.62,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.4,
+        "store_ms": 50.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0233",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.43,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.75,
+        "store_ms": 46.65
+      }
+    },
+    {
+      "chunk_id": "chunk_0247",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.63,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.29,
+        "store_ms": 42.31
+      }
+    },
+    {
+      "chunk_id": "chunk_0375",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 148.06,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.38,
+        "store_ms": 50.65
+      }
+    },
+    {
+      "chunk_id": "chunk_0219",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 148.92,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.11,
+        "store_ms": 52.78
+      }
+    },
+    {
+      "chunk_id": "chunk_0392",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.19,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.12,
+        "store_ms": 44.03
+      }
+    },
+    {
+      "chunk_id": "chunk_0130",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.28,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.48,
+        "store_ms": 45.76
+      }
+    },
+    {
+      "chunk_id": "chunk_0146",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.68,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.4,
+        "store_ms": 46.25
+      }
+    },
+    {
+      "chunk_id": "chunk_0198",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 150.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.62,
+        "store_ms": 51.21
+      }
+    },
+    {
+      "chunk_id": "chunk_0049",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 145.62,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.02,
+        "store_ms": 49.58
+      }
+    },
+    {
+      "chunk_id": "chunk_0169",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.63,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.99,
+        "store_ms": 47.61
+      }
+    },
+    {
+      "chunk_id": "chunk_0034",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 145.2,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.66,
+        "store_ms": 49.52
+      }
+    },
+    {
+      "chunk_id": "chunk_0172",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.14,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.49,
+        "store_ms": 49.62
+      }
+    },
+    {
+      "chunk_id": "chunk_0027",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.79,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.16,
+        "store_ms": 49.6
+      }
+    },
+    {
+      "chunk_id": "chunk_0349",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 145.93,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 104.09,
+        "store_ms": 41.81
+      }
+    },
+    {
+      "chunk_id": "chunk_0210",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 149.9,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 108.02,
+        "store_ms": 41.85
+      }
+    },
+    {
+      "chunk_id": "chunk_0199",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 160.19,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 116.33,
+        "store_ms": 43.84
+      }
+    },
+    {
+      "chunk_id": "chunk_0145",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.93,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.4,
+        "store_ms": 42.52
+      }
+    },
+    {
+      "chunk_id": "chunk_0191",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.59,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.98,
+        "store_ms": 40.59
+      }
+    },
+    {
+      "chunk_id": "chunk_0187",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 108.38,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 72.72,
+        "store_ms": 35.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0082",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 110.79,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 76.64,
+        "store_ms": 34.14
+      }
+    },
+    {
+      "chunk_id": "chunk_0268",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 122.0,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.96,
+        "store_ms": 40.01
+      }
+    },
+    {
+      "chunk_id": "chunk_0353",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.68,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.47,
+        "store_ms": 37.18
+      }
+    },
+    {
+      "chunk_id": "chunk_0274",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.08,
+        "store_ms": 40.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0225",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 117.22,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.74,
+        "store_ms": 29.46
+      }
+    },
+    {
+      "chunk_id": "chunk_0127",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 97.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 65.67,
+        "store_ms": 32.19
+      }
+    },
+    {
+      "chunk_id": "chunk_0021",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.96,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.72,
+        "store_ms": 43.21
+      }
+    },
+    {
+      "chunk_id": "chunk_0329",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 125.85,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.34,
+        "store_ms": 41.49
+      }
+    },
+    {
+      "chunk_id": "chunk_0259",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.51,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.55,
+        "store_ms": 40.94
+      }
+    },
+    {
+      "chunk_id": "chunk_0044",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.2,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.48,
+        "store_ms": 47.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0176",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.5,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 104.06,
+        "store_ms": 39.42
+      }
+    },
+    {
+      "chunk_id": "chunk_0333",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 118.59,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.12,
+        "store_ms": 37.44
+      }
+    },
+    {
+      "chunk_id": "chunk_0321",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.93,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.45,
+        "store_ms": 43.44
+      }
+    },
+    {
+      "chunk_id": "chunk_0032",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.7,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.94,
+        "store_ms": 38.73
+      }
+    },
+    {
+      "chunk_id": "chunk_0315",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.88,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.58,
+        "store_ms": 44.27
+      }
+    },
+    {
+      "chunk_id": "chunk_0390",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 120.63,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 78.8,
+        "store_ms": 41.8
+      }
+    },
+    {
+      "chunk_id": "chunk_0244",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.68,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.02,
+        "store_ms": 42.63
+      }
+    },
+    {
+      "chunk_id": "chunk_0165",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.56,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.53,
+        "store_ms": 46.01
+      }
+    },
+    {
+      "chunk_id": "chunk_0097",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.18,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.39,
+        "store_ms": 45.75
+      }
+    },
+    {
+      "chunk_id": "chunk_0231",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.88,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.42,
+        "store_ms": 48.42
+      }
+    },
+    {
+      "chunk_id": "chunk_0383",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.06,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.39,
+        "store_ms": 48.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0284",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.2,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.26,
+        "store_ms": 44.92
+      }
+    },
+    {
+      "chunk_id": "chunk_0355",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.63,
+        "store_ms": 44.73
+      }
+    },
+    {
+      "chunk_id": "chunk_0197",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.93,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.48,
+        "store_ms": 44.42
+      }
+    },
+    {
+      "chunk_id": "chunk_0305",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.15,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.81,
+        "store_ms": 45.31
+      }
+    },
+    {
+      "chunk_id": "chunk_0047",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.72,
+        "store_ms": 51.12
+      }
+    },
+    {
+      "chunk_id": "chunk_0345",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.94,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.86,
+        "store_ms": 51.04
+      }
+    },
+    {
+      "chunk_id": "chunk_0147",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.46,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.67,
+        "store_ms": 51.76
+      }
+    },
+    {
+      "chunk_id": "chunk_0189",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.34,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.95,
+        "store_ms": 49.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0030",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.26,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.19,
+        "store_ms": 45.03
+      }
+    },
+    {
+      "chunk_id": "chunk_0020",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.66,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.62,
+        "store_ms": 47.02
+      }
+    },
+    {
+      "chunk_id": "chunk_0232",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 151.42,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 100.1,
+        "store_ms": 51.28
+      }
+    },
+    {
+      "chunk_id": "chunk_0237",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.03,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.5,
+        "store_ms": 48.5
+      }
+    },
+    {
+      "chunk_id": "chunk_0350",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.62,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.35,
+        "store_ms": 38.25
+      }
+    },
+    {
+      "chunk_id": "chunk_0038",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 119.09,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 76.54,
+        "store_ms": 42.52
+      }
+    },
+    {
+      "chunk_id": "chunk_0260",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.94,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.99,
+        "store_ms": 48.91
+      }
+    },
+    {
+      "chunk_id": "chunk_0181",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.89,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.03,
+        "store_ms": 41.83
+      }
+    },
+    {
+      "chunk_id": "chunk_0029",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 146.27,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.4,
+        "store_ms": 51.83
+      }
+    },
+    {
+      "chunk_id": "chunk_0303",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.57,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.28,
+        "store_ms": 55.26
+      }
+    },
+    {
+      "chunk_id": "chunk_0141",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.95,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.56,
+        "store_ms": 48.36
+      }
+    },
+    {
+      "chunk_id": "chunk_0156",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 131.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.85,
+        "store_ms": 45.52
+      }
+    },
+    {
+      "chunk_id": "chunk_0227",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.35,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.81,
+        "store_ms": 49.52
+      }
+    },
+    {
+      "chunk_id": "chunk_0241",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.22,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.5,
+        "store_ms": 49.7
+      }
+    },
+    {
+      "chunk_id": "chunk_0035",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.37,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.06,
+        "store_ms": 45.28
+      }
+    },
+    {
+      "chunk_id": "chunk_0226",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 146.47,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.11,
+        "store_ms": 52.33
+      }
+    },
+    {
+      "chunk_id": "chunk_0078",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 218.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 171.57,
+        "store_ms": 47.2
+      }
+    },
+    {
+      "chunk_id": "chunk_0162",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.25,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.17,
+        "store_ms": 42.05
+      }
+    },
+    {
+      "chunk_id": "chunk_0166",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.87,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.77,
+        "store_ms": 45.08
+      }
+    },
+    {
+      "chunk_id": "chunk_0290",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 120.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.97,
+        "store_ms": 30.29
+      }
+    },
+    {
+      "chunk_id": "chunk_0230",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 111.34,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 71.83,
+        "store_ms": 39.49
+      }
+    },
+    {
+      "chunk_id": "chunk_0297",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.81,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.61,
+        "store_ms": 45.18
+      }
+    },
+    {
+      "chunk_id": "chunk_0289",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.84,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.41,
+        "store_ms": 44.4
+      }
+    },
+    {
+      "chunk_id": "chunk_0238",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 128.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.01,
+        "store_ms": 40.37
+      }
+    },
+    {
+      "chunk_id": "chunk_0253",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 124.42,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.3,
+        "store_ms": 37.1
+      }
+    },
+    {
+      "chunk_id": "chunk_0322",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 121.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 77.52,
+        "store_ms": 43.75
+      }
+    },
+    {
+      "chunk_id": "chunk_0091",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 126.62,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.77,
+        "store_ms": 43.82
+      }
+    },
+    {
+      "chunk_id": "chunk_0039",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 122.12,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 78.65,
+        "store_ms": 43.45
+      }
+    },
+    {
+      "chunk_id": "chunk_0079",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 122.21,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 79.19,
+        "store_ms": 42.96
+      }
+    },
+    {
+      "chunk_id": "chunk_0309",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.42,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.11,
+        "store_ms": 42.28
+      }
+    },
+    {
+      "chunk_id": "chunk_0089",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.53,
+        "store_ms": 48.25
+      }
+    },
+    {
+      "chunk_id": "chunk_0102",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.73,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.71,
+        "store_ms": 46.0
+      }
+    },
+    {
+      "chunk_id": "chunk_0132",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.38,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.79,
+        "store_ms": 50.56
+      }
+    },
+    {
+      "chunk_id": "chunk_0075",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 127.59,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.19,
+        "store_ms": 41.37
+      }
+    },
+    {
+      "chunk_id": "chunk_0053",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 122.64,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.26,
+        "store_ms": 39.34
+      }
+    },
+    {
+      "chunk_id": "chunk_0121",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.72,
+        "store_ms": 52.05
+      }
+    },
+    {
+      "chunk_id": "chunk_0076",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.35,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.91,
+        "store_ms": 44.41
+      }
+    },
+    {
+      "chunk_id": "chunk_0331",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.54,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.52,
+        "store_ms": 49.98
+      }
+    },
+    {
+      "chunk_id": "chunk_0180",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.99,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.14,
+        "store_ms": 50.82
+      }
+    },
+    {
+      "chunk_id": "chunk_0179",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.26,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.83,
+        "store_ms": 45.39
+      }
+    },
+    {
+      "chunk_id": "chunk_0100",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.3,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.14,
+        "store_ms": 50.13
+      }
+    },
+    {
+      "chunk_id": "chunk_0344",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.51,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 89.94,
+        "store_ms": 51.55
+      }
+    },
+    {
+      "chunk_id": "chunk_0272",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 123.06,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 75.94,
+        "store_ms": 47.1
+      }
+    },
+    {
+      "chunk_id": "chunk_0369",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 143.8,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.32,
+        "store_ms": 51.45
+      }
+    },
+    {
+      "chunk_id": "chunk_0325",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.73,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.46,
+        "store_ms": 50.24
+      }
+    },
+    {
+      "chunk_id": "chunk_0262",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.01,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.02,
+        "store_ms": 49.96
+      }
+    },
+    {
+      "chunk_id": "chunk_0379",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.08,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.53,
+        "store_ms": 48.52
+      }
+    },
+    {
+      "chunk_id": "chunk_0087",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 148.43,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.46,
+        "store_ms": 53.94
+      }
+    },
+    {
+      "chunk_id": "chunk_0171",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.77,
+        "store_ms": 41.49
+      }
+    },
+    {
+      "chunk_id": "chunk_0114",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 136.98,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.53,
+        "store_ms": 46.43
+      }
+    },
+    {
+      "chunk_id": "chunk_0174",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 138.05,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.95,
+        "store_ms": 51.07
+      }
+    },
+    {
+      "chunk_id": "chunk_0159",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.81,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.42,
+        "store_ms": 48.35
+      }
+    },
+    {
+      "chunk_id": "chunk_0203",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 132.31,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.48,
+        "store_ms": 48.79
+      }
+    },
+    {
+      "chunk_id": "chunk_0041",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.85,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.8,
+        "store_ms": 50.02
+      }
+    },
+    {
+      "chunk_id": "chunk_0269",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.19,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.62,
+        "store_ms": 50.55
+      }
+    },
+    {
+      "chunk_id": "chunk_0206",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 130.31,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.51,
+        "store_ms": 45.77
+      }
+    },
+    {
+      "chunk_id": "chunk_0302",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 134.11,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.97,
+        "store_ms": 49.12
+      }
+    },
+    {
+      "chunk_id": "chunk_0359",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 142.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.74,
+        "store_ms": 45.63
+      }
+    },
+    {
+      "chunk_id": "chunk_0125",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.6,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.26,
+        "store_ms": 47.31
+      }
+    },
+    {
+      "chunk_id": "chunk_0055",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 140.25,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.27,
+        "store_ms": 53.95
+      }
+    },
+    {
+      "chunk_id": "chunk_0382",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 144.61,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.37,
+        "store_ms": 48.21
+      }
+    },
+    {
+      "chunk_id": "chunk_0046",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 146.86,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 91.73,
+        "store_ms": 55.1
+      }
+    },
+    {
+      "chunk_id": "chunk_0186",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.32,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.46,
+        "store_ms": 48.83
+      }
+    },
+    {
+      "chunk_id": "chunk_0354",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 151.35,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.57,
+        "store_ms": 53.75
+      }
+    },
+    {
+      "chunk_id": "chunk_0384",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 139.21,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.72,
+        "store_ms": 45.45
+      }
+    },
+    {
+      "chunk_id": "chunk_0317",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.52,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.85,
+        "store_ms": 50.64
+      }
+    },
+    {
+      "chunk_id": "chunk_0088",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 135.62,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 85.52,
+        "store_ms": 50.07
+      }
+    },
+    {
+      "chunk_id": "chunk_0167",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 152.45,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 103.75,
+        "store_ms": 48.67
+      }
+    },
+    {
+      "chunk_id": "chunk_0011",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 137.1,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.38,
+        "store_ms": 46.68
+      }
+    },
+    {
+      "chunk_id": "chunk_0374",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.74,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.88,
+        "store_ms": 50.83
+      }
+    },
+    {
+      "chunk_id": "chunk_0059",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.29,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 95.3,
+        "store_ms": 45.96
+      }
+    },
+    {
+      "chunk_id": "chunk_0149",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 154.06,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.34,
+        "store_ms": 65.69
+      }
+    },
+    {
+      "chunk_id": "chunk_0214",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.88,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 83.64,
+        "store_ms": 58.2
+      }
+    },
+    {
+      "chunk_id": "chunk_0328",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 160.16,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.35,
+        "store_ms": 71.77
+      }
+    },
+    {
+      "chunk_id": "chunk_0364",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 179.66,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 97.64,
+        "store_ms": 81.99
+      }
+    },
+    {
+      "chunk_id": "chunk_0208",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 192.3,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.06,
+        "store_ms": 93.21
+      }
+    },
+    {
+      "chunk_id": "chunk_0294",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 133.28,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.61,
+        "store_ms": 50.65
+      }
+    },
+    {
+      "chunk_id": "chunk_0220",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 180.47,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.68,
+        "store_ms": 83.76
+      }
+    },
+    {
+      "chunk_id": "chunk_0295",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 153.91,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.43,
+        "store_ms": 61.44
+      }
+    },
+    {
+      "chunk_id": "chunk_0161",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 191.98,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 99.54,
+        "store_ms": 92.41
+      }
+    },
+    {
+      "chunk_id": "chunk_0040",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 158.12,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.29,
+        "store_ms": 64.81
+      }
+    },
+    {
+      "chunk_id": "chunk_0236",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 201.6,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.3,
+        "store_ms": 100.28
+      }
+    },
+    {
+      "chunk_id": "chunk_0010",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 151.75,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 86.23,
+        "store_ms": 65.49
+      }
+    },
+    {
+      "chunk_id": "chunk_0224",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 167.56,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 96.5,
+        "store_ms": 71.03
+      }
+    },
+    {
+      "chunk_id": "chunk_0022",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 162.43,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 94.01,
+        "store_ms": 68.39
+      }
+    },
+    {
+      "chunk_id": "chunk_0380",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 154.6,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 93.96,
+        "store_ms": 60.6
+      }
+    },
+    {
+      "chunk_id": "chunk_0204",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 153.49,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 90.5,
+        "store_ms": 62.96
+      }
+    },
+    {
+      "chunk_id": "chunk_0037",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 156.37,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.42,
+        "store_ms": 67.92
+      }
+    },
+    {
+      "chunk_id": "chunk_0182",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 165.05,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 82.39,
+        "store_ms": 82.62
+      }
+    },
+    {
+      "chunk_id": "chunk_0343",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.6,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.06,
+        "store_ms": 49.51
+      }
+    },
+    {
+      "chunk_id": "chunk_0287",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 171.61,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.01,
+        "store_ms": 84.57
+      }
+    },
+    {
+      "chunk_id": "chunk_0257",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 129.28,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 84.66,
+        "store_ms": 44.58
+      }
+    },
+    {
+      "chunk_id": "chunk_0118",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 152.07,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 87.59,
+        "store_ms": 64.45
+      }
+    },
+    {
+      "chunk_id": "chunk_0361",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 156.4,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.34,
+        "store_ms": 64.03
+      }
+    },
+    {
+      "chunk_id": "chunk_0273",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 153.55,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 92.21,
+        "store_ms": 61.31
+      }
+    },
+    {
+      "chunk_id": "chunk_0195",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 141.39,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 81.02,
+        "store_ms": 60.34
+      }
+    },
+    {
+      "chunk_id": "chunk_0067",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 156.72,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 88.96,
+        "store_ms": 67.73
+      }
+    },
+    {
+      "chunk_id": "chunk_0090",
+      "sanitized_text": "",
+      "entities_detected": [],
+      "embedding_stored": true,
+      "latency_ms": 172.7,
+      "cache_hit": false,
+      "pipeline_mode": "raw",
+      "error": null,
+      "stage_latencies": {
+        "embed_ms": 101.22,
+        "store_ms": 71.45
+      }
+    }
+  ],
+  "retrieval_results": [
+    {
+      "query_id": "q_0027",
+      "query_text": "Find medical records for patients treated by Dr. Brown, MD.",
+      "retrieved_chunk_ids": [
+        "chunk_0135",
+        "chunk_0197",
+        "chunk_0209",
+        "chunk_0181",
+        "chunk_0207"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0133",
+        "chunk_0134",
+        "chunk_0135",
+        "chunk_0136",
+        "chunk_0137",
+        "chunk_0138"
+      ],
+      "distances": [
+        0.15287554264068604,
+        0.16361325979232788,
+        0.1768324375152588,
+        0.17728638648986816,
+        0.1801324486732483
+      ]
+    },
+    {
+      "query_id": "q_0037",
+      "query_text": "Find medical records for patients treated by Dr. Long, MD.",
+      "retrieved_chunk_ids": [
+        "chunk_0197",
+        "chunk_0181",
+        "chunk_0192",
+        "chunk_0142",
+        "chunk_0187"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0160",
+        "chunk_0161",
+        "chunk_0162",
+        "chunk_0163"
+      ],
+      "distances": [
+        0.16652119159698486,
+        0.16936582326889038,
+        0.17567718029022217,
+        0.17956233024597168,
+        0.18109619617462158
+      ]
+    },
+    {
+      "query_id": "q_0017",
+      "query_text": "Which employee started in Legal this year?",
+      "retrieved_chunk_ids": [
+        "chunk_0091",
+        "chunk_0077",
+        "chunk_0069",
+        "chunk_0093",
+        "chunk_0227"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0076",
+        "chunk_0077",
+        "chunk_0078",
+        "chunk_0079"
+      ],
+      "distances": [
+        0.18207180500030518,
+        0.18715441226959229,
+        0.19339525699615479,
+        0.20013493299484253,
+        0.20638114213943481
+      ]
+    },
+    {
+      "query_id": "q_0077",
+      "query_text": "Which IP addresses triggered security alerts?",
+      "retrieved_chunk_ids": [
+        "chunk_0343",
+        "chunk_0340",
+        "chunk_0394",
+        "chunk_0375",
+        "chunk_0370"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0376",
+        "chunk_0377",
+        "chunk_0378",
+        "chunk_0379"
+      ],
+      "distances": [
+        0.13412272930145264,
+        0.13490676879882812,
+        0.137562096118927,
+        0.13987338542938232,
+        0.1426856517791748
+      ]
+    },
+    {
+      "query_id": "q_0008",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0029",
+        "chunk_0030",
+        "chunk_0031",
+        "chunk_0032",
+        "chunk_0033",
+        "chunk_0034"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0065",
+      "query_text": "Who reported a delivery failure complaint by email?",
+      "retrieved_chunk_ids": [
+        "chunk_0320",
+        "chunk_0270",
+        "chunk_0294",
+        "chunk_0298",
+        "chunk_0311"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0308",
+        "chunk_0309",
+        "chunk_0310",
+        "chunk_0311",
+        "chunk_0312",
+        "chunk_0313"
+      ],
+      "distances": [
+        0.12737375497817993,
+        0.12994712591171265,
+        0.1301700472831726,
+        0.1317768692970276,
+        0.13261020183563232
+      ]
+    },
+    {
+      "query_id": "q_0001",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0001",
+        "chunk_0002",
+        "chunk_0003",
+        "chunk_0004",
+        "chunk_0005",
+        "chunk_0006"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0031",
+      "query_text": "Find medical records for patients treated by Dr. Martinez, MD.",
+      "retrieved_chunk_ids": [
+        "chunk_0145",
+        "chunk_0148",
+        "chunk_0146",
+        "chunk_0144",
+        "chunk_0147"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0144",
+        "chunk_0145",
+        "chunk_0146",
+        "chunk_0147",
+        "chunk_0148",
+        "chunk_0149"
+      ],
+      "distances": [
+        0.13933420181274414,
+        0.1428511142730713,
+        0.14740747213363647,
+        0.15981203317642212,
+        0.16437119245529175
+      ]
+    },
+    {
+      "query_id": "q_0060",
+      "query_text": "Who reported a product defect complaint by email?",
+      "retrieved_chunk_ids": [
+        "chunk_0286",
+        "chunk_0290",
+        "chunk_0291",
+        "chunk_0288",
+        "chunk_0320"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0286",
+        "chunk_0287",
+        "chunk_0288",
+        "chunk_0289",
+        "chunk_0290",
+        "chunk_0291"
+      ],
+      "distances": [
+        0.13634109497070312,
+        0.15883290767669678,
+        0.16517174243927002,
+        0.16815561056137085,
+        0.16954028606414795
+      ]
+    },
+    {
+      "query_id": "q_0032",
+      "query_text": "Who was discharged recently after treatment?",
+      "retrieved_chunk_ids": [
+        "chunk_0139",
+        "chunk_0154",
+        "chunk_0147",
+        "chunk_0188",
+        "chunk_0180"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0150",
+        "chunk_0151",
+        "chunk_0152",
+        "chunk_0153"
+      ],
+      "distances": [
+        0.18117356300354004,
+        0.18380403518676758,
+        0.18555432558059692,
+        0.18637478351593018,
+        0.1864842176437378
+      ]
+    },
+    {
+      "query_id": "q_0061",
+      "query_text": "Who reported a delivery failure complaint by email?",
+      "retrieved_chunk_ids": [
+        "chunk_0320",
+        "chunk_0270",
+        "chunk_0294",
+        "chunk_0298",
+        "chunk_0311"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0292",
+        "chunk_0293",
+        "chunk_0294",
+        "chunk_0295",
+        "chunk_0296",
+        "chunk_0297"
+      ],
+      "distances": [
+        0.12737375497817993,
+        0.12994712591171265,
+        0.1301700472831726,
+        0.1317768692970276,
+        0.13261020183563232
+      ]
+    },
+    {
+      "query_id": "q_0076",
+      "query_text": "Which IP addresses triggered security alerts?",
+      "retrieved_chunk_ids": [
+        "chunk_0343",
+        "chunk_0340",
+        "chunk_0394",
+        "chunk_0375",
+        "chunk_0370"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0371",
+        "chunk_0372",
+        "chunk_0373",
+        "chunk_0374",
+        "chunk_0375"
+      ],
+      "distances": [
+        0.13412272930145264,
+        0.13490676879882812,
+        0.137562096118927,
+        0.13987338542938232,
+        0.1426856517791748
+      ]
+    },
+    {
+      "query_id": "q_0007",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0023",
+        "chunk_0024",
+        "chunk_0025",
+        "chunk_0026",
+        "chunk_0027",
+        "chunk_0028"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0006",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0017",
+        "chunk_0018",
+        "chunk_0019",
+        "chunk_0020",
+        "chunk_0021",
+        "chunk_0022"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0034",
+      "query_text": "Find patients diagnosed with migraine disorder.",
+      "retrieved_chunk_ids": [
+        "chunk_0155",
+        "chunk_0136",
+        "chunk_0173",
+        "chunk_0171",
+        "chunk_0138"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0156",
+        "chunk_0157",
+        "chunk_0158",
+        "chunk_0159"
+      ],
+      "distances": [
+        0.10570919513702393,
+        0.1065707802772522,
+        0.10720092058181763,
+        0.11676418781280518,
+        0.11806368827819824
+      ]
+    },
+    {
+      "query_id": "q_0051",
+      "query_text": "Who is the plaintiff in case number #678805?",
+      "retrieved_chunk_ids": [
+        "chunk_0235",
+        "chunk_0233",
+        "chunk_0202",
+        "chunk_0208",
+        "chunk_0219"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0233",
+        "chunk_0234",
+        "chunk_0235",
+        "chunk_0236"
+      ],
+      "distances": [
+        0.1547161340713501,
+        0.16208326816558838,
+        0.1660664677619934,
+        0.17190313339233398,
+        0.1723555326461792
+      ]
+    },
+    {
+      "query_id": "q_0075",
+      "query_text": "Which IP addresses triggered security alerts?",
+      "retrieved_chunk_ids": [
+        "chunk_0343",
+        "chunk_0340",
+        "chunk_0394",
+        "chunk_0375",
+        "chunk_0370"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0371",
+        "chunk_0372",
+        "chunk_0373",
+        "chunk_0374",
+        "chunk_0375"
+      ],
+      "distances": [
+        0.13412272930145264,
+        0.13490676879882812,
+        0.137562096118927,
+        0.13987338542938232,
+        0.1426856517791748
+      ]
+    },
+    {
+      "query_id": "q_0030",
+      "query_text": "Find medical records for patients treated by Dr. Martinez, MD.",
+      "retrieved_chunk_ids": [
+        "chunk_0145",
+        "chunk_0148",
+        "chunk_0146",
+        "chunk_0144",
+        "chunk_0147"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0144",
+        "chunk_0145",
+        "chunk_0146",
+        "chunk_0147",
+        "chunk_0148",
+        "chunk_0149"
+      ],
+      "distances": [
+        0.13933420181274414,
+        0.1428511142730713,
+        0.14740747213363647,
+        0.15981203317642212,
+        0.16437119245529175
+      ]
+    },
+    {
+      "query_id": "q_0081_hardneg",
+      "query_text": "Who was discharged recently after treatment?",
+      "retrieved_chunk_ids": [
+        "chunk_0139",
+        "chunk_0154",
+        "chunk_0147",
+        "chunk_0188",
+        "chunk_0180"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0123",
+        "chunk_0120"
+      ],
+      "distances": [
+        0.18117356300354004,
+        0.18380403518676758,
+        0.18555432558059692,
+        0.18637478351593018,
+        0.1864842176437378
+      ]
+    },
+    {
+      "query_id": "q_0049",
+      "query_text": "Find filings by law firm Potter, Evans and Kidd LLP.",
+      "retrieved_chunk_ids": [
+        "chunk_0227",
+        "chunk_0228",
+        "chunk_0225",
+        "chunk_0226",
+        "chunk_0244"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0224",
+        "chunk_0225",
+        "chunk_0226",
+        "chunk_0227",
+        "chunk_0228"
+      ],
+      "distances": [
+        0.13777703046798706,
+        0.1430588960647583,
+        0.15108376741409302,
+        0.15394067764282227,
+        0.17006707191467285
+      ]
+    },
+    {
+      "query_id": "q_0015",
+      "query_text": "Which employee transferred to the South Haleyfurt office recently?",
+      "retrieved_chunk_ids": [
+        "chunk_0074",
+        "chunk_0075",
+        "chunk_0121",
+        "chunk_0129",
+        "chunk_0083"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0072",
+        "chunk_0073",
+        "chunk_0074",
+        "chunk_0075"
+      ],
+      "distances": [
+        0.1720048189163208,
+        0.1734684705734253,
+        0.18500995635986328,
+        0.20751017332077026,
+        0.21300649642944336
+      ]
+    },
+    {
+      "query_id": "q_0022",
+      "query_text": "Which employee transferred to the Watsonside office recently?",
+      "retrieved_chunk_ids": [
+        "chunk_0099",
+        "chunk_0098",
+        "chunk_0096",
+        "chunk_0078",
+        "chunk_0129"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0096",
+        "chunk_0097",
+        "chunk_0098",
+        "chunk_0099"
+      ],
+      "distances": [
+        0.13090038299560547,
+        0.17727339267730713,
+        0.18196630477905273,
+        0.19295752048492432,
+        0.19405555725097656
+      ]
+    },
+    {
+      "query_id": "q_0082_hardneg",
+      "query_text": "Find support tickets about account access issue.",
+      "retrieved_chunk_ids": [
+        "chunk_0303",
+        "chunk_0325",
+        "chunk_0285",
+        "chunk_0326",
+        "chunk_0315"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0028",
+        "chunk_0066"
+      ],
+      "distances": [
+        0.09497475624084473,
+        0.10285389423370361,
+        0.10387003421783447,
+        0.1151931881904602,
+        0.11784183979034424
+      ]
+    },
+    {
+      "query_id": "q_0063",
+      "query_text": "Who reported a account access issue complaint by email?",
+      "retrieved_chunk_ids": [
+        "chunk_0324",
+        "chunk_0304",
+        "chunk_0317",
+        "chunk_0282",
+        "chunk_0316"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0302",
+        "chunk_0303",
+        "chunk_0304",
+        "chunk_0305",
+        "chunk_0306",
+        "chunk_0307"
+      ],
+      "distances": [
+        0.1278461217880249,
+        0.1290321946144104,
+        0.13477301597595215,
+        0.1403357982635498,
+        0.15424877405166626
+      ]
+    },
+    {
+      "query_id": "q_0078",
+      "query_text": "Which accounts were affected by unauthorised access attempts?",
+      "retrieved_chunk_ids": [
+        "chunk_0373",
+        "chunk_0364",
+        "chunk_0339",
+        "chunk_0335",
+        "chunk_0346"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0376",
+        "chunk_0377",
+        "chunk_0378",
+        "chunk_0379"
+      ],
+      "distances": [
+        0.14407885074615479,
+        0.14458870887756348,
+        0.1446414589881897,
+        0.14508068561553955,
+        0.1457667350769043
+      ]
+    },
+    {
+      "query_id": "q_0019",
+      "query_text": "Who was promoted in the latest HR update?",
+      "retrieved_chunk_ids": [
+        "chunk_0123",
+        "chunk_0116",
+        "chunk_0088",
+        "chunk_0115",
+        "chunk_0072"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0084",
+        "chunk_0085",
+        "chunk_0086",
+        "chunk_0087",
+        "chunk_0088",
+        "chunk_0089"
+      ],
+      "distances": [
+        0.13195252418518066,
+        0.13625478744506836,
+        0.1379544734954834,
+        0.14037632942199707,
+        0.14191949367523193
+      ]
+    },
+    {
+      "query_id": "q_0013",
+      "query_text": "Who emailed finance about an incorrect invoice?",
+      "retrieved_chunk_ids": [
+        "chunk_0037",
+        "chunk_0014",
+        "chunk_0040",
+        "chunk_0025",
+        "chunk_0023"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0052",
+        "chunk_0053",
+        "chunk_0054",
+        "chunk_0055"
+      ],
+      "distances": [
+        0.14416825771331787,
+        0.14559638500213623,
+        0.1460787057876587,
+        0.1462799310684204,
+        0.14647865295410156
+      ]
+    },
+    {
+      "query_id": "q_0036",
+      "query_text": "Who was discharged recently after treatment?",
+      "retrieved_chunk_ids": [
+        "chunk_0139",
+        "chunk_0154",
+        "chunk_0147",
+        "chunk_0188",
+        "chunk_0180"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0160",
+        "chunk_0161",
+        "chunk_0162",
+        "chunk_0163"
+      ],
+      "distances": [
+        0.18117356300354004,
+        0.18380403518676758,
+        0.18555432558059692,
+        0.18637478351593018,
+        0.1864842176437378
+      ]
+    },
+    {
+      "query_id": "q_0012",
+      "query_text": "Who emailed finance about an incorrect invoice?",
+      "retrieved_chunk_ids": [
+        "chunk_0037",
+        "chunk_0014",
+        "chunk_0040",
+        "chunk_0025",
+        "chunk_0023"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0047",
+        "chunk_0048",
+        "chunk_0049",
+        "chunk_0050",
+        "chunk_0051"
+      ],
+      "distances": [
+        0.14416825771331787,
+        0.14559638500213623,
+        0.1460787057876587,
+        0.1462799310684204,
+        0.14647865295410156
+      ]
+    },
+    {
+      "query_id": "q_0021",
+      "query_text": "Who was promoted in the latest HR update?",
+      "retrieved_chunk_ids": [
+        "chunk_0123",
+        "chunk_0116",
+        "chunk_0088",
+        "chunk_0115",
+        "chunk_0072"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0090",
+        "chunk_0091",
+        "chunk_0092",
+        "chunk_0093",
+        "chunk_0094",
+        "chunk_0095"
+      ],
+      "distances": [
+        0.13195252418518066,
+        0.13625478744506836,
+        0.1379544734954834,
+        0.14037632942199707,
+        0.14191949367523193
+      ]
+    },
+    {
+      "query_id": "q_0025",
+      "query_text": "Who was promoted in the latest HR update?",
+      "retrieved_chunk_ids": [
+        "chunk_0123",
+        "chunk_0116",
+        "chunk_0088",
+        "chunk_0115",
+        "chunk_0072"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0105",
+        "chunk_0106",
+        "chunk_0107",
+        "chunk_0108",
+        "chunk_0109"
+      ],
+      "distances": [
+        0.13195252418518066,
+        0.13625478744506836,
+        0.1379544734954834,
+        0.14037632942199707,
+        0.14191949367523193
+      ]
+    },
+    {
+      "query_id": "q_0087_hardneg",
+      "query_text": "Find medical records for patients treated by Dr. Brown, MD.",
+      "retrieved_chunk_ids": [
+        "chunk_0135",
+        "chunk_0197",
+        "chunk_0209",
+        "chunk_0181",
+        "chunk_0207"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0093",
+        "chunk_0105"
+      ],
+      "distances": [
+        0.15287554264068604,
+        0.16361325979232788,
+        0.1768324375152588,
+        0.17728638648986816,
+        0.1801324486732483
+      ]
+    },
+    {
+      "query_id": "q_0083_hardneg",
+      "query_text": "Find IT tickets involving firewall blocks.",
+      "retrieved_chunk_ids": [
+        "chunk_0359",
+        "chunk_0356",
+        "chunk_0347",
+        "chunk_0338",
+        "chunk_0390"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0309",
+        "chunk_0320"
+      ],
+      "distances": [
+        0.1499636173248291,
+        0.15032780170440674,
+        0.150549054145813,
+        0.1525048017501831,
+        0.15305733680725098
+      ]
+    },
+    {
+      "query_id": "q_0009",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0029",
+        "chunk_0030",
+        "chunk_0031",
+        "chunk_0032",
+        "chunk_0033",
+        "chunk_0034"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0053",
+      "query_text": "Find support tickets about delivery failure.",
+      "retrieved_chunk_ids": [
+        "chunk_0267",
+        "chunk_0293",
+        "chunk_0301",
+        "chunk_0313",
+        "chunk_0321"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0265",
+        "chunk_0266",
+        "chunk_0267",
+        "chunk_0268",
+        "chunk_0269",
+        "chunk_0270"
+      ],
+      "distances": [
+        0.0846092700958252,
+        0.08918750286102295,
+        0.08948969841003418,
+        0.09167850017547607,
+        0.0981907844543457
+      ]
+    },
+    {
+      "query_id": "q_0054",
+      "query_text": "Find support tickets about refund request.",
+      "retrieved_chunk_ids": [
+        "chunk_0275",
+        "chunk_0330",
+        "chunk_0271",
+        "chunk_0273",
+        "chunk_0288"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0271",
+        "chunk_0272",
+        "chunk_0273",
+        "chunk_0274",
+        "chunk_0275"
+      ],
+      "distances": [
+        0.09302401542663574,
+        0.09483349323272705,
+        0.10732507705688477,
+        0.12430775165557861,
+        0.1269773244857788
+      ]
+    },
+    {
+      "query_id": "q_0010",
+      "query_text": "Who raised a payment dispute about invoice #2489?",
+      "retrieved_chunk_ids": [
+        "chunk_0039",
+        "chunk_0036",
+        "chunk_0049",
+        "chunk_0037",
+        "chunk_0034"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0035",
+        "chunk_0036",
+        "chunk_0037",
+        "chunk_0038",
+        "chunk_0039",
+        "chunk_0040"
+      ],
+      "distances": [
+        0.12234050035476685,
+        0.13084280490875244,
+        0.14594829082489014,
+        0.14645874500274658,
+        0.1496412754058838
+      ]
+    },
+    {
+      "query_id": "q_0002",
+      "query_text": "Find all billing disputes involving credit card charges.",
+      "retrieved_chunk_ids": [
+        "chunk_0031",
+        "chunk_0059",
+        "chunk_0047",
+        "chunk_0065",
+        "chunk_0042"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0007",
+        "chunk_0008",
+        "chunk_0009",
+        "chunk_0010",
+        "chunk_0011",
+        "chunk_0012"
+      ],
+      "distances": [
+        0.12123441696166992,
+        0.12171876430511475,
+        0.12297242879867554,
+        0.12424290180206299,
+        0.12459206581115723
+      ]
+    },
+    {
+      "query_id": "q_0058",
+      "query_text": "Which customer requested a callback recently?",
+      "retrieved_chunk_ids": [
+        "chunk_0295",
+        "chunk_0274",
+        "chunk_0306",
+        "chunk_0283",
+        "chunk_0327"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0281",
+        "chunk_0282",
+        "chunk_0283",
+        "chunk_0284",
+        "chunk_0285"
+      ],
+      "distances": [
+        0.1268310546875,
+        0.12799453735351562,
+        0.12995195388793945,
+        0.1334012746810913,
+        0.13413900136947632
+      ]
+    },
+    {
+      "query_id": "q_0033",
+      "query_text": "Find medical records for patients treated by Dr. Le, MD.",
+      "retrieved_chunk_ids": [
+        "chunk_0152",
+        "chunk_0197",
+        "chunk_0181",
+        "chunk_0155",
+        "chunk_0192"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0150",
+        "chunk_0151",
+        "chunk_0152",
+        "chunk_0153"
+      ],
+      "distances": [
+        0.13859784603118896,
+        0.16598546504974365,
+        0.16736292839050293,
+        0.17496556043624878,
+        0.1754014492034912
+      ]
+    },
+    {
+      "query_id": "q_0070",
+      "query_text": "Which IP addresses triggered security alerts?",
+      "retrieved_chunk_ids": [
+        "chunk_0343",
+        "chunk_0340",
+        "chunk_0394",
+        "chunk_0375",
+        "chunk_0370"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0343",
+        "chunk_0344",
+        "chunk_0345",
+        "chunk_0346",
+        "chunk_0347"
+      ],
+      "distances": [
+        0.13412272930145264,
+        0.13490676879882812,
+        0.137562096118927,
+        0.13987338542938232,
+        0.1426856517791748
+      ]
+    },
+    {
+      "query_id": "q_0026",
+      "query_text": "Find HR records for staff in the Engineering department.",
+      "retrieved_chunk_ids": [
+        "chunk_0098",
+        "chunk_0097",
+        "chunk_0122",
+        "chunk_0105",
+        "chunk_0099"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0110",
+        "chunk_0111",
+        "chunk_0112",
+        "chunk_0113",
+        "chunk_0114",
+        "chunk_0115"
+      ],
+      "distances": [
+        0.16595155000686646,
+        0.16844630241394043,
+        0.17663002014160156,
+        0.1770382523536682,
+        0.17704224586486816
+      ]
+    },
+    {
+      "query_id": "q_0090_hardneg",
+      "query_text": "Who is the plaintiff in case number #452737?",
+      "retrieved_chunk_ids": [
+        "chunk_0203",
+        "chunk_0202",
+        "chunk_0199",
+        "chunk_0201",
+        "chunk_0031"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0196",
+        "chunk_0188"
+      ],
+      "distances": [
+        0.14255160093307495,
+        0.14524972438812256,
+        0.15062099695205688,
+        0.15236294269561768,
+        0.16949445009231567
+      ]
+    },
+    {
+      "query_id": "q_0089_hardneg",
+      "query_text": "Which IP addresses triggered security alerts?",
+      "retrieved_chunk_ids": [
+        "chunk_0343",
+        "chunk_0340",
+        "chunk_0394",
+        "chunk_0375",
+        "chunk_0370"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0306",
+        "chunk_0280"
+      ],
+      "distances": [
+        0.13412272930145264,
+        0.13490676879882812,
+        0.137562096118927,
+        0.13987338542938232,
+        0.1426856517791748
+      ]
+    },
+    {
+      "query_id": "q_0005",
+      "query_text": "Who raised a payment dispute about invoice #1750?",
+      "retrieved_chunk_ids": [
+        "chunk_0018",
+        "chunk_0022",
+        "chunk_0017",
+        "chunk_0019",
+        "chunk_0049"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0017",
+        "chunk_0018",
+        "chunk_0019",
+        "chunk_0020",
+        "chunk_0021",
+        "chunk_0022"
+      ],
+      "distances": [
+        0.11864626407623291,
+        0.12617087364196777,
+        0.14590150117874146,
+        0.14685332775115967,
+        0.1551101803779602
+      ]
+    },
+    {
+      "query_id": "q_0004",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0013",
+        "chunk_0014",
+        "chunk_0015",
+        "chunk_0016"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0041",
+      "query_text": "Who is the plaintiff in case number #452737?",
+      "retrieved_chunk_ids": [
+        "chunk_0203",
+        "chunk_0202",
+        "chunk_0199",
+        "chunk_0201",
+        "chunk_0031"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0199",
+        "chunk_0200",
+        "chunk_0201",
+        "chunk_0202",
+        "chunk_0203"
+      ],
+      "distances": [
+        0.14255160093307495,
+        0.14524972438812256,
+        0.15062099695205688,
+        0.15236294269561768,
+        0.16949445009231567
+      ]
+    },
+    {
+      "query_id": "q_0018",
+      "query_text": "Which employee transferred to the Mollybury office recently?",
+      "retrieved_chunk_ids": [
+        "chunk_0083",
+        "chunk_0080",
+        "chunk_0081",
+        "chunk_0114",
+        "chunk_0129"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0080",
+        "chunk_0081",
+        "chunk_0082",
+        "chunk_0083"
+      ],
+      "distances": [
+        0.14254015684127808,
+        0.1716519594192505,
+        0.18047654628753662,
+        0.19922351837158203,
+        0.2043290138244629
+      ]
+    },
+    {
+      "query_id": "q_0059",
+      "query_text": "Find support tickets about product defect.",
+      "retrieved_chunk_ids": [
+        "chunk_0288",
+        "chunk_0287",
+        "chunk_0290",
+        "chunk_0289",
+        "chunk_0291"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0286",
+        "chunk_0287",
+        "chunk_0288",
+        "chunk_0289",
+        "chunk_0290",
+        "chunk_0291"
+      ],
+      "distances": [
+        0.08888137340545654,
+        0.12047898769378662,
+        0.12110733985900879,
+        0.13208305835723877,
+        0.13698095083236694
+      ]
+    },
+    {
+      "query_id": "q_0040",
+      "query_text": "Who is the plaintiff in case number #452737?",
+      "retrieved_chunk_ids": [
+        "chunk_0203",
+        "chunk_0202",
+        "chunk_0199",
+        "chunk_0201",
+        "chunk_0031"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0199",
+        "chunk_0200",
+        "chunk_0201",
+        "chunk_0202",
+        "chunk_0203"
+      ],
+      "distances": [
+        0.14255160093307495,
+        0.14524972438812256,
+        0.15062099695205688,
+        0.15236294269561768,
+        0.16949445009231567
+      ]
+    },
+    {
+      "query_id": "q_0073",
+      "query_text": "Which accounts were affected by unauthorised access attempts?",
+      "retrieved_chunk_ids": [
+        "chunk_0373",
+        "chunk_0364",
+        "chunk_0339",
+        "chunk_0335",
+        "chunk_0346"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0359",
+        "chunk_0360",
+        "chunk_0361",
+        "chunk_0362",
+        "chunk_0363",
+        "chunk_0364"
+      ],
+      "distances": [
+        0.14407885074615479,
+        0.14458870887756348,
+        0.1446414589881897,
+        0.14508068561553955,
+        0.1457667350769043
+      ]
+    },
+    {
+      "query_id": "q_0047",
+      "query_text": "Who is the plaintiff in case number #147726?",
+      "retrieved_chunk_ids": [
+        "chunk_0223",
+        "chunk_0220",
+        "chunk_0222",
+        "chunk_0202",
+        "chunk_0248"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0220",
+        "chunk_0221",
+        "chunk_0222",
+        "chunk_0223"
+      ],
+      "distances": [
+        0.15144920349121094,
+        0.1534818410873413,
+        0.15888816118240356,
+        0.1589975357055664,
+        0.16196739673614502
+      ]
+    },
+    {
+      "query_id": "q_0003",
+      "query_text": "Find all billing disputes involving credit card charges.",
+      "retrieved_chunk_ids": [
+        "chunk_0031",
+        "chunk_0059",
+        "chunk_0047",
+        "chunk_0065",
+        "chunk_0042"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0013",
+        "chunk_0014",
+        "chunk_0015",
+        "chunk_0016"
+      ],
+      "distances": [
+        0.12123441696166992,
+        0.12171876430511475,
+        0.12297242879867554,
+        0.12424290180206299,
+        0.12459206581115723
+      ]
+    },
+    {
+      "query_id": "q_0071",
+      "query_text": "Which IP addresses triggered security alerts?",
+      "retrieved_chunk_ids": [
+        "chunk_0343",
+        "chunk_0340",
+        "chunk_0394",
+        "chunk_0375",
+        "chunk_0370"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0348",
+        "chunk_0349",
+        "chunk_0350",
+        "chunk_0351",
+        "chunk_0352",
+        "chunk_0353"
+      ],
+      "distances": [
+        0.13412272930145264,
+        0.13490676879882812,
+        0.137562096118927,
+        0.13987338542938232,
+        0.1426856517791748
+      ]
+    },
+    {
+      "query_id": "q_0023",
+      "query_text": "Find HR records for staff in the Engineering department.",
+      "retrieved_chunk_ids": [
+        "chunk_0098",
+        "chunk_0097",
+        "chunk_0122",
+        "chunk_0105",
+        "chunk_0099"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0096",
+        "chunk_0097",
+        "chunk_0098",
+        "chunk_0099"
+      ],
+      "distances": [
+        0.16595155000686646,
+        0.16844630241394043,
+        0.17663002014160156,
+        0.1770382523536682,
+        0.17704224586486816
+      ]
+    },
+    {
+      "query_id": "q_0062",
+      "query_text": "Find support tickets about delivery failure.",
+      "retrieved_chunk_ids": [
+        "chunk_0267",
+        "chunk_0293",
+        "chunk_0301",
+        "chunk_0313",
+        "chunk_0321"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0298",
+        "chunk_0299",
+        "chunk_0300",
+        "chunk_0301"
+      ],
+      "distances": [
+        0.0846092700958252,
+        0.08918750286102295,
+        0.08948969841003418,
+        0.09167850017547607,
+        0.0981907844543457
+      ]
+    },
+    {
+      "query_id": "q_0045",
+      "query_text": "Find filings by law firm Henderson, Bennett and Cole LLP.",
+      "retrieved_chunk_ids": [
+        "chunk_0213",
+        "chunk_0210",
+        "chunk_0212",
+        "chunk_0211",
+        "chunk_0215"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0210",
+        "chunk_0211",
+        "chunk_0212",
+        "chunk_0213",
+        "chunk_0214",
+        "chunk_0215"
+      ],
+      "distances": [
+        0.13235878944396973,
+        0.1428852081298828,
+        0.14528167247772217,
+        0.15290457010269165,
+        0.16003918647766113
+      ]
+    },
+    {
+      "query_id": "q_0066",
+      "query_text": "Which accounts were affected by unauthorised access attempts?",
+      "retrieved_chunk_ids": [
+        "chunk_0373",
+        "chunk_0364",
+        "chunk_0339",
+        "chunk_0335",
+        "chunk_0346"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0331",
+        "chunk_0332",
+        "chunk_0333",
+        "chunk_0334",
+        "chunk_0335",
+        "chunk_0336"
+      ],
+      "distances": [
+        0.14407885074615479,
+        0.14458870887756348,
+        0.1446414589881897,
+        0.14508068561553955,
+        0.1457667350769043
+      ]
+    },
+    {
+      "query_id": "q_0028",
+      "query_text": "Find patients diagnosed with migraine disorder.",
+      "retrieved_chunk_ids": [
+        "chunk_0155",
+        "chunk_0136",
+        "chunk_0173",
+        "chunk_0171",
+        "chunk_0138"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0133",
+        "chunk_0134",
+        "chunk_0135",
+        "chunk_0136",
+        "chunk_0137",
+        "chunk_0138"
+      ],
+      "distances": [
+        0.10570919513702393,
+        0.1065707802772522,
+        0.10720092058181763,
+        0.11676418781280518,
+        0.11806368827819824
+      ]
+    },
+    {
+      "query_id": "q_0046",
+      "query_text": "Who is the plaintiff in case number #874483?",
+      "retrieved_chunk_ids": [
+        "chunk_0217",
+        "chunk_0219",
+        "chunk_0233",
+        "chunk_0258",
+        "chunk_0248"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0216",
+        "chunk_0217",
+        "chunk_0218",
+        "chunk_0219"
+      ],
+      "distances": [
+        0.1503201127052307,
+        0.15552771091461182,
+        0.1654210090637207,
+        0.16855388879776,
+        0.16990292072296143
+      ]
+    },
+    {
+      "query_id": "q_0039",
+      "query_text": "Find medical records for patients treated by Dr. Bernard, MD.",
+      "retrieved_chunk_ids": [
+        "chunk_0164",
+        "chunk_0197",
+        "chunk_0192",
+        "chunk_0195",
+        "chunk_0181"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0164",
+        "chunk_0165",
+        "chunk_0166",
+        "chunk_0167",
+        "chunk_0168"
+      ],
+      "distances": [
+        0.1443895697593689,
+        0.16681092977523804,
+        0.17979776859283447,
+        0.18171393871307373,
+        0.18190860748291016
+      ]
+    },
+    {
+      "query_id": "q_0029",
+      "query_text": "Who was discharged recently after treatment?",
+      "retrieved_chunk_ids": [
+        "chunk_0139",
+        "chunk_0154",
+        "chunk_0147",
+        "chunk_0188",
+        "chunk_0180"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0139",
+        "chunk_0140",
+        "chunk_0141",
+        "chunk_0142",
+        "chunk_0143"
+      ],
+      "distances": [
+        0.18117356300354004,
+        0.18380403518676758,
+        0.18555432558059692,
+        0.18637478351593018,
+        0.1864842176437378
+      ]
+    },
+    {
+      "query_id": "q_0020",
+      "query_text": "Find HR records for staff in the Sales department.",
+      "retrieved_chunk_ids": [
+        "chunk_0085",
+        "chunk_0128",
+        "chunk_0117",
+        "chunk_0329",
+        "chunk_0327"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0084",
+        "chunk_0085",
+        "chunk_0086",
+        "chunk_0087",
+        "chunk_0088",
+        "chunk_0089"
+      ],
+      "distances": [
+        0.17900633811950684,
+        0.1794920563697815,
+        0.18187439441680908,
+        0.18842542171478271,
+        0.19260138273239136
+      ]
+    },
+    {
+      "query_id": "q_0069",
+      "query_text": "Which IP addresses triggered security alerts?",
+      "retrieved_chunk_ids": [
+        "chunk_0343",
+        "chunk_0340",
+        "chunk_0394",
+        "chunk_0375",
+        "chunk_0370"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0337",
+        "chunk_0338",
+        "chunk_0339",
+        "chunk_0340",
+        "chunk_0341",
+        "chunk_0342"
+      ],
+      "distances": [
+        0.13412272930145264,
+        0.13490676879882812,
+        0.137562096118927,
+        0.13987338542938232,
+        0.1426856517791748
+      ]
+    },
+    {
+      "query_id": "q_0068",
+      "query_text": "Which accounts were affected by unauthorised access attempts?",
+      "retrieved_chunk_ids": [
+        "chunk_0373",
+        "chunk_0364",
+        "chunk_0339",
+        "chunk_0335",
+        "chunk_0346"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0337",
+        "chunk_0338",
+        "chunk_0339",
+        "chunk_0340",
+        "chunk_0341",
+        "chunk_0342"
+      ],
+      "distances": [
+        0.14407885074615479,
+        0.14458870887756348,
+        0.1446414589881897,
+        0.14508068561553955,
+        0.1457667350769043
+      ]
+    },
+    {
+      "query_id": "q_0072",
+      "query_text": "Find IT tickets involving firewall blocks.",
+      "retrieved_chunk_ids": [
+        "chunk_0359",
+        "chunk_0356",
+        "chunk_0347",
+        "chunk_0338",
+        "chunk_0390"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0354",
+        "chunk_0355",
+        "chunk_0356",
+        "chunk_0357",
+        "chunk_0358"
+      ],
+      "distances": [
+        0.1499636173248291,
+        0.15032780170440674,
+        0.150549054145813,
+        0.1525048017501831,
+        0.15305733680725098
+      ]
+    },
+    {
+      "query_id": "q_0014",
+      "query_text": "Find HR records for staff in the Legal department.",
+      "retrieved_chunk_ids": [
+        "chunk_0117",
+        "chunk_0069",
+        "chunk_0119",
+        "chunk_0226",
+        "chunk_0093"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0067",
+        "chunk_0068",
+        "chunk_0069",
+        "chunk_0070",
+        "chunk_0071"
+      ],
+      "distances": [
+        0.18154752254486084,
+        0.1850210428237915,
+        0.19161438941955566,
+        0.19454216957092285,
+        0.19482886791229248
+      ]
+    },
+    {
+      "query_id": "q_0042",
+      "query_text": "Find filings by law firm Brown Group LLP.",
+      "retrieved_chunk_ids": [
+        "chunk_0207",
+        "chunk_0204",
+        "chunk_0209",
+        "chunk_0206",
+        "chunk_0208"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0204",
+        "chunk_0205",
+        "chunk_0206",
+        "chunk_0207",
+        "chunk_0208",
+        "chunk_0209"
+      ],
+      "distances": [
+        0.10981130599975586,
+        0.12825870513916016,
+        0.13631200790405273,
+        0.15036803483963013,
+        0.15290451049804688
+      ]
+    },
+    {
+      "query_id": "q_0038",
+      "query_text": "Which patient has an upcoming appointment in Hernandezbury?",
+      "retrieved_chunk_ids": [
+        "chunk_0167",
+        "chunk_0144",
+        "chunk_0149",
+        "chunk_0146",
+        "chunk_0169"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0164",
+        "chunk_0165",
+        "chunk_0166",
+        "chunk_0167",
+        "chunk_0168"
+      ],
+      "distances": [
+        0.1329110860824585,
+        0.1728588342666626,
+        0.17794716358184814,
+        0.18903392553329468,
+        0.19551146030426025
+      ]
+    },
+    {
+      "query_id": "q_0080_hardneg",
+      "query_text": "Who was promoted in the latest HR update?",
+      "retrieved_chunk_ids": [
+        "chunk_0123",
+        "chunk_0116",
+        "chunk_0088",
+        "chunk_0115",
+        "chunk_0072"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0253",
+        "chunk_0261"
+      ],
+      "distances": [
+        0.13195252418518066,
+        0.13625478744506836,
+        0.1379544734954834,
+        0.14037632942199707,
+        0.14191949367523193
+      ]
+    },
+    {
+      "query_id": "q_0085_hardneg",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0304",
+        "chunk_0270"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0074",
+      "query_text": "Find incidents related to SQL injection attempt.",
+      "retrieved_chunk_ids": [
+        "chunk_0375",
+        "chunk_0394",
+        "chunk_0370",
+        "chunk_0387",
+        "chunk_0340"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0365",
+        "chunk_0366",
+        "chunk_0367",
+        "chunk_0368",
+        "chunk_0369",
+        "chunk_0370"
+      ],
+      "distances": [
+        0.1016809344291687,
+        0.10576832294464111,
+        0.10765916109085083,
+        0.10768896341323853,
+        0.11059516668319702
+      ]
+    },
+    {
+      "query_id": "q_0055",
+      "query_text": "Who reported a service outage complaint by email?",
+      "retrieved_chunk_ids": [
+        "chunk_0277",
+        "chunk_0280",
+        "chunk_0324",
+        "chunk_0282",
+        "chunk_0320"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0276",
+        "chunk_0277",
+        "chunk_0278",
+        "chunk_0279",
+        "chunk_0280"
+      ],
+      "distances": [
+        0.1307452917098999,
+        0.15715980529785156,
+        0.15833890438079834,
+        0.15878313779830933,
+        0.15883886814117432
+      ]
+    },
+    {
+      "query_id": "q_0011",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0041",
+        "chunk_0042",
+        "chunk_0043",
+        "chunk_0044",
+        "chunk_0045",
+        "chunk_0046"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0088_hardneg",
+      "query_text": "Find high-priority support requests.",
+      "retrieved_chunk_ids": [
+        "chunk_0326",
+        "chunk_0305",
+        "chunk_0278",
+        "chunk_0315",
+        "chunk_0287"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0018",
+        "chunk_0033"
+      ],
+      "distances": [
+        0.11014765501022339,
+        0.11122655868530273,
+        0.11221396923065186,
+        0.11596894264221191,
+        0.12061166763305664
+      ]
+    },
+    {
+      "query_id": "q_0067",
+      "query_text": "Find IT tickets involving firewall blocks.",
+      "retrieved_chunk_ids": [
+        "chunk_0359",
+        "chunk_0356",
+        "chunk_0347",
+        "chunk_0338",
+        "chunk_0390"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0331",
+        "chunk_0332",
+        "chunk_0333",
+        "chunk_0334",
+        "chunk_0335",
+        "chunk_0336"
+      ],
+      "distances": [
+        0.1499636173248291,
+        0.15032780170440674,
+        0.150549054145813,
+        0.1525048017501831,
+        0.15305733680725098
+      ]
+    },
+    {
+      "query_id": "q_0086_hardneg",
+      "query_text": "Which employee started in Legal this year?",
+      "retrieved_chunk_ids": [
+        "chunk_0091",
+        "chunk_0077",
+        "chunk_0069",
+        "chunk_0093",
+        "chunk_0227"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0249",
+        "chunk_0206"
+      ],
+      "distances": [
+        0.18207180500030518,
+        0.18715441226959229,
+        0.19339525699615479,
+        0.20013493299484253,
+        0.20638114213943481
+      ]
+    },
+    {
+      "query_id": "q_0079_hardneg",
+      "query_text": "Which customer complained about an overcharge on their billing statement?",
+      "retrieved_chunk_ids": [
+        "chunk_0038",
+        "chunk_0062",
+        "chunk_0043",
+        "chunk_0029",
+        "chunk_0052"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0275",
+        "chunk_0299"
+      ],
+      "distances": [
+        0.1334763765335083,
+        0.13721239566802979,
+        0.13947373628616333,
+        0.14154887199401855,
+        0.14229971170425415
+      ]
+    },
+    {
+      "query_id": "q_0064",
+      "query_text": "Who reported a account access issue complaint by email?",
+      "retrieved_chunk_ids": [
+        "chunk_0324",
+        "chunk_0304",
+        "chunk_0317",
+        "chunk_0282",
+        "chunk_0316"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0302",
+        "chunk_0303",
+        "chunk_0304",
+        "chunk_0305",
+        "chunk_0306",
+        "chunk_0307"
+      ],
+      "distances": [
+        0.1278461217880249,
+        0.1290321946144104,
+        0.13477301597595215,
+        0.1403357982635498,
+        0.15424877405166626
+      ]
+    },
+    {
+      "query_id": "q_0024",
+      "query_text": "Which employee started in Engineering this year?",
+      "retrieved_chunk_ids": [
+        "chunk_0108",
+        "chunk_0102",
+        "chunk_0127",
+        "chunk_0123",
+        "chunk_0115"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0100",
+        "chunk_0101",
+        "chunk_0102",
+        "chunk_0103",
+        "chunk_0104"
+      ],
+      "distances": [
+        0.16351300477981567,
+        0.16691553592681885,
+        0.16999399662017822,
+        0.17359071969985962,
+        0.1746034026145935
+      ]
+    },
+    {
+      "query_id": "q_0044",
+      "query_text": "Who is the plaintiff in case number #656711?",
+      "retrieved_chunk_ids": [
+        "chunk_0215",
+        "chunk_0211",
+        "chunk_0214",
+        "chunk_0212",
+        "chunk_0253"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0210",
+        "chunk_0211",
+        "chunk_0212",
+        "chunk_0213",
+        "chunk_0214",
+        "chunk_0215"
+      ],
+      "distances": [
+        0.13474178314208984,
+        0.1424335241317749,
+        0.14496421813964844,
+        0.15366995334625244,
+        0.16380077600479126
+      ]
+    },
+    {
+      "query_id": "q_0050",
+      "query_text": "Which cases are scheduled in Candiceburgh?",
+      "retrieved_chunk_ids": [
+        "chunk_0231",
+        "chunk_0257",
+        "chunk_0225",
+        "chunk_0224",
+        "chunk_0263"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0229",
+        "chunk_0230",
+        "chunk_0231",
+        "chunk_0232"
+      ],
+      "distances": [
+        0.1478404998779297,
+        0.19412457942962646,
+        0.19415414333343506,
+        0.1941671371459961,
+        0.1944338083267212
+      ]
+    },
+    {
+      "query_id": "q_0057",
+      "query_text": "Find support tickets about account access issue.",
+      "retrieved_chunk_ids": [
+        "chunk_0303",
+        "chunk_0325",
+        "chunk_0285",
+        "chunk_0326",
+        "chunk_0315"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0281",
+        "chunk_0282",
+        "chunk_0283",
+        "chunk_0284",
+        "chunk_0285"
+      ],
+      "distances": [
+        0.09497475624084473,
+        0.10285389423370361,
+        0.10387003421783447,
+        0.1151931881904602,
+        0.11784183979034424
+      ]
+    },
+    {
+      "query_id": "q_0052",
+      "query_text": "Which cases are scheduled in North Corymouth?",
+      "retrieved_chunk_ids": [
+        "chunk_0234",
+        "chunk_0233",
+        "chunk_0263",
+        "chunk_0243",
+        "chunk_0222"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0233",
+        "chunk_0234",
+        "chunk_0235",
+        "chunk_0236"
+      ],
+      "distances": [
+        0.1339905858039856,
+        0.15072524547576904,
+        0.20097339153289795,
+        0.20388805866241455,
+        0.20511555671691895
+      ]
+    },
+    {
+      "query_id": "q_0056",
+      "query_text": "Find high-priority support requests.",
+      "retrieved_chunk_ids": [
+        "chunk_0326",
+        "chunk_0305",
+        "chunk_0278",
+        "chunk_0315",
+        "chunk_0287"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0276",
+        "chunk_0277",
+        "chunk_0278",
+        "chunk_0279",
+        "chunk_0280"
+      ],
+      "distances": [
+        0.11014765501022339,
+        0.11122655868530273,
+        0.11221396923065186,
+        0.11596894264221191,
+        0.12061166763305664
+      ]
+    },
+    {
+      "query_id": "q_0048",
+      "query_text": "Which cases are scheduled in Ortizfort?",
+      "retrieved_chunk_ids": [
+        "chunk_0224",
+        "chunk_0225",
+        "chunk_0227",
+        "chunk_0205",
+        "chunk_0263"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0224",
+        "chunk_0225",
+        "chunk_0226",
+        "chunk_0227",
+        "chunk_0228"
+      ],
+      "distances": [
+        0.14157062768936157,
+        0.17290306091308594,
+        0.18057167530059814,
+        0.1860896348953247,
+        0.18645703792572021
+      ]
+    },
+    {
+      "query_id": "q_0016",
+      "query_text": "Which employee started in Legal this year?",
+      "retrieved_chunk_ids": [
+        "chunk_0091",
+        "chunk_0077",
+        "chunk_0069",
+        "chunk_0093",
+        "chunk_0227"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0076",
+        "chunk_0077",
+        "chunk_0078",
+        "chunk_0079"
+      ],
+      "distances": [
+        0.18207180500030518,
+        0.18715441226959229,
+        0.19339525699615479,
+        0.20013493299484253,
+        0.20638114213943481
+      ]
+    },
+    {
+      "query_id": "q_0035",
+      "query_text": "Who was discharged recently after treatment?",
+      "retrieved_chunk_ids": [
+        "chunk_0139",
+        "chunk_0154",
+        "chunk_0147",
+        "chunk_0188",
+        "chunk_0180"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0156",
+        "chunk_0157",
+        "chunk_0158",
+        "chunk_0159"
+      ],
+      "distances": [
+        0.18117356300354004,
+        0.18380403518676758,
+        0.18555432558059692,
+        0.18637478351593018,
+        0.1864842176437378
+      ]
+    },
+    {
+      "query_id": "q_0043",
+      "query_text": "Which legal notices were sent recently?",
+      "retrieved_chunk_ids": [
+        "chunk_0235",
+        "chunk_0230",
+        "chunk_0246",
+        "chunk_0249",
+        "chunk_0217"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0204",
+        "chunk_0205",
+        "chunk_0206",
+        "chunk_0207",
+        "chunk_0208",
+        "chunk_0209"
+      ],
+      "distances": [
+        0.1406347155570984,
+        0.14843833446502686,
+        0.14844977855682373,
+        0.15161097049713135,
+        0.15189194679260254
+      ]
+    },
+    {
+      "query_id": "q_0084_hardneg",
+      "query_text": "Who is the plaintiff in case number #452737?",
+      "retrieved_chunk_ids": [
+        "chunk_0203",
+        "chunk_0202",
+        "chunk_0199",
+        "chunk_0201",
+        "chunk_0031"
+      ],
+      "relevant_chunk_ids": [
+        "chunk_0169",
+        "chunk_0195"
+      ],
+      "distances": [
+        0.14255160093307495,
+        0.14524972438812256,
+        0.15062099695205688,
+        0.15236294269561768,
+        0.16949445009231567
+      ]
+    }
+  ]
+}

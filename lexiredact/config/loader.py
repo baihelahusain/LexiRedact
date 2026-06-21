@@ -1,119 +1,81 @@
 """
-Configuration loader for LexiRedact.
+config/loader.py — Loads and validates LexiRedact configuration from various sources.
 
-Supports loading from dictionaries or YAML files.
+Accepts a plain dict, a file-system path (str or pathlib.Path), or a YAML file.
+Pydantic validation errors are translated into LexiredactConfigError.
 """
-from typing import Dict, Any, Optional
+
+from __future__ import annotations
+
 from pathlib import Path
-from .defaults import validate_config, get_default_config
+from typing import Any
+
+import yaml
+from pydantic import ValidationError
+
+from lexiredact.config.schema import LexiredactConfig
+from lexiredact.exceptions import LexiredactConfigError
+from lexiredact.app_logging import get_logger
+
+logger = get_logger(__name__)
 
 
-def load_config(
-    config_dict: Optional[Dict[str, Any]] = None,
-    config_file: Optional[str] = None
-) -> Dict[str, Any]:
-    """
-    Load and validate configuration.
-    
-    Priority order:
-    1. Values from config_dict (if provided)
-    2. Values from config_file (if provided)
-    3. Default values
-    
-    Args:
-        config_dict: Configuration dictionary (optional)
-        config_file: Path to YAML config file (optional)
-        
-    Returns:
-        Validated configuration dictionary
-        
+def _validation_error_to_message(exc: ValidationError) -> str:
+    lines: list[str] = ["Configuration validation failed:"]
+    for error in exc.errors():
+        loc = " -> ".join(str(p) for p in error["loc"]) if error["loc"] else "(root)"
+        lines.append(f"  field '{loc}': {error['msg']} (got {error.get('input', '<unknown>')!r})")
+    return "\n".join(lines)
+
+
+def load_config(source: dict[str, Any] | str | Path) -> LexiredactConfig:
+    """Load and validate a LexiredactConfig from a dict, str path, or Path.
+
     Raises:
-        ValueError: If configuration is invalid
-        FileNotFoundError: If config_file doesn't exist
-        
-    Examples:
-        >>> # Use defaults
-        >>> config = load_config()
-        
-        >>> # Override specific values
-        >>> config = load_config(config_dict={
-        ...     "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
-        ...     "cache_backend": "redis"
-        ... })
-        
-        >>> # Load from file
-        >>> config = load_config(config_file="config.yaml")
+        LexiredactConfigError: On missing file, YAML parse error, or validation failure.
     """
-    # Start with defaults
-    config = get_default_config()
-    
-    # Load from file if provided
-    if config_file is not None:
-        file_config = _load_from_yaml(config_file)
-        config.update(file_config)
-    
-    # Override with dict if provided
-    if config_dict is not None:
-        config.update(config_dict)
-    
-    # Validate and return
-    return validate_config(config)
+    raw: dict[str, Any]
 
+    match source:
+        case dict():
+            raw = source
+            logger.debug("Loading configuration from dict.")
+        case str() | Path():
+            path = Path(source)
+            logger.debug("Loading configuration from file: %s", path)
+            try:
+                text = path.read_text(encoding="utf-8")
+            except FileNotFoundError as exc:
+                raise LexiredactConfigError(
+                    f"Configuration file not found: {path}",
+                    context={"path": str(path)},
+                ) from exc
+            try:
+                loaded = yaml.safe_load(text)
+            except yaml.YAMLError as exc:
+                raise LexiredactConfigError(
+                    f"Failed to parse YAML configuration file: {path}",
+                    context={"path": str(path), "yaml_error": str(exc)},
+                ) from exc
+            if not isinstance(loaded, dict):
+                raise LexiredactConfigError(
+                    f"Config file must contain a YAML mapping at the top level: {path}",
+                    context={"path": str(path), "got_type": type(loaded).__name__},
+                )
+            raw = loaded
+        case _:
+            raise LexiredactConfigError(
+                "load_config() requires a dict, str, or Path as source.",
+                context={"got_type": type(source).__name__},
+            )
 
-def _load_from_yaml(file_path: str) -> Dict[str, Any]:
-    """
-    Load configuration from YAML file.
-    
-    Args:
-        file_path: Path to YAML file
-        
-    Returns:
-        Configuration dictionary
-        
-    Raises:
-        FileNotFoundError: If file doesn't exist
-        ImportError: If PyYAML is not installed
-    """
-    path = Path(file_path)
-    
-    if not path.exists():
-        raise FileNotFoundError(f"Config file not found: {file_path}")
-    
     try:
-        import yaml
-    except ImportError:
-        raise ImportError(
-            "PyYAML is required to load config from YAML files. "
-            "Install with: pip install pyyaml"
-        )
-    
-    with open(path, 'r') as f:
-        config = yaml.safe_load(f)
-    
-    return config if config is not None else {}
+        config = LexiredactConfig(**raw)
+    except ValidationError as exc:
+        raise LexiredactConfigError(
+            _validation_error_to_message(exc),
+            context={"raw_keys": list(raw.keys())},
+        ) from exc
 
-
-def save_config_to_yaml(config: Dict[str, Any], file_path: str) -> None:
-    """
-    Save configuration to YAML file.
-    
-    Args:
-        config: Configuration dictionary
-        file_path: Path to save YAML file
-        
-    Raises:
-        ImportError: If PyYAML is not installed
-    """
-    try:
-        import yaml
-    except ImportError:
-        raise ImportError(
-            "PyYAML is required to save config to YAML files. "
-            "Install with: pip install pyyaml"
-        )
-    
-    path = Path(file_path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    
-    with open(path, 'w') as f:
-        yaml.dump(config, f, default_flow_style=False, sort_keys=False)
+    logger.debug("Configuration loaded. pipeline_mode=%s", config.pipeline_mode)
+    return config

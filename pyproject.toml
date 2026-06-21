@@ -1,65 +1,131 @@
 [build-system]
-requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling>=1.24.0"]
+build-backend = "hatchling.build"
 
 [project]
 name = "lexiredact"
-version = "0.1.0"
-description = "Privacy-First Vector Database for Sensitive Data"
+version = "0.0.2"
+description = "Privacy-preserving RAG ingestion middleware with dual-pipeline processing"
 readme = "README.md"
-requires-python = ">=3.8"
-license = "MIT"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
 authors = [
-    {name = "Shwetan Londhe", email = "shwetan.college@gmail.com"},
-    {name = "Varad Limbkar", email = "varadlimbkar@gmail.com"},
-    {name = "Baihela Husain", email = "baihelahusain@gmail.com"}
+{ name = "Baihela Abid Hussain" },
+{ name = "Shwetan Bharat Londhe" },
+{ name = "Varad Limbkar"}
 ]
-keywords = ["pii", "privacy", "vector-database", "embedding", "rag"]
+
+keywords = [
+"rag",
+"privacy",
+"pii",
+"redaction",
+"vector-database",
+"llm",
+"embeddings",
+"security",
+"retrieval-augmented-generation"
+]
+
 classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
+"Development Status :: 4 - Beta",
+"Intended Audience :: Developers",
+"Intended Audience :: Information Technology",
+"Topic :: Security",
+"Topic :: Software Development :: Libraries",
+"Topic :: Scientific/Engineering :: Artificial Intelligence",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+"Programming Language :: Python :: 3",
+"Programming Language :: Python :: 3.10",
+"Programming Language :: Python :: 3.11",
+"Programming Language :: Python :: 3.12"
 ]
 
 dependencies = [
-    "presidio-analyzer>=2.2.0",
-    "presidio-anonymizer>=2.2.0",
-    "fastembed>=0.2.0",
-    "chromadb>=0.4.0",
-    "pydantic>=2.0.0",
-    "pyyaml>=6.0",
-    "numpy>=1.24.0",
-]
-
-[project.optional-dependencies]
-pdf = ["pypdf>=4.0.0"]
-redis = ["redis[async]>=5.0.0"]
-mlflow = ["mlflow>=2.10.0"]
-all = [
-    "pypdf>=4.0.0",
-    "redis[async]>=5.0.0",
-    "mlflow>=2.10.0",
+"pydantic>=2.0,<3.0",
+"pyyaml>=6.0,<7.0"
 ]
 
 [project.urls]
-Homepage = "https://github.com/lexiredact/lexiredact"
-Repository = "https://github.com/lexiredact/lexiredact"
-Documentation = "https://github.com/lexiredact/lexiredact#documentation"
-Issues = "https://github.com/lexiredact/lexiredact/issues"
+Homepage = "https://github.com/baihelahusain/lexiredact"
+Repository = "https://github.com/baihelahusain/LexiRedact"
+Issues = "https://github.com/baihelahusain/LexiRedact/issues"
+Documentation = "https://github.com/baihelahusain/LexiRedact"
 
 [project.scripts]
 lexiredact = "lexiredact.cli:main"
 
-[tool.setuptools]
-include-package-data = false
+[project.optional-dependencies]
 
-[tool.setuptools.packages.find]
-include = ["lexiredact*"]
+pii = [
+"presidio-analyzer",
+"presidio-anonymizer",
+"spacy"
+]
 
-[tool.setuptools.package-data]
-lexiredact = ["py.typed"]
+embed = [
+"sentence-transformers>=2.0"
+]
+
+store = [
+"chromadb>=0.4"
+]
+
+cache = [
+"redis>=5.0"
+]
+
+cli = [
+"click>=8.0"
+]
+
+all = [
+"presidio-analyzer",
+"presidio-anonymizer",
+"spacy",
+"sentence-transformers>=2.0",
+"chromadb>=0.4",
+"redis>=5.0",
+"click>=8.0"
+]
+
+dev = [
+"pytest>=8.0",
+"pytest-asyncio>=0.23",
+"ruff>=0.6",
+"mypy>=1.10"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["lexiredact"]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+"/.github",
+"/build",
+"/chroma_db",
+"/demo",
+"/dist",
+"/eval",
+"/my.py",
+"/venv",
+"/__pycache__"
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

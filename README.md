@@ -1,59 +1,41 @@
 # LexiRedact
 
-LexiRedact is a Python package for privacy-first document ingestion in RAG and vector database workflows. It detects PII, redacts sensitive text before storage, and preserves retrieval quality by generating embeddings from the original text while storing only sanitized content.
+LexiRedact is a privacy-preserving RAG ingestion middleware package for detecting and redacting PII before content is embedded and written to a vector store.
 
-## Install
+## Installation
 
 ```bash
 pip install lexiredact
 ```
 
-Optional extras:
+Optional dependency groups are available for specific integrations:
 
 ```bash
-pip install "lexiredact[pdf]"
-pip install "lexiredact[redis]"
-pip install "lexiredact[mlflow]"
-pip install "lexiredact[all]"
+pip install "lexiredact[pii,embed,store,cache,cli]"
 ```
-
-## What It Focuses On
-
-- PII detection with Presidio
-- safe redaction before vector-store persistence
-- configurable ingestion pipeline components
-- operational metrics for privacy and latency
-- optional retrieval evaluation helpers for model comparison
 
 ## Quick Start
 
 ```python
-import asyncio
-import lexiredact as lr
+from lexiredact import LexiredactPipeline, load_config
 
-
-async def main() -> None:
-    pipeline = lr.IngestionPipeline()
-    await pipeline.initialize()
-
-    result = await pipeline.process_document(
-        lr.Document(
-            id="doc-1",
-            text="Contact Jane Doe at jane@example.com or 555-0101",
-            metadata={"source": "demo"},
-        )
-    )
-
-    print(result.clean_text)
-    print(result.pii_entities)
-
-    await pipeline.shutdown()
-
-
-asyncio.run(main())
+config = load_config("lexiredact_config.yaml")
+pipeline = LexiredactPipeline(config)
 ```
 
-## Docs And Examples
+## CLI
 
-- docs: [`docs/`](./docs)
-- examples: [`examples/`](./examples)
+```bash
+lexiredact --help
+```
+
+## Release
+
+This project publishes to PyPI from GitHub Actions when a version tag is pushed:
+
+```bash
+git tag v0.0.2
+git push origin v0.0.2
+```
+
+The PyPI project must be configured for Trusted Publishing with the `pypi` environment and the `.github/workflows/publish.yml` workflow.

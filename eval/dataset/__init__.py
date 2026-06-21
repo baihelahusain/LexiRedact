@@ -1,0 +1,1 @@
+"""eval/dataset — EvalDataset schema and synthetic dataset generator."""

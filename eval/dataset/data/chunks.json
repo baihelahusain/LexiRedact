@@ -1,0 +1,7507 @@
+[
+  {
+    "chunk_id": "chunk_0120",
+    "annotated_entities": [
+      {
+        "text": "Madison Weber",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "New Brookefurt",
+        "entity_type": "LOCATION",
+        "start": 74,
+        "end": 88
+      },
+      {
+        "text": "649-305-8147x7005",
+        "entity_type": "PHONE_NUMBER",
+        "start": 97,
+        "end": 114
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0228",
+    "raw_text": "Jenny Tucker retained Potter, Evans and Kidd LLP for case #219629 proceedings. Contact: (557)890-5072.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Tucker",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "(557)890-5072",
+        "entity_type": "PHONE_NUMBER",
+        "start": 88,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0319",
+    "raw_text": "Agent spoke with Michael Simmons (yorkpamela@example.org) regarding delivery failure on 2026-01-23.",
+    "annotated_entities": [
+      {
+        "text": "Michael Simmons",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "text": "yorkpamela@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 34,
+        "end": 56
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0278",
+    "raw_text": "Support request from Heather Bennett (franciscojones@example.org): service outage. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Heather Bennett",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 36
+      },
+      {
+        "text": "franciscojones@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 38,
+        "end": 64
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0183",
+    "raw_text": "Discharge summary for Nichole Lane: chronic fatigue syndrome resolved. Next visit 2026-01-09.",
+    "annotated_entities": [
+      {
+        "text": "Nichole Lane",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0163",
+    "raw_text": "Patient Jim Allen from West Angela requested prescription refill. Ref: +1-874-280-1624x5650.",
+    "annotated_entities": [
+      {
+        "text": "Jim Allen",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 17
+      },
+      {
+        "text": "West Angela",
+        "entity_type": "LOCATION",
+        "start": 23,
+        "end": 34
+      },
+      {
+        "text": "+1-874-280-1624x5650",
+        "entity_type": "PHONE_NUMBER",
+        "start": 71,
+        "end": 91
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0056",
+    "raw_text": "Finance team received complaint from Lawrence Adkins about duplicate charge on #8177.",
+    "annotated_entities": [
+      {
+        "text": "Lawrence Adkins",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0258",
+    "raw_text": "Case #953085 \u2014 Erika Chavez (plaintiff) vs Pace, Miller and Willis LLP. Hearing on 2026-02-15 in Parkerview.",
+    "annotated_entities": [
+      {
+        "text": "Erika Chavez",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "Parkerview",
+        "entity_type": "LOCATION",
+        "start": 97,
+        "end": 107
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0215",
+    "raw_text": "Case #656711 \u2014 Elijah Patton (plaintiff) vs Henderson, Bennett and Cole LLP. Hearing on 2026-03-12 in Cookberg.",
+    "annotated_entities": [
+      {
+        "text": "Elijah Patton",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 28
+      },
+      {
+        "text": "Cookberg",
+        "entity_type": "LOCATION",
+        "start": 102,
+        "end": 110
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0008",
+    "raw_text": "Customer Mark Diaz contacted finance about overcharge on invoice #1434. Card: 4767242388496963.",
+    "annotated_entities": [
+      {
+        "text": "Mark Diaz",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 18
+      },
+      {
+        "text": "4767242388496963",
+        "entity_type": "CREDIT_CARD",
+        "start": 78,
+        "end": 94
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0391",
+    "raw_text": "IT security log \u2014 SQL injection attempt detected for olsonjonathan@example.com. Source IP: 45.252.252.202.",
+    "annotated_entities": [
+      {
+        "text": "olsonjonathan@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 53,
+        "end": 78
+      },
+      {
+        "text": "45.252.252.202",
+        "entity_type": "IP_ADDRESS",
+        "start": 91,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0105",
+    "raw_text": "Onboarding document for Larry Garcia. Department: Engineering. Start date: 2026-01-23.",
+    "annotated_entities": [
+      {
+        "text": "Larry Garcia",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0362",
+    "raw_text": "Admin rebeccaarnold@example.net reset password following credential stuffing. Phone verification: +1-972-356-3942.",
+    "annotated_entities": [
+      {
+        "text": "rebeccaarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 31
+      },
+      {
+        "text": "+1-972-356-3942",
+        "entity_type": "PHONE_NUMBER",
+        "start": 98,
+        "end": 113
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0285",
+    "raw_text": "James Burns opened support ticket about account access issue. Contact: maypaul@example.com, (452)370-4774x3490.",
+    "annotated_entities": [
+      {
+        "text": "James Burns",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "maypaul@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 71,
+        "end": 90
+      },
+      {
+        "text": "(452)370-4774x3490",
+        "entity_type": "PHONE_NUMBER",
+        "start": 92,
+        "end": 110
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0122",
+    "raw_text": "Onboarding document for Madison Weber. Department: Engineering. Start date: 2026-03-03.",
+    "annotated_entities": [
+      {
+        "text": "Madison Weber",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 37
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0077",
+    "raw_text": "HR update: Jon Bates promoted to Analyst in Legal, effective 2026-03-19.",
+    "annotated_entities": [
+      {
+        "text": "Jon Bates",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 20
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0072",
+    "raw_text": "HR update: Rick Lawrence promoted to Director in Engineering, effective 2026-02-08.",
+    "annotated_entities": [
+      {
+        "text": "Rick Lawrence",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 24
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0254",
+    "raw_text": "Correspondence to Douglas Kirk regarding case #557058 scheduled in East Ambertown.",
+    "annotated_entities": [
+      {
+        "text": "Douglas Kirk",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "text": "East Ambertown",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 81
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0323",
+    "raw_text": "Support request from Michael Simmons (yorkpamela@example.org): delivery failure. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Michael Simmons",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 36
+      },
+      {
+        "text": "yorkpamela@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 38,
+        "end": 60
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0185",
+    "raw_text": "Dr. Johnson, MD treated Nichole Lane for chronic fatigue syndrome on 2026-01-09.",
+    "annotated_entities": [
+      {
+        "text": "Nichole Lane",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0192",
+    "raw_text": "Medical record: Cheryl Adams, diagnosis chronic fatigue syndrome, appointment 2026-01-08.",
+    "annotated_entities": [
+      {
+        "text": "Cheryl Adams",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 28
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0103",
+    "raw_text": "Performance review \u2014 Charles Lester, Engineer. Location: Lake Robert. Phone: 621-202-0539x502.",
+    "annotated_entities": [
+      {
+        "text": "Charles Lester",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 35
+      },
+      {
+        "text": "Lake Robert",
+        "entity_type": "LOCATION",
+        "start": 57,
+        "end": 68
+      },
+      {
+        "text": "621-202-0539x502",
+        "entity_type": "PHONE_NUMBER",
+        "start": 77,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0267",
+    "raw_text": "Steven Osborne opened support ticket about delivery failure. Contact: xmoreno@example.net, 821.733.4803.",
+    "annotated_entities": [
+      {
+        "text": "Steven Osborne",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "xmoreno@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 70,
+        "end": 89
+      },
+      {
+        "text": "821.733.4803",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0341",
+    "raw_text": "IT security log \u2014 SQL injection attempt detected for smithjohn@example.net. Source IP: 2.133.48.41.",
+    "annotated_entities": [
+      {
+        "text": "smithjohn@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 53,
+        "end": 74
+      },
+      {
+        "text": "2.133.48.41",
+        "entity_type": "IP_ADDRESS",
+        "start": 87,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0140",
+    "raw_text": "Stacey Stewart scheduled for follow-up on 2026-03-02 at Terrifort clinic. Phone: 903-845-0541x566.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Stewart",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "Terrifort",
+        "entity_type": "LOCATION",
+        "start": 56,
+        "end": 65
+      },
+      {
+        "text": "903-845-0541x566",
+        "entity_type": "PHONE_NUMBER",
+        "start": 81,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0279",
+    "raw_text": "Callback requested by Heather Bennett at 705-941-1526x2181. Issue: service outage.",
+    "annotated_entities": [
+      {
+        "text": "Heather Bennett",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 37
+      },
+      {
+        "text": "705-941-1526x2181",
+        "entity_type": "PHONE_NUMBER",
+        "start": 41,
+        "end": 58
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0205",
+    "raw_text": "Correspondence to Katherine Kelly DVM regarding case #612311 scheduled in Seanview.",
+    "annotated_entities": [
+      {
+        "text": "Katherine Kelly DVM",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 37
+      },
+      {
+        "text": "Seanview",
+        "entity_type": "LOCATION",
+        "start": 74,
+        "end": 82
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0006",
+    "raw_text": "Customer Allison Hill contacted finance about overcharge on invoice #1409. Card: 4654235116155949.",
+    "annotated_entities": [
+      {
+        "text": "Allison Hill",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 21
+      },
+      {
+        "text": "4654235116155949",
+        "entity_type": "CREDIT_CARD",
+        "start": 81,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0246",
+    "raw_text": "Legal notice sent to Stephen Smith by Yang, Wilson and Zimmerman LLP. Case reference #723948.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Smith",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0372",
+    "raw_text": "Admin cindydixon@example.org reset password following SQL injection attempt. Phone verification: 001-857-499-1366x2103.",
+    "annotated_entities": [
+      {
+        "text": "cindydixon@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 28
+      },
+      {
+        "text": "001-857-499-1366x2103",
+        "entity_type": "PHONE_NUMBER",
+        "start": 97,
+        "end": 118
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0081",
+    "raw_text": "Performance review \u2014 Sarah Morgan, Associate. Location: Mollybury. Phone: 001-872-978-7558.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Morgan",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Mollybury",
+        "entity_type": "LOCATION",
+        "start": 56,
+        "end": 65
+      },
+      {
+        "text": "001-872-978-7558",
+        "entity_type": "PHONE_NUMBER",
+        "start": 74,
+        "end": 90
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0299",
+    "raw_text": "Callback requested by Melanie Wells at +1-844-366-5743x748. Issue: delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Melanie Wells",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 35
+      },
+      {
+        "text": "+1-844-366-5743x748",
+        "entity_type": "PHONE_NUMBER",
+        "start": 39,
+        "end": 58
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0251",
+    "raw_text": "Court filing: Jarvis, Finley and Jones LLP representing Carla Benton, hearing 2026-04-12, Dixonton.",
+    "annotated_entities": [
+      {
+        "text": "Carla Benton",
+        "entity_type": "PERSON",
+        "start": 56,
+        "end": 68
+      },
+      {
+        "text": "Dixonton",
+        "entity_type": "LOCATION",
+        "start": 90,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0252",
+    "raw_text": "Law firm Jarvis, Finley and Jones LLP filed motion on behalf of Carla Benton in case #870214. Phone: 305-964-8149.",
+    "annotated_entities": [
+      {
+        "text": "Carla Benton",
+        "entity_type": "PERSON",
+        "start": 64,
+        "end": 76
+      },
+      {
+        "text": "305-964-8149",
+        "entity_type": "PHONE_NUMBER",
+        "start": 101,
+        "end": 113
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0173",
+    "raw_text": "Medical record: Stephen Thompson, diagnosis migraine disorder, appointment 2026-01-08.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Thompson",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 32
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0134",
+    "raw_text": "Discharge summary for Jenny Parsons: migraine disorder resolved. Next visit 2026-02-16.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Parsons",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 35
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0339",
+    "raw_text": "Incident #95841: unauthorised access attempt by 2.133.48.41. User: smithjohn@example.net.",
+    "annotated_entities": [
+      {
+        "text": "2.133.48.41",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 59
+      },
+      {
+        "text": "smithjohn@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 67,
+        "end": 88
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0316",
+    "raw_text": "Customer Amber Wilson called 001-823-304-6184x992 to report account access issue. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Amber Wilson",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 21
+      },
+      {
+        "text": "001-823-304-6184x992",
+        "entity_type": "PHONE_NUMBER",
+        "start": 29,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0265",
+    "raw_text": "Customer Steven Osborne called 821.733.4803 to report delivery failure. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Steven Osborne",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 23
+      },
+      {
+        "text": "821.733.4803",
+        "entity_type": "PHONE_NUMBER",
+        "start": 31,
+        "end": 43
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0271",
+    "raw_text": "Support request from Toni Brooks (rogersmarcus@example.org): refund request. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Toni Brooks",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 32
+      },
+      {
+        "text": "rogersmarcus@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 34,
+        "end": 58
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0370",
+    "raw_text": "Security alert: user nicholas38@example.com triggered SQL injection attempt from IP 135.146.184.233 on 2026-04-11.",
+    "annotated_entities": [
+      {
+        "text": "nicholas38@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 43
+      },
+      {
+        "text": "135.146.184.233",
+        "entity_type": "IP_ADDRESS",
+        "start": 84,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0314",
+    "raw_text": "Agent spoke with Amber Wilson (qmartinez@example.com) regarding account access issue on 2026-03-28.",
+    "annotated_entities": [
+      {
+        "text": "Amber Wilson",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "qmartinez@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 31,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0045",
+    "raw_text": "Jeffrey Rush submitted a billing dispute for invoice #5371 on 2026-03-06. Email: elizabeth14@example.net.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Rush",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "elizabeth14@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 81,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0378",
+    "raw_text": "Firewall blocked 122.116.6.136 after repeated privilege escalation attempts. Notified jcox@example.com.",
+    "annotated_entities": [
+      {
+        "text": "122.116.6.136",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "text": "jcox@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 86,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0023",
+    "raw_text": "Jay Bernard submitted a billing dispute for invoice #3677 on 2026-04-18. Email: smoore@example.org.",
+    "annotated_entities": [
+      {
+        "text": "Jay Bernard",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "smoore@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 80,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0074",
+    "raw_text": "Rick Lawrence joined the Engineering department on 2026-02-08. Located in South Haleyfurt. Phone: (642)910-2499.",
+    "annotated_entities": [
+      {
+        "text": "Rick Lawrence",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "South Haleyfurt",
+        "entity_type": "LOCATION",
+        "start": 74,
+        "end": 89
+      },
+      {
+        "text": "(642)910-2499",
+        "entity_type": "PHONE_NUMBER",
+        "start": 98,
+        "end": 111
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0017",
+    "raw_text": "Invoice #1750 raised by Mark Perez. Payment card 4651333872624738 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Mark Perez",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 34
+      },
+      {
+        "text": "4651333872624738",
+        "entity_type": "CREDIT_CARD",
+        "start": 49,
+        "end": 65
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0366",
+    "raw_text": "Incident #26540: unauthorised access attempt by 135.146.184.233. User: nicholas38@example.com.",
+    "annotated_entities": [
+      {
+        "text": "135.146.184.233",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 63
+      },
+      {
+        "text": "nicholas38@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 71,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0281",
+    "raw_text": "Agent spoke with James Burns (maypaul@example.com) regarding account access issue on 2026-02-21.",
+    "annotated_entities": [
+      {
+        "text": "James Burns",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 28
+      },
+      {
+        "text": "maypaul@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 30,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0306",
+    "raw_text": "Callback requested by Megan Romero at 682-651-3534x655. Issue: account access issue.",
+    "annotated_entities": [
+      {
+        "text": "Megan Romero",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "682-651-3534x655",
+        "entity_type": "PHONE_NUMBER",
+        "start": 38,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0332",
+    "raw_text": "IT security log \u2014 credential stuffing detected for megan85@example.net. Source IP: 146.76.164.219.",
+    "annotated_entities": [
+      {
+        "text": "megan85@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 51,
+        "end": 70
+      },
+      {
+        "text": "146.76.164.219",
+        "entity_type": "IP_ADDRESS",
+        "start": 83,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0395",
+    "raw_text": "Firewall blocked 122.190.169.91 after repeated SQL injection attempt attempts. Notified shawphillip@example.net.",
+    "annotated_entities": [
+      {
+        "text": "122.190.169.91",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "text": "shawphillip@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 88,
+        "end": 111
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0025",
+    "raw_text": "Account holder Jay Bernard emailed smoore@example.org disputing invoice #3677 amount of $2055.",
+    "annotated_entities": [
+      {
+        "text": "Jay Bernard",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 26
+      },
+      {
+        "text": "smoore@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 35,
+        "end": 53
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0002",
+    "raw_text": "Finance team received complaint from Allison Hill about duplicate charge on #1409.",
+    "annotated_entities": [
+      {
+        "text": "Allison Hill",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0152",
+    "raw_text": "Dr. Le, MD treated Allison Spencer for anxiety disorder on 2026-03-13.",
+    "annotated_entities": [
+      {
+        "text": "Allison Spencer",
+        "entity_type": "PERSON",
+        "start": 19,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0363",
+    "raw_text": "Ticket #96363: rebeccaarnold@example.net reported credential stuffing. IP address logged: 138.157.46.67.",
+    "annotated_entities": [
+      {
+        "text": "rebeccaarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 40
+      },
+      {
+        "text": "138.157.46.67",
+        "entity_type": "IP_ADDRESS",
+        "start": 90,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0051",
+    "raw_text": "Account holder Jeffery Thompson emailed pwilliams@example.org disputing invoice #9837 amount of $1373.",
+    "annotated_entities": [
+      {
+        "text": "Jeffery Thompson",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 31
+      },
+      {
+        "text": "pwilliams@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 40,
+        "end": 61
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0148",
+    "raw_text": "Medical record: Jessica Martinez, diagnosis type-2 diabetes, appointment 2026-02-15.",
+    "annotated_entities": [
+      {
+        "text": "Jessica Martinez",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 32
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0313",
+    "raw_text": "Jennifer Sanford opened support ticket about delivery failure. Contact: johnsonjames@example.com, 6584300335.",
+    "annotated_entities": [
+      {
+        "text": "Jennifer Sanford",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "johnsonjames@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 72,
+        "end": 96
+      },
+      {
+        "text": "6584300335",
+        "entity_type": "PHONE_NUMBER",
+        "start": 98,
+        "end": 108
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0063",
+    "raw_text": "Finance team received complaint from Gina Beard about duplicate charge on #4750.",
+    "annotated_entities": [
+      {
+        "text": "Gina Beard",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 47
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0110",
+    "raw_text": "Employee record for Gerald Smith: role Manager, salary $99K, office Kimberlyshire.",
+    "annotated_entities": [
+      {
+        "text": "Gerald Smith",
+        "entity_type": "PERSON",
+        "start": 20,
+        "end": 32
+      },
+      {
+        "text": "Kimberlyshire",
+        "entity_type": "LOCATION",
+        "start": 68,
+        "end": 81
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0275",
+    "raw_text": "Toni Brooks opened support ticket about refund request. Contact: rogersmarcus@example.org, 001-667-452-8953x9264.",
+    "annotated_entities": [
+      {
+        "text": "Toni Brooks",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "rogersmarcus@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 65,
+        "end": 89
+      },
+      {
+        "text": "001-667-452-8953x9264",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 112
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0188",
+    "raw_text": "Discharge summary for Jeffrey Fernandez: type-2 diabetes resolved. Next visit 2026-01-11.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Fernandez",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 39
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0104",
+    "raw_text": "Charles Lester joined the Engineering department on 2026-01-01. Located in Lake Robert. Phone: 621-202-0539x502.",
+    "annotated_entities": [
+      {
+        "text": "Charles Lester",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "Lake Robert",
+        "entity_type": "LOCATION",
+        "start": 75,
+        "end": 86
+      },
+      {
+        "text": "621-202-0539x502",
+        "entity_type": "PHONE_NUMBER",
+        "start": 95,
+        "end": 111
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0193",
+    "raw_text": "Patient Cheryl Adams from New Marc requested prescription refill. Ref: +1-583-873-5403x31739.",
+    "annotated_entities": [
+      {
+        "text": "Cheryl Adams",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "text": "New Marc",
+        "entity_type": "LOCATION",
+        "start": 26,
+        "end": 34
+      },
+      {
+        "text": "+1-583-873-5403x31739",
+        "entity_type": "PHONE_NUMBER",
+        "start": 71,
+        "end": 92
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0270",
+    "raw_text": "Steven Osborne emailed xmoreno@example.net with complaint about delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Steven Osborne",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "xmoreno@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 23,
+        "end": 42
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0143",
+    "raw_text": "Patient Stacey Stewart admitted on 2026-03-02. Condition: chronic fatigue syndrome. Contact: 903-845-0541x566.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Stewart",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 22
+      },
+      {
+        "text": "903-845-0541x566",
+        "entity_type": "PHONE_NUMBER",
+        "start": 93,
+        "end": 109
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0360",
+    "raw_text": "Security alert: user rebeccaarnold@example.net triggered credential stuffing from IP 138.157.46.67 on 2026-03-20.",
+    "annotated_entities": [
+      {
+        "text": "rebeccaarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 46
+      },
+      {
+        "text": "138.157.46.67",
+        "entity_type": "IP_ADDRESS",
+        "start": 85,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0099",
+    "raw_text": "Ashley Hall transferred to Watsonside office as Director in Engineering. Contact: 446.812.0047x113.",
+    "annotated_entities": [
+      {
+        "text": "Ashley Hall",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Watsonside",
+        "entity_type": "LOCATION",
+        "start": 27,
+        "end": 37
+      },
+      {
+        "text": "446.812.0047x113",
+        "entity_type": "PHONE_NUMBER",
+        "start": 82,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0177",
+    "raw_text": "Patient Eric Sullivan admitted on 2026-04-08. Condition: type-2 diabetes. Contact: 932.572.7956.",
+    "annotated_entities": [
+      {
+        "text": "Eric Sullivan",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "text": "932.572.7956",
+        "entity_type": "PHONE_NUMBER",
+        "start": 83,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0239",
+    "raw_text": "Correspondence to Carlos Jones regarding case #926097 scheduled in Lake Kaitlin.",
+    "annotated_entities": [
+      {
+        "text": "Carlos Jones",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "text": "Lake Kaitlin",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 79
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0310",
+    "raw_text": "Agent spoke with Jennifer Sanford (johnsonjames@example.com) regarding delivery failure on 2026-03-16.",
+    "annotated_entities": [
+      {
+        "text": "Jennifer Sanford",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 33
+      },
+      {
+        "text": "johnsonjames@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 35,
+        "end": 59
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0083",
+    "raw_text": "Sarah Morgan transferred to Mollybury office as Associate in Finance. Contact: 001-872-978-7558.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Morgan",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Mollybury",
+        "entity_type": "LOCATION",
+        "start": 28,
+        "end": 37
+      },
+      {
+        "text": "001-872-978-7558",
+        "entity_type": "PHONE_NUMBER",
+        "start": 79,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0066",
+    "raw_text": "Invoice #4750 raised by Gina Beard. Payment card 4744431351823372 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Gina Beard",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 34
+      },
+      {
+        "text": "4744431351823372",
+        "entity_type": "CREDIT_CARD",
+        "start": 49,
+        "end": 65
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0255",
+    "raw_text": "Douglas Kirk retained Howe-Long LLP for case #557058 proceedings. Contact: 294-893-7597x3832.",
+    "annotated_entities": [
+      {
+        "text": "Douglas Kirk",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "294-893-7597x3832",
+        "entity_type": "PHONE_NUMBER",
+        "start": 75,
+        "end": 92
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0069",
+    "raw_text": "Onboarding document for Margaret Mullins. Department: Legal. Start date: 2026-01-20.",
+    "annotated_entities": [
+      {
+        "text": "Margaret Mullins",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 40
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0064",
+    "raw_text": "Account holder Gina Beard emailed blackjames@example.org disputing invoice #4750 amount of $532.",
+    "annotated_entities": [
+      {
+        "text": "Gina Beard",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 25
+      },
+      {
+        "text": "blackjames@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 34,
+        "end": 56
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0277",
+    "raw_text": "Heather Bennett emailed franciscojones@example.org with complaint about service outage.",
+    "annotated_entities": [
+      {
+        "text": "Heather Bennett",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "franciscojones@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 24,
+        "end": 50
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0009",
+    "raw_text": "Invoice #1434 raised by Mark Diaz. Payment card 4767242388496963 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Mark Diaz",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 33
+      },
+      {
+        "text": "4767242388496963",
+        "entity_type": "CREDIT_CARD",
+        "start": 48,
+        "end": 64
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0342",
+    "raw_text": "Admin smithjohn@example.net reset password following SQL injection attempt. Phone verification: 001-473-359-8933x47212.",
+    "annotated_entities": [
+      {
+        "text": "smithjohn@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 27
+      },
+      {
+        "text": "001-473-359-8933x47212",
+        "entity_type": "PHONE_NUMBER",
+        "start": 96,
+        "end": 118
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0216",
+    "raw_text": "Court filing: Johnson LLC LLP representing Lauren Ferguson, hearing 2026-03-23, West Jeffreyhaven.",
+    "annotated_entities": [
+      {
+        "text": "Lauren Ferguson",
+        "entity_type": "PERSON",
+        "start": 43,
+        "end": 58
+      },
+      {
+        "text": "West Jeffreyhaven",
+        "entity_type": "LOCATION",
+        "start": 80,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0054",
+    "raw_text": "Account holder Sarah Ashley emailed tracynelson@example.com disputing invoice #3060 amount of $4413.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Ashley",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "tracynelson@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 36,
+        "end": 59
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0194",
+    "raw_text": "Cheryl Adams scheduled for follow-up on 2026-01-08 at New Marc clinic. Phone: +1-583-873-5403x31739.",
+    "annotated_entities": [
+      {
+        "text": "Cheryl Adams",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "New Marc",
+        "entity_type": "LOCATION",
+        "start": 54,
+        "end": 62
+      },
+      {
+        "text": "+1-583-873-5403x31739",
+        "entity_type": "PHONE_NUMBER",
+        "start": 78,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0221",
+    "raw_text": "Law firm Thomas, Price and Carlson LLP filed motion on behalf of Megan Martin in case #147726. Phone: 836.822.6609x379.",
+    "annotated_entities": [
+      {
+        "text": "Megan Martin",
+        "entity_type": "PERSON",
+        "start": 65,
+        "end": 77
+      },
+      {
+        "text": "836.822.6609x379",
+        "entity_type": "PHONE_NUMBER",
+        "start": 102,
+        "end": 118
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0016",
+    "raw_text": "Account holder Kimberly Adams emailed cartereric@example.org disputing invoice #7224 amount of $809.",
+    "annotated_entities": [
+      {
+        "text": "Kimberly Adams",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 29
+      },
+      {
+        "text": "cartereric@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 38,
+        "end": 60
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0248",
+    "raw_text": "Case #870214 \u2014 Carla Benton (plaintiff) vs Jarvis, Finley and Jones LLP. Hearing on 2026-04-12 in Dixonton.",
+    "annotated_entities": [
+      {
+        "text": "Carla Benton",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "Dixonton",
+        "entity_type": "LOCATION",
+        "start": 98,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0385",
+    "raw_text": "Firewall blocked 153.242.232.158 after repeated port scan attempts. Notified mgonzales@example.net.",
+    "annotated_entities": [
+      {
+        "text": "153.242.232.158",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "text": "mgonzales@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 77,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0371",
+    "raw_text": "Firewall blocked 211.194.177.197 after repeated SQL injection attempt attempts. Notified cindydixon@example.org.",
+    "annotated_entities": [
+      {
+        "text": "211.194.177.197",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "text": "cindydixon@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 89,
+        "end": 111
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0015",
+    "raw_text": "Invoice #7224 raised by Kimberly Adams. Payment card 4039117182278241 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Kimberly Adams",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 38
+      },
+      {
+        "text": "4039117182278241",
+        "entity_type": "CREDIT_CARD",
+        "start": 53,
+        "end": 69
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0207",
+    "raw_text": "Law firm Brown Group LLP filed motion on behalf of Katherine Kelly DVM in case #612311. Phone: 001-394-231-1426x26551.",
+    "annotated_entities": [
+      {
+        "text": "Katherine Kelly DVM",
+        "entity_type": "PERSON",
+        "start": 51,
+        "end": 70
+      },
+      {
+        "text": "001-394-231-1426x26551",
+        "entity_type": "PHONE_NUMBER",
+        "start": 95,
+        "end": 117
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0068",
+    "raw_text": "Margaret Mullins joined the Legal department on 2026-01-20. Located in North Angela. Phone: 620-347-1167x19022.",
+    "annotated_entities": [
+      {
+        "text": "Margaret Mullins",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "North Angela",
+        "entity_type": "LOCATION",
+        "start": 71,
+        "end": 83
+      },
+      {
+        "text": "620-347-1167x19022",
+        "entity_type": "PHONE_NUMBER",
+        "start": 92,
+        "end": 110
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0291",
+    "raw_text": "Agent spoke with Renee Miller (rarnold@example.net) regarding product defect on 2026-04-19.",
+    "annotated_entities": [
+      {
+        "text": "Renee Miller",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "rarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 31,
+        "end": 50
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0071",
+    "raw_text": "Margaret Mullins transferred to North Angela office as Engineer in Legal. Contact: 620-347-1167x19022.",
+    "annotated_entities": [
+      {
+        "text": "Margaret Mullins",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "North Angela",
+        "entity_type": "LOCATION",
+        "start": 32,
+        "end": 44
+      },
+      {
+        "text": "620-347-1167x19022",
+        "entity_type": "PHONE_NUMBER",
+        "start": 83,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0266",
+    "raw_text": "Callback requested by Steven Osborne at 821.733.4803. Issue: delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Steven Osborne",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 36
+      },
+      {
+        "text": "821.733.4803",
+        "entity_type": "PHONE_NUMBER",
+        "start": 40,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0028",
+    "raw_text": "Invoice #3677 raised by Jay Bernard. Payment card 4193990916998546 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Jay Bernard",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 35
+      },
+      {
+        "text": "4193990916998546",
+        "entity_type": "CREDIT_CARD",
+        "start": 50,
+        "end": 66
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0249",
+    "raw_text": "Legal notice sent to Carla Benton by Jarvis, Finley and Jones LLP. Case reference #870214.",
+    "annotated_entities": [
+      {
+        "text": "Carla Benton",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0003",
+    "raw_text": "Invoice #1409 raised by Allison Hill. Payment card 4654235116155949 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Allison Hill",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      },
+      {
+        "text": "4654235116155949",
+        "entity_type": "CREDIT_CARD",
+        "start": 51,
+        "end": 67
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0123",
+    "raw_text": "HR update: Madison Weber promoted to Manager in Engineering, effective 2026-03-03.",
+    "annotated_entities": [
+      {
+        "text": "Madison Weber",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 24
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0001",
+    "raw_text": "Allison Hill submitted a billing dispute for invoice #1409 on 2026-02-13. Email: jillrhodes@example.net.",
+    "annotated_entities": [
+      {
+        "text": "Allison Hill",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "jillrhodes@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 81,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0327",
+    "raw_text": "Callback requested by Kelly Watts at (362)989-0028x772. Issue: account access issue.",
+    "annotated_entities": [
+      {
+        "text": "Kelly Watts",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 33
+      },
+      {
+        "text": "(362)989-0028x772",
+        "entity_type": "PHONE_NUMBER",
+        "start": 37,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0202",
+    "raw_text": "Case #452737 \u2014 Elizabeth Clayton (plaintiff) vs Johnson-Nelson LLP. Hearing on 2026-01-16 in Brandonland.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Clayton",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 32
+      },
+      {
+        "text": "Brandonland",
+        "entity_type": "LOCATION",
+        "start": 93,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0117",
+    "raw_text": "Jeffrey Anderson MD joined the HR department on 2026-02-14. Located in Collierstad. Phone: 715.496.9664x160.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Anderson MD",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 19
+      },
+      {
+        "text": "Collierstad",
+        "entity_type": "LOCATION",
+        "start": 71,
+        "end": 82
+      },
+      {
+        "text": "715.496.9664x160",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 107
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0388",
+    "raw_text": "Ticket #89822: olsonjonathan@example.com reported SQL injection attempt. IP address logged: 45.252.252.202.",
+    "annotated_entities": [
+      {
+        "text": "olsonjonathan@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 40
+      },
+      {
+        "text": "45.252.252.202",
+        "entity_type": "IP_ADDRESS",
+        "start": 92,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0158",
+    "raw_text": "Patient Angela Fry admitted on 2026-04-22. Condition: migraine disorder. Contact: +1-407-984-4736x4710.",
+    "annotated_entities": [
+      {
+        "text": "Angela Fry",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 18
+      },
+      {
+        "text": "+1-407-984-4736x4710",
+        "entity_type": "PHONE_NUMBER",
+        "start": 82,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0111",
+    "raw_text": "Performance review \u2014 Gerald Smith, Manager. Location: Kimberlyshire. Phone: 7186366752.",
+    "annotated_entities": [
+      {
+        "text": "Gerald Smith",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Kimberlyshire",
+        "entity_type": "LOCATION",
+        "start": 54,
+        "end": 67
+      },
+      {
+        "text": "7186366752",
+        "entity_type": "PHONE_NUMBER",
+        "start": 76,
+        "end": 86
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0138",
+    "raw_text": "Patient Jenny Parsons admitted on 2026-02-16. Condition: migraine disorder. Contact: +1-671-817-9808x932.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Parsons",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "text": "+1-671-817-9808x932",
+        "entity_type": "PHONE_NUMBER",
+        "start": 85,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0175",
+    "raw_text": "Dr. Green, MD treated Stephen Thompson for migraine disorder on 2026-01-08.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Thompson",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 38
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0196",
+    "raw_text": "Patient Nathaniel Singh MD from North Jeffery requested prescription refill. Ref: +1-508-301-0062.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Singh MD",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 26
+      },
+      {
+        "text": "North Jeffery",
+        "entity_type": "LOCATION",
+        "start": 32,
+        "end": 45
+      },
+      {
+        "text": "+1-508-301-0062",
+        "entity_type": "PHONE_NUMBER",
+        "start": 82,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0243",
+    "raw_text": "Case #723948 \u2014 Stephen Smith (plaintiff) vs Yang, Wilson and Zimmerman LLP. Hearing on 2026-03-12 in Port Raymondport.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Smith",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 28
+      },
+      {
+        "text": "Port Raymondport",
+        "entity_type": "LOCATION",
+        "start": 101,
+        "end": 117
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0211",
+    "raw_text": "Legal notice sent to Elijah Patton by Henderson, Bennett and Cole LLP. Case reference #656711.",
+    "annotated_entities": [
+      {
+        "text": "Elijah Patton",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0018",
+    "raw_text": "Dispute filed by Mark Perez (chad34@example.net) regarding invoice #1750 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Mark Perez",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 27
+      },
+      {
+        "text": "chad34@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 29,
+        "end": 47
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0019",
+    "raw_text": "Customer Mark Perez contacted finance about overcharge on invoice #1750. Card: 4651333872624738.",
+    "annotated_entities": [
+      {
+        "text": "Mark Perez",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 19
+      },
+      {
+        "text": "4651333872624738",
+        "entity_type": "CREDIT_CARD",
+        "start": 79,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0128",
+    "raw_text": "Onboarding document for Nathaniel Douglas. Department: Sales. Start date: 2026-01-30.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Douglas",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 41
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0222",
+    "raw_text": "Correspondence to Megan Martin regarding case #147726 scheduled in Lake Jasonview.",
+    "annotated_entities": [
+      {
+        "text": "Megan Martin",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "text": "Lake Jasonview",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 81
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0084",
+    "raw_text": "Employee record for Mark Mccall: role Manager, salary $146K, office New Robert.",
+    "annotated_entities": [
+      {
+        "text": "Mark Mccall",
+        "entity_type": "PERSON",
+        "start": 20,
+        "end": 31
+      },
+      {
+        "text": "New Robert",
+        "entity_type": "LOCATION",
+        "start": 68,
+        "end": 78
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0092",
+    "raw_text": "Performance review \u2014 Edward Lyons, Analyst. Location: Johnsonstad. Phone: 001-209-674-3953x39421.",
+    "annotated_entities": [
+      {
+        "text": "Edward Lyons",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Johnsonstad",
+        "entity_type": "LOCATION",
+        "start": 54,
+        "end": 65
+      },
+      {
+        "text": "001-209-674-3953x39421",
+        "entity_type": "PHONE_NUMBER",
+        "start": 74,
+        "end": 96
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0250",
+    "raw_text": "Correspondence to Carla Benton regarding case #870214 scheduled in Dixonton.",
+    "annotated_entities": [
+      {
+        "text": "Carla Benton",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "text": "Dixonton",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 75
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0013",
+    "raw_text": "Finance team received complaint from Kimberly Adams about duplicate charge on #7224.",
+    "annotated_entities": [
+      {
+        "text": "Kimberly Adams",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 51
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0352",
+    "raw_text": "Firewall blocked 190.1.113.104 after repeated port scan attempts. Notified ystewart@example.net.",
+    "annotated_entities": [
+      {
+        "text": "190.1.113.104",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "text": "ystewart@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 75,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0004",
+    "raw_text": "Account holder Allison Hill emailed jillrhodes@example.net disputing invoice #1409 amount of $962.",
+    "annotated_entities": [
+      {
+        "text": "Allison Hill",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "jillrhodes@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 36,
+        "end": 58
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0307",
+    "raw_text": "Agent spoke with Megan Romero (kellyruiz@example.net) regarding account access issue on 2026-02-03.",
+    "annotated_entities": [
+      {
+        "text": "Megan Romero",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "kellyruiz@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 31,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0126",
+    "raw_text": "Nathaniel Douglas transferred to Kyleborough office as Engineer in Sales. Contact: +1-762-291-4865x2816.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Douglas",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 17
+      },
+      {
+        "text": "Kyleborough",
+        "entity_type": "LOCATION",
+        "start": 33,
+        "end": 44
+      },
+      {
+        "text": "+1-762-291-4865x2816",
+        "entity_type": "PHONE_NUMBER",
+        "start": 83,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0367",
+    "raw_text": "Admin nicholas38@example.com reset password following SQL injection attempt. Phone verification: (657)579-0827x231.",
+    "annotated_entities": [
+      {
+        "text": "nicholas38@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 28
+      },
+      {
+        "text": "(657)579-0827x231",
+        "entity_type": "PHONE_NUMBER",
+        "start": 97,
+        "end": 114
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0164",
+    "raw_text": "Dr. Bernard, MD treated Kim Erickson for hypertension on 2026-02-28.",
+    "annotated_entities": [
+      {
+        "text": "Kim Erickson",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0031",
+    "raw_text": "Dispute filed by Jaclyn Moore (cheryl80@example.net) regarding invoice #4483 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Jaclyn Moore",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "cheryl80@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 31,
+        "end": 51
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0048",
+    "raw_text": "Customer Jeffery Thompson contacted finance about overcharge on invoice #9837. Card: 4347143455812232.",
+    "annotated_entities": [
+      {
+        "text": "Jeffery Thompson",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 25
+      },
+      {
+        "text": "4347143455812232",
+        "entity_type": "CREDIT_CARD",
+        "start": 85,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0151",
+    "raw_text": "Patient Allison Spencer admitted on 2026-03-13. Condition: anxiety disorder. Contact: +1-711-346-7866x912.",
+    "annotated_entities": [
+      {
+        "text": "Allison Spencer",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 23
+      },
+      {
+        "text": "+1-711-346-7866x912",
+        "entity_type": "PHONE_NUMBER",
+        "start": 86,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0330",
+    "raw_text": "Michelle Cox opened support ticket about refund request. Contact: davisdonna@example.org, 554-588-5102x72614.",
+    "annotated_entities": [
+      {
+        "text": "Michelle Cox",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "davisdonna@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 66,
+        "end": 88
+      },
+      {
+        "text": "554-588-5102x72614",
+        "entity_type": "PHONE_NUMBER",
+        "start": 90,
+        "end": 108
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0245",
+    "raw_text": "Court filing: Yang, Wilson and Zimmerman LLP representing Stephen Smith, hearing 2026-03-12, Port Raymondport.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Smith",
+        "entity_type": "PERSON",
+        "start": 58,
+        "end": 71
+      },
+      {
+        "text": "Port Raymondport",
+        "entity_type": "LOCATION",
+        "start": 93,
+        "end": 109
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0107",
+    "raw_text": "Performance review \u2014 Larry Garcia, Engineer. Location: Davisstad. Phone: 376-361-5654x52711.",
+    "annotated_entities": [
+      {
+        "text": "Larry Garcia",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "Davisstad",
+        "entity_type": "LOCATION",
+        "start": 55,
+        "end": 64
+      },
+      {
+        "text": "376-361-5654x52711",
+        "entity_type": "PHONE_NUMBER",
+        "start": 73,
+        "end": 91
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0007",
+    "raw_text": "Mark Diaz submitted a billing dispute for invoice #1434 on 2026-03-13. Email: jason41@example.net.",
+    "annotated_entities": [
+      {
+        "text": "Mark Diaz",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "jason41@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 78,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0312",
+    "raw_text": "Support request from Jennifer Sanford (johnsonjames@example.com): delivery failure. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Jennifer Sanford",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 37
+      },
+      {
+        "text": "johnsonjames@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 39,
+        "end": 63
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0394",
+    "raw_text": "Security alert: user shawphillip@example.net triggered SQL injection attempt from IP 122.190.169.91 on 2026-04-16.",
+    "annotated_entities": [
+      {
+        "text": "shawphillip@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 44
+      },
+      {
+        "text": "122.190.169.91",
+        "entity_type": "IP_ADDRESS",
+        "start": 85,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0057",
+    "raw_text": "Account holder Lawrence Adkins emailed tamirodriguez@example.org disputing invoice #8177 amount of $3109.",
+    "annotated_entities": [
+      {
+        "text": "Lawrence Adkins",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 30
+      },
+      {
+        "text": "tamirodriguez@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 39,
+        "end": 64
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0217",
+    "raw_text": "Legal notice sent to Lauren Ferguson by Johnson LLC LLP. Case reference #874483.",
+    "annotated_entities": [
+      {
+        "text": "Lauren Ferguson",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0112",
+    "raw_text": "Gerald Smith joined the Engineering department on 2026-01-28. Located in Kimberlyshire. Phone: 7186366752.",
+    "annotated_entities": [
+      {
+        "text": "Gerald Smith",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Kimberlyshire",
+        "entity_type": "LOCATION",
+        "start": 73,
+        "end": 86
+      },
+      {
+        "text": "7186366752",
+        "entity_type": "PHONE_NUMBER",
+        "start": 95,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0304",
+    "raw_text": "Megan Romero emailed kellyruiz@example.net with complaint about account access issue.",
+    "annotated_entities": [
+      {
+        "text": "Megan Romero",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "kellyruiz@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 42
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0336",
+    "raw_text": "Firewall blocked 146.76.164.219 after repeated credential stuffing attempts. Notified megan85@example.net.",
+    "annotated_entities": [
+      {
+        "text": "146.76.164.219",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "text": "megan85@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 86,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0116",
+    "raw_text": "HR update: Jeffrey Anderson MD promoted to Director in HR, effective 2026-02-14.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Anderson MD",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 30
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0070",
+    "raw_text": "Employee record for Margaret Mullins: role Engineer, salary $114K, office North Angela.",
+    "annotated_entities": [
+      {
+        "text": "Margaret Mullins",
+        "entity_type": "PERSON",
+        "start": 20,
+        "end": 36
+      },
+      {
+        "text": "North Angela",
+        "entity_type": "LOCATION",
+        "start": 74,
+        "end": 86
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0154",
+    "raw_text": "Discharge summary for Angela Fry: migraine disorder resolved. Next visit 2026-04-22.",
+    "annotated_entities": [
+      {
+        "text": "Angela Fry",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 32
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0301",
+    "raw_text": "Melanie Wells opened support ticket about delivery failure. Contact: carolynsmith@example.com, +1-844-366-5743x748.",
+    "annotated_entities": [
+      {
+        "text": "Melanie Wells",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "carolynsmith@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 69,
+        "end": 93
+      },
+      {
+        "text": "+1-844-366-5743x748",
+        "entity_type": "PHONE_NUMBER",
+        "start": 95,
+        "end": 114
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0298",
+    "raw_text": "Melanie Wells emailed carolynsmith@example.com with complaint about delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Melanie Wells",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "carolynsmith@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 22,
+        "end": 46
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0283",
+    "raw_text": "Callback requested by James Burns at (452)370-4774x3490. Issue: account access issue.",
+    "annotated_entities": [
+      {
+        "text": "James Burns",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 33
+      },
+      {
+        "text": "(452)370-4774x3490",
+        "entity_type": "PHONE_NUMBER",
+        "start": 37,
+        "end": 55
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0133",
+    "raw_text": "Jenny Parsons scheduled for follow-up on 2026-02-16 at New Michaelshire clinic. Phone: +1-671-817-9808x932.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Parsons",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "New Michaelshire",
+        "entity_type": "LOCATION",
+        "start": 55,
+        "end": 71
+      },
+      {
+        "text": "+1-671-817-9808x932",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0263",
+    "raw_text": "Correspondence to Angela Osborn regarding case #296694 scheduled in Thompsonborough.",
+    "annotated_entities": [
+      {
+        "text": "Angela Osborn",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 31
+      },
+      {
+        "text": "Thompsonborough",
+        "entity_type": "LOCATION",
+        "start": 68,
+        "end": 83
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0142",
+    "raw_text": "Medical record: Stacey Stewart, diagnosis chronic fatigue syndrome, appointment 2026-03-02.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Stewart",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 30
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0096",
+    "raw_text": "Performance review \u2014 Ashley Hall, Director. Location: Watsonside. Phone: 446.812.0047x113.",
+    "annotated_entities": [
+      {
+        "text": "Ashley Hall",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 32
+      },
+      {
+        "text": "Watsonside",
+        "entity_type": "LOCATION",
+        "start": 54,
+        "end": 64
+      },
+      {
+        "text": "446.812.0047x113",
+        "entity_type": "PHONE_NUMBER",
+        "start": 73,
+        "end": 89
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0124",
+    "raw_text": "Employee record for Madison Weber: role Manager, salary $144K, office New Brookefurt.",
+    "annotated_entities": [
+      {
+        "text": "Madison Weber",
+        "entity_type": "PERSON",
+        "start": 20,
+        "end": 33
+      },
+      {
+        "text": "New Brookefurt",
+        "entity_type": "LOCATION",
+        "start": 70,
+        "end": 84
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0014",
+    "raw_text": "Kimberly Adams submitted a billing dispute for invoice #7224 on 2026-03-08. Email: cartereric@example.org.",
+    "annotated_entities": [
+      {
+        "text": "Kimberly Adams",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "cartereric@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 83,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0065",
+    "raw_text": "Dispute filed by Gina Beard (blackjames@example.org) regarding invoice #4750 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Gina Beard",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 27
+      },
+      {
+        "text": "blackjames@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 29,
+        "end": 51
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0201",
+    "raw_text": "Correspondence to Elizabeth Clayton regarding case #452737 scheduled in Brandonland.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Clayton",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 35
+      },
+      {
+        "text": "Brandonland",
+        "entity_type": "LOCATION",
+        "start": 72,
+        "end": 83
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0052",
+    "raw_text": "Customer Sarah Ashley contacted finance about overcharge on invoice #3060. Card: 4465375564641708.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Ashley",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 21
+      },
+      {
+        "text": "4465375564641708",
+        "entity_type": "CREDIT_CARD",
+        "start": 81,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0184",
+    "raw_text": "Patient Nichole Lane admitted on 2026-01-09. Condition: chronic fatigue syndrome. Contact: 7178046226.",
+    "annotated_entities": [
+      {
+        "text": "Nichole Lane",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "text": "7178046226",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0108",
+    "raw_text": "HR update: Larry Garcia promoted to Engineer in Engineering, effective 2026-01-23.",
+    "annotated_entities": [
+      {
+        "text": "Larry Garcia",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 23
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0136",
+    "raw_text": "Medical record: Jenny Parsons, diagnosis migraine disorder, appointment 2026-02-16.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Parsons",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 29
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0129",
+    "raw_text": "Laura Alexander transferred to Port Ethanmouth office as Director in Finance. Contact: 392.640.7581.",
+    "annotated_entities": [
+      {
+        "text": "Laura Alexander",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "Port Ethanmouth",
+        "entity_type": "LOCATION",
+        "start": 31,
+        "end": 46
+      },
+      {
+        "text": "392.640.7581",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0098",
+    "raw_text": "Ashley Hall joined the Engineering department on 2026-01-05. Located in Watsonside. Phone: 446.812.0047x113.",
+    "annotated_entities": [
+      {
+        "text": "Ashley Hall",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "Watsonside",
+        "entity_type": "LOCATION",
+        "start": 72,
+        "end": 82
+      },
+      {
+        "text": "446.812.0047x113",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 107
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0347",
+    "raw_text": "Firewall blocked 87.255.80.5 after repeated privilege escalation attempts. Notified wbarajas@example.net.",
+    "annotated_entities": [
+      {
+        "text": "87.255.80.5",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 28
+      },
+      {
+        "text": "wbarajas@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 84,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0119",
+    "raw_text": "Onboarding document for Jeffrey Anderson MD. Department: HR. Start date: 2026-02-14.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Anderson MD",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 43
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0324",
+    "raw_text": "Kelly Watts emailed pstanley@example.com with complaint about account access issue.",
+    "annotated_entities": [
+      {
+        "text": "Kelly Watts",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "pstanley@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 20,
+        "end": 40
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0320",
+    "raw_text": "Michael Simmons emailed yorkpamela@example.org with complaint about delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Michael Simmons",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "yorkpamela@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 24,
+        "end": 46
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0095",
+    "raw_text": "Employee record for Edward Lyons: role Analyst, salary $145K, office Johnsonstad.",
+    "annotated_entities": [
+      {
+        "text": "Edward Lyons",
+        "entity_type": "PERSON",
+        "start": 20,
+        "end": 32
+      },
+      {
+        "text": "Johnsonstad",
+        "entity_type": "LOCATION",
+        "start": 69,
+        "end": 80
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0311",
+    "raw_text": "Jennifer Sanford emailed johnsonjames@example.com with complaint about delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Jennifer Sanford",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "johnsonjames@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 25,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0334",
+    "raw_text": "Admin megan85@example.net reset password following credential stuffing. Phone verification: 001-383-733-9452x2885.",
+    "annotated_entities": [
+      {
+        "text": "megan85@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 25
+      },
+      {
+        "text": "001-383-733-9452x2885",
+        "entity_type": "PHONE_NUMBER",
+        "start": 92,
+        "end": 113
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0393",
+    "raw_text": "IT security log \u2014 SQL injection attempt detected for shawphillip@example.net. Source IP: 122.190.169.91.",
+    "annotated_entities": [
+      {
+        "text": "shawphillip@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 53,
+        "end": 76
+      },
+      {
+        "text": "122.190.169.91",
+        "entity_type": "IP_ADDRESS",
+        "start": 89,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0062",
+    "raw_text": "Customer Gina Beard contacted finance about overcharge on invoice #4750. Card: 4744431351823372.",
+    "annotated_entities": [
+      {
+        "text": "Gina Beard",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 19
+      },
+      {
+        "text": "4744431351823372",
+        "entity_type": "CREDIT_CARD",
+        "start": 79,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0137",
+    "raw_text": "Patient Jenny Parsons from New Michaelshire requested prescription refill. Ref: +1-671-817-9808x932.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Parsons",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "text": "New Michaelshire",
+        "entity_type": "LOCATION",
+        "start": 27,
+        "end": 43
+      },
+      {
+        "text": "+1-671-817-9808x932",
+        "entity_type": "PHONE_NUMBER",
+        "start": 80,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0060",
+    "raw_text": "Lawrence Adkins submitted a billing dispute for invoice #8177 on 2026-01-23. Email: tamirodriguez@example.org.",
+    "annotated_entities": [
+      {
+        "text": "Lawrence Adkins",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "tamirodriguez@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 84,
+        "end": 109
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0115",
+    "raw_text": "HR update: Gerald Smith promoted to Manager in Engineering, effective 2026-01-28.",
+    "annotated_entities": [
+      {
+        "text": "Gerald Smith",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 23
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0073",
+    "raw_text": "Onboarding document for Rick Lawrence. Department: Engineering. Start date: 2026-02-08.",
+    "annotated_entities": [
+      {
+        "text": "Rick Lawrence",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 37
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0157",
+    "raw_text": "Patient Angela Fry from Washingtonborough requested prescription refill. Ref: +1-407-984-4736x4710.",
+    "annotated_entities": [
+      {
+        "text": "Angela Fry",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 18
+      },
+      {
+        "text": "Washingtonborough",
+        "entity_type": "LOCATION",
+        "start": 24,
+        "end": 41
+      },
+      {
+        "text": "+1-407-984-4736x4710",
+        "entity_type": "PHONE_NUMBER",
+        "start": 78,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0348",
+    "raw_text": "Ticket #40539: ystewart@example.net reported port scan. IP address logged: 190.1.113.104.",
+    "annotated_entities": [
+      {
+        "text": "ystewart@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 35
+      },
+      {
+        "text": "190.1.113.104",
+        "entity_type": "IP_ADDRESS",
+        "start": 75,
+        "end": 88
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0061",
+    "raw_text": "Invoice #8177 raised by Lawrence Adkins. Payment card 4671657262849877 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Lawrence Adkins",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 39
+      },
+      {
+        "text": "4671657262849877",
+        "entity_type": "CREDIT_CARD",
+        "start": 54,
+        "end": 70
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0264",
+    "raw_text": "Court filing: Johnson PLC LLP representing Angela Osborn, hearing 2026-02-08, Thompsonborough.",
+    "annotated_entities": [
+      {
+        "text": "Angela Osborn",
+        "entity_type": "PERSON",
+        "start": 43,
+        "end": 56
+      },
+      {
+        "text": "Thompsonborough",
+        "entity_type": "LOCATION",
+        "start": 78,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0094",
+    "raw_text": "Edward Lyons transferred to Johnsonstad office as Analyst in Legal. Contact: 001-209-674-3953x39421.",
+    "annotated_entities": [
+      {
+        "text": "Edward Lyons",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Johnsonstad",
+        "entity_type": "LOCATION",
+        "start": 28,
+        "end": 39
+      },
+      {
+        "text": "001-209-674-3953x39421",
+        "entity_type": "PHONE_NUMBER",
+        "start": 77,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0106",
+    "raw_text": "Larry Garcia joined the Engineering department on 2026-01-23. Located in Davisstad. Phone: 376-361-5654x52711.",
+    "annotated_entities": [
+      {
+        "text": "Larry Garcia",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Davisstad",
+        "entity_type": "LOCATION",
+        "start": 73,
+        "end": 82
+      },
+      {
+        "text": "376-361-5654x52711",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 109
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0012",
+    "raw_text": "Account holder Mark Diaz emailed jason41@example.net disputing invoice #1434 amount of $4981.",
+    "annotated_entities": [
+      {
+        "text": "Mark Diaz",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 24
+      },
+      {
+        "text": "jason41@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 33,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0113",
+    "raw_text": "Onboarding document for Gerald Smith. Department: Engineering. Start date: 2026-01-28.",
+    "annotated_entities": [
+      {
+        "text": "Gerald Smith",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0043",
+    "raw_text": "Customer Jeffrey Rush contacted finance about overcharge on invoice #5371. Card: 4773872148951345.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Rush",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 21
+      },
+      {
+        "text": "4773872148951345",
+        "entity_type": "CREDIT_CARD",
+        "start": 81,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0160",
+    "raw_text": "Discharge summary for Jim Allen: type-2 diabetes resolved. Next visit 2026-04-24.",
+    "annotated_entities": [
+      {
+        "text": "Jim Allen",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 31
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0178",
+    "raw_text": "Eric Sullivan scheduled for follow-up on 2026-04-08 at Lake Karen clinic. Phone: 932.572.7956.",
+    "annotated_entities": [
+      {
+        "text": "Eric Sullivan",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "Lake Karen",
+        "entity_type": "LOCATION",
+        "start": 55,
+        "end": 65
+      },
+      {
+        "text": "932.572.7956",
+        "entity_type": "PHONE_NUMBER",
+        "start": 81,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0368",
+    "raw_text": "Ticket #26540: nicholas38@example.com reported SQL injection attempt. IP address logged: 135.146.184.233.",
+    "annotated_entities": [
+      {
+        "text": "nicholas38@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 37
+      },
+      {
+        "text": "135.146.184.233",
+        "entity_type": "IP_ADDRESS",
+        "start": 89,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0042",
+    "raw_text": "Dispute filed by Jeffrey Rush (elizabeth14@example.net) regarding invoice #5371 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Rush",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "elizabeth14@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 31,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0200",
+    "raw_text": "Law firm Johnson-Nelson LLP filed motion on behalf of Elizabeth Clayton in case #452737. Phone: 500.921.7659x1803.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Clayton",
+        "entity_type": "PERSON",
+        "start": 54,
+        "end": 71
+      },
+      {
+        "text": "500.921.7659x1803",
+        "entity_type": "PHONE_NUMBER",
+        "start": 96,
+        "end": 113
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0229",
+    "raw_text": "Gregory Montoya retained Melton Ltd LLP for case #498855 proceedings. Contact: 001-259-762-9233.",
+    "annotated_entities": [
+      {
+        "text": "Gregory Montoya",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "001-259-762-9233",
+        "entity_type": "PHONE_NUMBER",
+        "start": 79,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0234",
+    "raw_text": "Correspondence to William Reid regarding case #678805 scheduled in North Corymouth.",
+    "annotated_entities": [
+      {
+        "text": "William Reid",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "text": "North Corymouth",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 82
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0242",
+    "raw_text": "Correspondence to Stephen Smith regarding case #723948 scheduled in Port Raymondport.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Smith",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 31
+      },
+      {
+        "text": "Port Raymondport",
+        "entity_type": "LOCATION",
+        "start": 68,
+        "end": 84
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0308",
+    "raw_text": "Callback requested by Jennifer Sanford at 6584300335. Issue: delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Jennifer Sanford",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 38
+      },
+      {
+        "text": "6584300335",
+        "entity_type": "PHONE_NUMBER",
+        "start": 42,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0346",
+    "raw_text": "Incident #26011: unauthorised access attempt by 87.255.80.5. User: wbarajas@example.net.",
+    "annotated_entities": [
+      {
+        "text": "87.255.80.5",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 59
+      },
+      {
+        "text": "wbarajas@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 67,
+        "end": 87
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0292",
+    "raw_text": "Support request from Lisa Davis (robinrussell@example.com): delivery failure. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Lisa Davis",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 31
+      },
+      {
+        "text": "robinrussell@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 33,
+        "end": 57
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0381",
+    "raw_text": "Admin mgonzales@example.net reset password following port scan. Phone verification: 443.309.8839x20530.",
+    "annotated_entities": [
+      {
+        "text": "mgonzales@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 27
+      },
+      {
+        "text": "443.309.8839x20530",
+        "entity_type": "PHONE_NUMBER",
+        "start": 84,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0218",
+    "raw_text": "Lauren Ferguson retained Johnson LLC LLP for case #874483 proceedings. Contact: +1-311-235-2909x656.",
+    "annotated_entities": [
+      {
+        "text": "Lauren Ferguson",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "+1-311-235-2909x656",
+        "entity_type": "PHONE_NUMBER",
+        "start": 80,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0376",
+    "raw_text": "Admin jcox@example.com reset password following privilege escalation. Phone verification: +1-994-448-6959x4636.",
+    "annotated_entities": [
+      {
+        "text": "jcox@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 22
+      },
+      {
+        "text": "+1-994-448-6959x4636",
+        "entity_type": "PHONE_NUMBER",
+        "start": 90,
+        "end": 110
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0139",
+    "raw_text": "Discharge summary for Stacey Stewart: chronic fatigue syndrome resolved. Next visit 2026-03-02.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Stewart",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0256",
+    "raw_text": "Law firm Howe-Long LLP filed motion on behalf of Douglas Kirk in case #557058. Phone: 294-893-7597x3832.",
+    "annotated_entities": [
+      {
+        "text": "Douglas Kirk",
+        "entity_type": "PERSON",
+        "start": 49,
+        "end": 61
+      },
+      {
+        "text": "294-893-7597x3832",
+        "entity_type": "PHONE_NUMBER",
+        "start": 86,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0026",
+    "raw_text": "Finance team received complaint from Jay Bernard about duplicate charge on #3677.",
+    "annotated_entities": [
+      {
+        "text": "Jay Bernard",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 48
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0335",
+    "raw_text": "Incident #49608: unauthorised access attempt by 146.76.164.219. User: megan85@example.net.",
+    "annotated_entities": [
+      {
+        "text": "146.76.164.219",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 62
+      },
+      {
+        "text": "megan85@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 70,
+        "end": 89
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0300",
+    "raw_text": "Support request from Melanie Wells (carolynsmith@example.com): delivery failure. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Melanie Wells",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "carolynsmith@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 36,
+        "end": 60
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0296",
+    "raw_text": "Customer Lisa Davis called 001-485-508-2148x62890 to report delivery failure. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Lisa Davis",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 19
+      },
+      {
+        "text": "001-485-508-2148x62890",
+        "entity_type": "PHONE_NUMBER",
+        "start": 27,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0036",
+    "raw_text": "Stacey Russell submitted a billing dispute for invoice #2489 on 2026-01-31. Email: michellecherry@example.org.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Russell",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "michellecherry@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 83,
+        "end": 109
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0058",
+    "raw_text": "Customer Lawrence Adkins contacted finance about overcharge on invoice #8177. Card: 4671657262849877.",
+    "annotated_entities": [
+      {
+        "text": "Lawrence Adkins",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 24
+      },
+      {
+        "text": "4671657262849877",
+        "entity_type": "CREDIT_CARD",
+        "start": 84,
+        "end": 100
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0050",
+    "raw_text": "Invoice #9837 raised by Jeffery Thompson. Payment card 4347143455812232 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Jeffery Thompson",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 40
+      },
+      {
+        "text": "4347143455812232",
+        "entity_type": "CREDIT_CARD",
+        "start": 55,
+        "end": 71
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0357",
+    "raw_text": "Ticket #12068: enewman@example.com reported privilege escalation. IP address logged: 147.144.47.238.",
+    "annotated_entities": [
+      {
+        "text": "enewman@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 34
+      },
+      {
+        "text": "147.144.47.238",
+        "entity_type": "IP_ADDRESS",
+        "start": 85,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0293",
+    "raw_text": "Lisa Davis opened support ticket about delivery failure. Contact: robinrussell@example.com, 001-485-508-2148x62890.",
+    "annotated_entities": [
+      {
+        "text": "Lisa Davis",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "robinrussell@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 66,
+        "end": 90
+      },
+      {
+        "text": "001-485-508-2148x62890",
+        "entity_type": "PHONE_NUMBER",
+        "start": 92,
+        "end": 114
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0365",
+    "raw_text": "Firewall blocked 135.146.184.233 after repeated SQL injection attempt attempts. Notified nicholas38@example.com.",
+    "annotated_entities": [
+      {
+        "text": "135.146.184.233",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "text": "nicholas38@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 89,
+        "end": 111
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0358",
+    "raw_text": "Admin enewman@example.com reset password following privilege escalation. Phone verification: +1-314-513-9755x23149.",
+    "annotated_entities": [
+      {
+        "text": "enewman@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 25
+      },
+      {
+        "text": "+1-314-513-9755x23149",
+        "entity_type": "PHONE_NUMBER",
+        "start": 93,
+        "end": 114
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0377",
+    "raw_text": "Security alert: user jcox@example.com triggered privilege escalation from IP 122.116.6.136 on 2026-03-03.",
+    "annotated_entities": [
+      {
+        "text": "jcox@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 37
+      },
+      {
+        "text": "122.116.6.136",
+        "entity_type": "IP_ADDRESS",
+        "start": 77,
+        "end": 90
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0282",
+    "raw_text": "James Burns emailed maypaul@example.com with complaint about account access issue.",
+    "annotated_entities": [
+      {
+        "text": "James Burns",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "maypaul@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 20,
+        "end": 39
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0212",
+    "raw_text": "Elijah Patton retained Henderson, Bennett and Cole LLP for case #656711 proceedings. Contact: 871.724.0659.",
+    "annotated_entities": [
+      {
+        "text": "Elijah Patton",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "871.724.0659",
+        "entity_type": "PHONE_NUMBER",
+        "start": 94,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0005",
+    "raw_text": "Dispute filed by Allison Hill (jillrhodes@example.net) regarding invoice #1409 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Allison Hill",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "jillrhodes@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 31,
+        "end": 53
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0093",
+    "raw_text": "Onboarding document for Edward Lyons. Department: Legal. Start date: 2026-01-05.",
+    "annotated_entities": [
+      {
+        "text": "Edward Lyons",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0131",
+    "raw_text": "Laura Alexander joined the Finance department on 2026-02-24. Located in Port Ethanmouth. Phone: 392.640.7581.",
+    "annotated_entities": [
+      {
+        "text": "Laura Alexander",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "Port Ethanmouth",
+        "entity_type": "LOCATION",
+        "start": 72,
+        "end": 87
+      },
+      {
+        "text": "392.640.7581",
+        "entity_type": "PHONE_NUMBER",
+        "start": 96,
+        "end": 108
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0109",
+    "raw_text": "Larry Garcia transferred to Davisstad office as Engineer in Engineering. Contact: 376-361-5654x52711.",
+    "annotated_entities": [
+      {
+        "text": "Larry Garcia",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Davisstad",
+        "entity_type": "LOCATION",
+        "start": 28,
+        "end": 37
+      },
+      {
+        "text": "376-361-5654x52711",
+        "entity_type": "PHONE_NUMBER",
+        "start": 82,
+        "end": 100
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0223",
+    "raw_text": "Case #147726 \u2014 Megan Martin (plaintiff) vs Thomas, Price and Carlson LLP. Hearing on 2026-02-17 in Lake Jasonview.",
+    "annotated_entities": [
+      {
+        "text": "Megan Martin",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "Lake Jasonview",
+        "entity_type": "LOCATION",
+        "start": 99,
+        "end": 113
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0373",
+    "raw_text": "Incident #64239: unauthorised access attempt by 211.194.177.197. User: cindydixon@example.org.",
+    "annotated_entities": [
+      {
+        "text": "211.194.177.197",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 63
+      },
+      {
+        "text": "cindydixon@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 71,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0024",
+    "raw_text": "Customer Jay Bernard contacted finance about overcharge on invoice #3677. Card: 4193990916998546.",
+    "annotated_entities": [
+      {
+        "text": "Jay Bernard",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "4193990916998546",
+        "entity_type": "CREDIT_CARD",
+        "start": 80,
+        "end": 96
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0135",
+    "raw_text": "Dr. Brown, MD treated Jenny Parsons for migraine disorder on 2026-02-16.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Parsons",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 35
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0280",
+    "raw_text": "Customer Heather Bennett called 705-941-1526x2181 to report service outage. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Heather Bennett",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 24
+      },
+      {
+        "text": "705-941-1526x2181",
+        "entity_type": "PHONE_NUMBER",
+        "start": 32,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0190",
+    "raw_text": "Patient Cheryl Adams admitted on 2026-01-08. Condition: chronic fatigue syndrome. Contact: +1-583-873-5403x31739.",
+    "annotated_entities": [
+      {
+        "text": "Cheryl Adams",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "text": "+1-583-873-5403x31739",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 112
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0213",
+    "raw_text": "Law firm Henderson, Bennett and Cole LLP filed motion on behalf of Elijah Patton in case #656711. Phone: 871.724.0659.",
+    "annotated_entities": [
+      {
+        "text": "Elijah Patton",
+        "entity_type": "PERSON",
+        "start": 67,
+        "end": 80
+      },
+      {
+        "text": "871.724.0659",
+        "entity_type": "PHONE_NUMBER",
+        "start": 105,
+        "end": 117
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0337",
+    "raw_text": "Ticket #95841: smithjohn@example.net reported SQL injection attempt. IP address logged: 2.133.48.41.",
+    "annotated_entities": [
+      {
+        "text": "smithjohn@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 36
+      },
+      {
+        "text": "2.133.48.41",
+        "entity_type": "IP_ADDRESS",
+        "start": 88,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0340",
+    "raw_text": "Security alert: user smithjohn@example.net triggered SQL injection attempt from IP 2.133.48.41 on 2026-04-18.",
+    "annotated_entities": [
+      {
+        "text": "smithjohn@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 42
+      },
+      {
+        "text": "2.133.48.41",
+        "entity_type": "IP_ADDRESS",
+        "start": 83,
+        "end": 94
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0033",
+    "raw_text": "Account holder Jaclyn Moore emailed cheryl80@example.net disputing invoice #4483 amount of $2627.",
+    "annotated_entities": [
+      {
+        "text": "Jaclyn Moore",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "cheryl80@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 36,
+        "end": 56
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0209",
+    "raw_text": "Katherine Kelly DVM retained Brown Group LLP for case #612311 proceedings. Contact: 001-394-231-1426x26551.",
+    "annotated_entities": [
+      {
+        "text": "Katherine Kelly DVM",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 19
+      },
+      {
+        "text": "001-394-231-1426x26551",
+        "entity_type": "PHONE_NUMBER",
+        "start": 84,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0085",
+    "raw_text": "Onboarding document for Mark Mccall. Department: Sales. Start date: 2026-02-14.",
+    "annotated_entities": [
+      {
+        "text": "Mark Mccall",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 35
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0351",
+    "raw_text": "Security alert: user ystewart@example.net triggered port scan from IP 190.1.113.104 on 2026-03-20.",
+    "annotated_entities": [
+      {
+        "text": "ystewart@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 41
+      },
+      {
+        "text": "190.1.113.104",
+        "entity_type": "IP_ADDRESS",
+        "start": 70,
+        "end": 83
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0389",
+    "raw_text": "Incident #89822: unauthorised access attempt by 45.252.252.202. User: olsonjonathan@example.com.",
+    "annotated_entities": [
+      {
+        "text": "45.252.252.202",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 62
+      },
+      {
+        "text": "olsonjonathan@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 70,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0288",
+    "raw_text": "Renee Miller opened support ticket about product defect. Contact: rarnold@example.net, 309.398.6162x299.",
+    "annotated_entities": [
+      {
+        "text": "Renee Miller",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "rarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 66,
+        "end": 85
+      },
+      {
+        "text": "309.398.6162x299",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0144",
+    "raw_text": "Jessica Martinez scheduled for follow-up on 2026-02-15 at Debrabury clinic. Phone: (775)857-1928.",
+    "annotated_entities": [
+      {
+        "text": "Jessica Martinez",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "Debrabury",
+        "entity_type": "LOCATION",
+        "start": 58,
+        "end": 67
+      },
+      {
+        "text": "(775)857-1928",
+        "entity_type": "PHONE_NUMBER",
+        "start": 83,
+        "end": 96
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0240",
+    "raw_text": "Case #926097 \u2014 Carlos Jones (plaintiff) vs Porter PLC LLP. Hearing on 2026-03-16 in Lake Kaitlin.",
+    "annotated_entities": [
+      {
+        "text": "Carlos Jones",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "Lake Kaitlin",
+        "entity_type": "LOCATION",
+        "start": 84,
+        "end": 96
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0318",
+    "raw_text": "Customer Michael Simmons called (725)457-9415 to report delivery failure. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Michael Simmons",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 24
+      },
+      {
+        "text": "(725)457-9415",
+        "entity_type": "PHONE_NUMBER",
+        "start": 32,
+        "end": 45
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0387",
+    "raw_text": "Security alert: user olsonjonathan@example.com triggered SQL injection attempt from IP 45.252.252.202 on 2026-03-31.",
+    "annotated_entities": [
+      {
+        "text": "olsonjonathan@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 46
+      },
+      {
+        "text": "45.252.252.202",
+        "entity_type": "IP_ADDRESS",
+        "start": 87,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0153",
+    "raw_text": "Patient Allison Spencer from Owenshaven requested prescription refill. Ref: +1-711-346-7866x912.",
+    "annotated_entities": [
+      {
+        "text": "Allison Spencer",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 23
+      },
+      {
+        "text": "Owenshaven",
+        "entity_type": "LOCATION",
+        "start": 29,
+        "end": 39
+      },
+      {
+        "text": "+1-711-346-7866x912",
+        "entity_type": "PHONE_NUMBER",
+        "start": 76,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0261",
+    "raw_text": "Court filing: Pace, Miller and Willis LLP representing Erika Chavez, hearing 2026-02-15, Parkerview.",
+    "annotated_entities": [
+      {
+        "text": "Erika Chavez",
+        "entity_type": "PERSON",
+        "start": 55,
+        "end": 67
+      },
+      {
+        "text": "Parkerview",
+        "entity_type": "LOCATION",
+        "start": 89,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0101",
+    "raw_text": "Charles Lester transferred to Lake Robert office as Engineer in Engineering. Contact: 621-202-0539x502.",
+    "annotated_entities": [
+      {
+        "text": "Charles Lester",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "Lake Robert",
+        "entity_type": "LOCATION",
+        "start": 30,
+        "end": 41
+      },
+      {
+        "text": "621-202-0539x502",
+        "entity_type": "PHONE_NUMBER",
+        "start": 86,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0286",
+    "raw_text": "Renee Miller emailed rarnold@example.net with complaint about product defect.",
+    "annotated_entities": [
+      {
+        "text": "Renee Miller",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "rarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 40
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0338",
+    "raw_text": "Firewall blocked 2.133.48.41 after repeated SQL injection attempt attempts. Notified smithjohn@example.net.",
+    "annotated_entities": [
+      {
+        "text": "2.133.48.41",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 28
+      },
+      {
+        "text": "smithjohn@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 85,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0168",
+    "raw_text": "Discharge summary for Kim Erickson: hypertension resolved. Next visit 2026-02-28.",
+    "annotated_entities": [
+      {
+        "text": "Kim Erickson",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0080",
+    "raw_text": "Sarah Morgan joined the Finance department on 2026-04-09. Located in Mollybury. Phone: 001-872-978-7558.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Morgan",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Mollybury",
+        "entity_type": "LOCATION",
+        "start": 69,
+        "end": 78
+      },
+      {
+        "text": "001-872-978-7558",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0396",
+    "raw_text": "Incident #79531: unauthorised access attempt by 122.190.169.91. User: shawphillip@example.net.",
+    "annotated_entities": [
+      {
+        "text": "122.190.169.91",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 62
+      },
+      {
+        "text": "shawphillip@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 70,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0235",
+    "raw_text": "Legal notice sent to William Reid by Montoya-Mcneil LLP. Case reference #678805.",
+    "annotated_entities": [
+      {
+        "text": "William Reid",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0386",
+    "raw_text": "Admin olsonjonathan@example.com reset password following SQL injection attempt. Phone verification: +1-833-756-5880x4341.",
+    "annotated_entities": [
+      {
+        "text": "olsonjonathan@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 31
+      },
+      {
+        "text": "+1-833-756-5880x4341",
+        "entity_type": "PHONE_NUMBER",
+        "start": 100,
+        "end": 120
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0170",
+    "raw_text": "Patient Elizabeth Roberts from Douglasfort requested prescription refill. Ref: 001-344-719-8665x2404.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Roberts",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 25
+      },
+      {
+        "text": "Douglasfort",
+        "entity_type": "LOCATION",
+        "start": 31,
+        "end": 42
+      },
+      {
+        "text": "001-344-719-8665x2404",
+        "entity_type": "PHONE_NUMBER",
+        "start": 79,
+        "end": 100
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0150",
+    "raw_text": "Allison Spencer scheduled for follow-up on 2026-03-13 at Owenshaven clinic. Phone: +1-711-346-7866x912.",
+    "annotated_entities": [
+      {
+        "text": "Allison Spencer",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "Owenshaven",
+        "entity_type": "LOCATION",
+        "start": 57,
+        "end": 67
+      },
+      {
+        "text": "+1-711-346-7866x912",
+        "entity_type": "PHONE_NUMBER",
+        "start": 83,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0276",
+    "raw_text": "Agent spoke with Heather Bennett (franciscojones@example.org) regarding service outage on 2026-04-04.",
+    "annotated_entities": [
+      {
+        "text": "Heather Bennett",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "text": "franciscojones@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 34,
+        "end": 60
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0086",
+    "raw_text": "Mark Mccall joined the Sales department on 2026-02-14. Located in New Robert. Phone: 001-817-424-0050x455.",
+    "annotated_entities": [
+      {
+        "text": "Mark Mccall",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "New Robert",
+        "entity_type": "LOCATION",
+        "start": 66,
+        "end": 76
+      },
+      {
+        "text": "001-817-424-0050x455",
+        "entity_type": "PHONE_NUMBER",
+        "start": 85,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0326",
+    "raw_text": "Support request from Kelly Watts (pstanley@example.com): account access issue. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Kelly Watts",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 32
+      },
+      {
+        "text": "pstanley@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 34,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0356",
+    "raw_text": "Firewall blocked 147.144.47.238 after repeated privilege escalation attempts. Notified enewman@example.com.",
+    "annotated_entities": [
+      {
+        "text": "147.144.47.238",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "text": "enewman@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 87,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0155",
+    "raw_text": "Medical record: Angela Fry, diagnosis migraine disorder, appointment 2026-04-22.",
+    "annotated_entities": [
+      {
+        "text": "Angela Fry",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 26
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0233",
+    "raw_text": "Case #678805 \u2014 William Reid (plaintiff) vs Montoya-Mcneil LLP. Hearing on 2026-03-11 in North Corymouth.",
+    "annotated_entities": [
+      {
+        "text": "William Reid",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "North Corymouth",
+        "entity_type": "LOCATION",
+        "start": 88,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0247",
+    "raw_text": "Carla Benton retained Jarvis, Finley and Jones LLP for case #870214 proceedings. Contact: 305-964-8149.",
+    "annotated_entities": [
+      {
+        "text": "Carla Benton",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "305-964-8149",
+        "entity_type": "PHONE_NUMBER",
+        "start": 90,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0375",
+    "raw_text": "Security alert: user cindydixon@example.org triggered SQL injection attempt from IP 211.194.177.197 on 2026-01-28.",
+    "annotated_entities": [
+      {
+        "text": "cindydixon@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 43
+      },
+      {
+        "text": "211.194.177.197",
+        "entity_type": "IP_ADDRESS",
+        "start": 84,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0219",
+    "raw_text": "Case #874483 \u2014 Lauren Ferguson (plaintiff) vs Johnson LLC LLP. Hearing on 2026-03-23 in West Jeffreyhaven.",
+    "annotated_entities": [
+      {
+        "text": "Lauren Ferguson",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 30
+      },
+      {
+        "text": "West Jeffreyhaven",
+        "entity_type": "LOCATION",
+        "start": 88,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0392",
+    "raw_text": "Admin shawphillip@example.net reset password following SQL injection attempt. Phone verification: 001-727-618-7500x36915.",
+    "annotated_entities": [
+      {
+        "text": "shawphillip@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 29
+      },
+      {
+        "text": "001-727-618-7500x36915",
+        "entity_type": "PHONE_NUMBER",
+        "start": 98,
+        "end": 120
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0130",
+    "raw_text": "HR update: Laura Alexander promoted to Director in Finance, effective 2026-02-24.",
+    "annotated_entities": [
+      {
+        "text": "Laura Alexander",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 26
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0146",
+    "raw_text": "Patient Jessica Martinez admitted on 2026-02-15. Condition: type-2 diabetes. Contact: (775)857-1928.",
+    "annotated_entities": [
+      {
+        "text": "Jessica Martinez",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 24
+      },
+      {
+        "text": "(775)857-1928",
+        "entity_type": "PHONE_NUMBER",
+        "start": 86,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0198",
+    "raw_text": "Nathaniel Singh MD scheduled for follow-up on 2026-03-10 at North Jeffery clinic. Phone: +1-508-301-0062.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Singh MD",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 18
+      },
+      {
+        "text": "North Jeffery",
+        "entity_type": "LOCATION",
+        "start": 60,
+        "end": 73
+      },
+      {
+        "text": "+1-508-301-0062",
+        "entity_type": "PHONE_NUMBER",
+        "start": 89,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0049",
+    "raw_text": "Jeffery Thompson submitted a billing dispute for invoice #9837 on 2026-04-11. Email: pwilliams@example.org.",
+    "annotated_entities": [
+      {
+        "text": "Jeffery Thompson",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "pwilliams@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 85,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0169",
+    "raw_text": "Elizabeth Roberts scheduled for follow-up on 2026-02-10 at Douglasfort clinic. Phone: 001-344-719-8665x2404.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Roberts",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 17
+      },
+      {
+        "text": "Douglasfort",
+        "entity_type": "LOCATION",
+        "start": 59,
+        "end": 70
+      },
+      {
+        "text": "001-344-719-8665x2404",
+        "entity_type": "PHONE_NUMBER",
+        "start": 86,
+        "end": 107
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0034",
+    "raw_text": "Jaclyn Moore submitted a billing dispute for invoice #4483 on 2026-04-16. Email: cheryl80@example.net.",
+    "annotated_entities": [
+      {
+        "text": "Jaclyn Moore",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "cheryl80@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 81,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0172",
+    "raw_text": "Discharge summary for Elizabeth Roberts: migraine disorder resolved. Next visit 2026-02-10.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Roberts",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 39
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0027",
+    "raw_text": "Dispute filed by Jay Bernard (smoore@example.org) regarding invoice #3677 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Jay Bernard",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 28
+      },
+      {
+        "text": "smoore@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 30,
+        "end": 48
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0349",
+    "raw_text": "Incident #40539: unauthorised access attempt by 190.1.113.104. User: ystewart@example.net.",
+    "annotated_entities": [
+      {
+        "text": "190.1.113.104",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 61
+      },
+      {
+        "text": "ystewart@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 69,
+        "end": 89
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0210",
+    "raw_text": "Court filing: Henderson, Bennett and Cole LLP representing Elijah Patton, hearing 2026-03-12, Cookberg.",
+    "annotated_entities": [
+      {
+        "text": "Elijah Patton",
+        "entity_type": "PERSON",
+        "start": 59,
+        "end": 72
+      },
+      {
+        "text": "Cookberg",
+        "entity_type": "LOCATION",
+        "start": 94,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0199",
+    "raw_text": "Elizabeth Clayton retained Johnson-Nelson LLP for case #452737 proceedings. Contact: 500.921.7659x1803.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Clayton",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 17
+      },
+      {
+        "text": "500.921.7659x1803",
+        "entity_type": "PHONE_NUMBER",
+        "start": 85,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0145",
+    "raw_text": "Dr. Martinez, MD treated Jessica Martinez for type-2 diabetes on 2026-02-15.",
+    "annotated_entities": [
+      {
+        "text": "Jessica Martinez",
+        "entity_type": "PERSON",
+        "start": 25,
+        "end": 41
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0191",
+    "raw_text": "Dr. Porter, MD treated Cheryl Adams for chronic fatigue syndrome on 2026-01-08.",
+    "annotated_entities": [
+      {
+        "text": "Cheryl Adams",
+        "entity_type": "PERSON",
+        "start": 23,
+        "end": 35
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0187",
+    "raw_text": "Medical record: Jeffrey Fernandez, diagnosis type-2 diabetes, appointment 2026-01-11.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Fernandez",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 33
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0082",
+    "raw_text": "HR update: Sarah Morgan promoted to Associate in Finance, effective 2026-04-09.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Morgan",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 23
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0268",
+    "raw_text": "Agent spoke with Steven Osborne (xmoreno@example.net) regarding delivery failure on 2026-01-12.",
+    "annotated_entities": [
+      {
+        "text": "Steven Osborne",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "text": "xmoreno@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 33,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0353",
+    "raw_text": "IT security log \u2014 port scan detected for ystewart@example.net. Source IP: 190.1.113.104.",
+    "annotated_entities": [
+      {
+        "text": "ystewart@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 41,
+        "end": 61
+      },
+      {
+        "text": "190.1.113.104",
+        "entity_type": "IP_ADDRESS",
+        "start": 74,
+        "end": 87
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0274",
+    "raw_text": "Callback requested by Toni Brooks at 001-667-452-8953x9264. Issue: refund request.",
+    "annotated_entities": [
+      {
+        "text": "Toni Brooks",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 33
+      },
+      {
+        "text": "001-667-452-8953x9264",
+        "entity_type": "PHONE_NUMBER",
+        "start": 37,
+        "end": 58
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0225",
+    "raw_text": "Case #219629 \u2014 Jenny Tucker (plaintiff) vs Potter, Evans and Kidd LLP. Hearing on 2026-04-15 in Ortizfort.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Tucker",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "Ortizfort",
+        "entity_type": "LOCATION",
+        "start": 96,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0127",
+    "raw_text": "HR update: Nathaniel Douglas promoted to Engineer in Sales, effective 2026-01-30.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Douglas",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 28
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0021",
+    "raw_text": "Finance team received complaint from Mark Perez about duplicate charge on #1750.",
+    "annotated_entities": [
+      {
+        "text": "Mark Perez",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 47
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0329",
+    "raw_text": "Customer Kelly Watts called (362)989-0028x772 to report account access issue. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Kelly Watts",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "(362)989-0028x772",
+        "entity_type": "PHONE_NUMBER",
+        "start": 28,
+        "end": 45
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0259",
+    "raw_text": "Erika Chavez retained Pace, Miller and Willis LLP for case #953085 proceedings. Contact: 721-527-7561.",
+    "annotated_entities": [
+      {
+        "text": "Erika Chavez",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "721-527-7561",
+        "entity_type": "PHONE_NUMBER",
+        "start": 89,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0044",
+    "raw_text": "Finance team received complaint from Jeffrey Rush about duplicate charge on #5371.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Rush",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0176",
+    "raw_text": "Stephen Thompson scheduled for follow-up on 2026-01-08 at Jamesville clinic. Phone: 400-949-9154x7887.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Thompson",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "text": "Jamesville",
+        "entity_type": "LOCATION",
+        "start": 58,
+        "end": 68
+      },
+      {
+        "text": "400-949-9154x7887",
+        "entity_type": "PHONE_NUMBER",
+        "start": 84,
+        "end": 101
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0333",
+    "raw_text": "Ticket #49608: megan85@example.net reported credential stuffing. IP address logged: 146.76.164.219.",
+    "annotated_entities": [
+      {
+        "text": "megan85@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 34
+      },
+      {
+        "text": "146.76.164.219",
+        "entity_type": "IP_ADDRESS",
+        "start": 84,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0321",
+    "raw_text": "Michael Simmons opened support ticket about delivery failure. Contact: yorkpamela@example.org, (725)457-9415.",
+    "annotated_entities": [
+      {
+        "text": "Michael Simmons",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 15
+      },
+      {
+        "text": "yorkpamela@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 71,
+        "end": 93
+      },
+      {
+        "text": "(725)457-9415",
+        "entity_type": "PHONE_NUMBER",
+        "start": 95,
+        "end": 108
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0032",
+    "raw_text": "Invoice #4483 raised by Jaclyn Moore. Payment card 4401640052427861 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Jaclyn Moore",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      },
+      {
+        "text": "4401640052427861",
+        "entity_type": "CREDIT_CARD",
+        "start": 51,
+        "end": 67
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0315",
+    "raw_text": "Support request from Amber Wilson (qmartinez@example.com): account access issue. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Amber Wilson",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "qmartinez@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 35,
+        "end": 56
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0390",
+    "raw_text": "Firewall blocked 45.252.252.202 after repeated SQL injection attempt attempts. Notified olsonjonathan@example.com.",
+    "annotated_entities": [
+      {
+        "text": "45.252.252.202",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "text": "olsonjonathan@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 88,
+        "end": 113
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0244",
+    "raw_text": "Law firm Yang, Wilson and Zimmerman LLP filed motion on behalf of Stephen Smith in case #723948. Phone: +1-527-210-9104.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Smith",
+        "entity_type": "PERSON",
+        "start": 66,
+        "end": 79
+      },
+      {
+        "text": "+1-527-210-9104",
+        "entity_type": "PHONE_NUMBER",
+        "start": 104,
+        "end": 119
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0165",
+    "raw_text": "Patient Kim Erickson admitted on 2026-02-28. Condition: hypertension. Contact: +1-916-494-0974x99309.",
+    "annotated_entities": [
+      {
+        "text": "Kim Erickson",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "text": "+1-916-494-0974x99309",
+        "entity_type": "PHONE_NUMBER",
+        "start": 79,
+        "end": 100
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0097",
+    "raw_text": "Onboarding document for Ashley Hall. Department: Engineering. Start date: 2026-01-05.",
+    "annotated_entities": [
+      {
+        "text": "Ashley Hall",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 35
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0231",
+    "raw_text": "Correspondence to Gregory Montoya regarding case #498855 scheduled in Candiceburgh.",
+    "annotated_entities": [
+      {
+        "text": "Gregory Montoya",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 33
+      },
+      {
+        "text": "Candiceburgh",
+        "entity_type": "LOCATION",
+        "start": 70,
+        "end": 82
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0383",
+    "raw_text": "IT security log \u2014 port scan detected for mgonzales@example.net. Source IP: 153.242.232.158.",
+    "annotated_entities": [
+      {
+        "text": "mgonzales@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 41,
+        "end": 62
+      },
+      {
+        "text": "153.242.232.158",
+        "entity_type": "IP_ADDRESS",
+        "start": 75,
+        "end": 90
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0284",
+    "raw_text": "Customer James Burns called (452)370-4774x3490 to report account access issue. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "James Burns",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "text": "(452)370-4774x3490",
+        "entity_type": "PHONE_NUMBER",
+        "start": 28,
+        "end": 46
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0355",
+    "raw_text": "IT security log \u2014 privilege escalation detected for enewman@example.com. Source IP: 147.144.47.238.",
+    "annotated_entities": [
+      {
+        "text": "enewman@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 52,
+        "end": 71
+      },
+      {
+        "text": "147.144.47.238",
+        "entity_type": "IP_ADDRESS",
+        "start": 84,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0197",
+    "raw_text": "Medical record: Nathaniel Singh MD, diagnosis anxiety disorder, appointment 2026-03-10.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Singh MD",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0305",
+    "raw_text": "Support request from Megan Romero (kellyruiz@example.net): account access issue. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Megan Romero",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "kellyruiz@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 35,
+        "end": 56
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0047",
+    "raw_text": "Dispute filed by Jeffery Thompson (pwilliams@example.org) regarding invoice #9837 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Jeffery Thompson",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 33
+      },
+      {
+        "text": "pwilliams@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 35,
+        "end": 56
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0345",
+    "raw_text": "Admin wbarajas@example.net reset password following privilege escalation. Phone verification: 7158739930.",
+    "annotated_entities": [
+      {
+        "text": "wbarajas@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 26
+      },
+      {
+        "text": "7158739930",
+        "entity_type": "PHONE_NUMBER",
+        "start": 94,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0147",
+    "raw_text": "Discharge summary for Jessica Martinez: type-2 diabetes resolved. Next visit 2026-02-15.",
+    "annotated_entities": [
+      {
+        "text": "Jessica Martinez",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 38
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0189",
+    "raw_text": "Patient Jeffrey Fernandez from Joshuaside requested prescription refill. Ref: 001-559-895-3428.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Fernandez",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 25
+      },
+      {
+        "text": "Joshuaside",
+        "entity_type": "LOCATION",
+        "start": 31,
+        "end": 41
+      },
+      {
+        "text": "001-559-895-3428",
+        "entity_type": "PHONE_NUMBER",
+        "start": 78,
+        "end": 94
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0030",
+    "raw_text": "Finance team received complaint from Jaclyn Moore about duplicate charge on #4483.",
+    "annotated_entities": [
+      {
+        "text": "Jaclyn Moore",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0020",
+    "raw_text": "Account holder Mark Perez emailed chad34@example.net disputing invoice #1750 amount of $619.",
+    "annotated_entities": [
+      {
+        "text": "Mark Perez",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 25
+      },
+      {
+        "text": "chad34@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 34,
+        "end": 52
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0232",
+    "raw_text": "Law firm Melton Ltd LLP filed motion on behalf of Gregory Montoya in case #498855. Phone: 001-259-762-9233.",
+    "annotated_entities": [
+      {
+        "text": "Gregory Montoya",
+        "entity_type": "PERSON",
+        "start": 50,
+        "end": 65
+      },
+      {
+        "text": "001-259-762-9233",
+        "entity_type": "PHONE_NUMBER",
+        "start": 90,
+        "end": 106
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0237",
+    "raw_text": "Court filing: Porter PLC LLP representing Carlos Jones, hearing 2026-03-16, Lake Kaitlin.",
+    "annotated_entities": [
+      {
+        "text": "Carlos Jones",
+        "entity_type": "PERSON",
+        "start": 42,
+        "end": 54
+      },
+      {
+        "text": "Lake Kaitlin",
+        "entity_type": "LOCATION",
+        "start": 76,
+        "end": 88
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0350",
+    "raw_text": "Admin ystewart@example.net reset password following port scan. Phone verification: 380-691-9015.",
+    "annotated_entities": [
+      {
+        "text": "ystewart@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 6,
+        "end": 26
+      },
+      {
+        "text": "380-691-9015",
+        "entity_type": "PHONE_NUMBER",
+        "start": 83,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0038",
+    "raw_text": "Customer Stacey Russell contacted finance about overcharge on invoice #2489. Card: 4541458685014290.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Russell",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 23
+      },
+      {
+        "text": "4541458685014290",
+        "entity_type": "CREDIT_CARD",
+        "start": 83,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0260",
+    "raw_text": "Law firm Pace, Miller and Willis LLP filed motion on behalf of Erika Chavez in case #953085. Phone: 721-527-7561.",
+    "annotated_entities": [
+      {
+        "text": "Erika Chavez",
+        "entity_type": "PERSON",
+        "start": 63,
+        "end": 75
+      },
+      {
+        "text": "721-527-7561",
+        "entity_type": "PHONE_NUMBER",
+        "start": 100,
+        "end": 112
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0181",
+    "raw_text": "Medical record: Eric Sullivan, diagnosis type-2 diabetes, appointment 2026-04-08.",
+    "annotated_entities": [
+      {
+        "text": "Eric Sullivan",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 29
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0029",
+    "raw_text": "Customer Jaclyn Moore contacted finance about overcharge on invoice #4483. Card: 4401640052427861.",
+    "annotated_entities": [
+      {
+        "text": "Jaclyn Moore",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 21
+      },
+      {
+        "text": "4401640052427861",
+        "entity_type": "CREDIT_CARD",
+        "start": 81,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0303",
+    "raw_text": "Megan Romero opened support ticket about account access issue. Contact: kellyruiz@example.net, 682-651-3534x655.",
+    "annotated_entities": [
+      {
+        "text": "Megan Romero",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "kellyruiz@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 72,
+        "end": 93
+      },
+      {
+        "text": "682-651-3534x655",
+        "entity_type": "PHONE_NUMBER",
+        "start": 95,
+        "end": 111
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0141",
+    "raw_text": "Dr. Owen, MD treated Stacey Stewart for chronic fatigue syndrome on 2026-03-02.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Stewart",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 35
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0156",
+    "raw_text": "Dr. Jimenez, MD treated Angela Fry for migraine disorder on 2026-04-22.",
+    "annotated_entities": [
+      {
+        "text": "Angela Fry",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0227",
+    "raw_text": "Court filing: Potter, Evans and Kidd LLP representing Jenny Tucker, hearing 2026-04-15, Ortizfort.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Tucker",
+        "entity_type": "PERSON",
+        "start": 54,
+        "end": 66
+      },
+      {
+        "text": "Ortizfort",
+        "entity_type": "LOCATION",
+        "start": 88,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0241",
+    "raw_text": "Stephen Smith retained Yang, Wilson and Zimmerman LLP for case #723948 proceedings. Contact: +1-527-210-9104.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Smith",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "+1-527-210-9104",
+        "entity_type": "PHONE_NUMBER",
+        "start": 93,
+        "end": 108
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0035",
+    "raw_text": "Finance team received complaint from Stacey Russell about duplicate charge on #2489.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Russell",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 51
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0226",
+    "raw_text": "Legal notice sent to Jenny Tucker by Potter, Evans and Kidd LLP. Case reference #219629.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Tucker",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0078",
+    "raw_text": "Jon Bates transferred to Wolfborough office as Analyst in Legal. Contact: 768-908-7603.",
+    "annotated_entities": [
+      {
+        "text": "Jon Bates",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "Wolfborough",
+        "entity_type": "LOCATION",
+        "start": 25,
+        "end": 36
+      },
+      {
+        "text": "768-908-7603",
+        "entity_type": "PHONE_NUMBER",
+        "start": 74,
+        "end": 86
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0162",
+    "raw_text": "Patient Jim Allen admitted on 2026-04-24. Condition: type-2 diabetes. Contact: +1-874-280-1624x5650.",
+    "annotated_entities": [
+      {
+        "text": "Jim Allen",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 17
+      },
+      {
+        "text": "+1-874-280-1624x5650",
+        "entity_type": "PHONE_NUMBER",
+        "start": 79,
+        "end": 99
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0166",
+    "raw_text": "Medical record: Kim Erickson, diagnosis hypertension, appointment 2026-02-28.",
+    "annotated_entities": [
+      {
+        "text": "Kim Erickson",
+        "entity_type": "PERSON",
+        "start": 16,
+        "end": 28
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0290",
+    "raw_text": "Customer Renee Miller called 309.398.6162x299 to report product defect. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Renee Miller",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 21
+      },
+      {
+        "text": "309.398.6162x299",
+        "entity_type": "PHONE_NUMBER",
+        "start": 29,
+        "end": 45
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0230",
+    "raw_text": "Legal notice sent to Gregory Montoya by Melton Ltd LLP. Case reference #498855.",
+    "annotated_entities": [
+      {
+        "text": "Gregory Montoya",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 36
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0297",
+    "raw_text": "Agent spoke with Lisa Davis (robinrussell@example.com) regarding delivery failure on 2026-03-27.",
+    "annotated_entities": [
+      {
+        "text": "Lisa Davis",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 27
+      },
+      {
+        "text": "robinrussell@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 29,
+        "end": 53
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0289",
+    "raw_text": "Callback requested by Renee Miller at 309.398.6162x299. Issue: product defect.",
+    "annotated_entities": [
+      {
+        "text": "Renee Miller",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 34
+      },
+      {
+        "text": "309.398.6162x299",
+        "entity_type": "PHONE_NUMBER",
+        "start": 38,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0238",
+    "raw_text": "Law firm Porter PLC LLP filed motion on behalf of Carlos Jones in case #926097. Phone: (942)762-2189x092.",
+    "annotated_entities": [
+      {
+        "text": "Carlos Jones",
+        "entity_type": "PERSON",
+        "start": 50,
+        "end": 62
+      },
+      {
+        "text": "(942)762-2189x092",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0253",
+    "raw_text": "Case #557058 \u2014 Douglas Kirk (plaintiff) vs Howe-Long LLP. Hearing on 2026-03-05 in East Ambertown.",
+    "annotated_entities": [
+      {
+        "text": "Douglas Kirk",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "East Ambertown",
+        "entity_type": "LOCATION",
+        "start": 83,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0322",
+    "raw_text": "Callback requested by Michael Simmons at (725)457-9415. Issue: delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Michael Simmons",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 37
+      },
+      {
+        "text": "(725)457-9415",
+        "entity_type": "PHONE_NUMBER",
+        "start": 41,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0091",
+    "raw_text": "HR update: Edward Lyons promoted to Analyst in Legal, effective 2026-01-05.",
+    "annotated_entities": [
+      {
+        "text": "Edward Lyons",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 23
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0039",
+    "raw_text": "Dispute filed by Stacey Russell (michellecherry@example.org) regarding invoice #2489 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Russell",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "text": "michellecherry@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 33,
+        "end": 59
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0079",
+    "raw_text": "Employee record for Jon Bates: role Analyst, salary $170K, office Wolfborough.",
+    "annotated_entities": [
+      {
+        "text": "Jon Bates",
+        "entity_type": "PERSON",
+        "start": 20,
+        "end": 29
+      },
+      {
+        "text": "Wolfborough",
+        "entity_type": "LOCATION",
+        "start": 66,
+        "end": 77
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0309",
+    "raw_text": "Customer Jennifer Sanford called 6584300335 to report delivery failure. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Jennifer Sanford",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 25
+      },
+      {
+        "text": "6584300335",
+        "entity_type": "PHONE_NUMBER",
+        "start": 33,
+        "end": 43
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0089",
+    "raw_text": "Performance review \u2014 Mark Mccall, Manager. Location: New Robert. Phone: 001-817-424-0050x455.",
+    "annotated_entities": [
+      {
+        "text": "Mark Mccall",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 32
+      },
+      {
+        "text": "New Robert",
+        "entity_type": "LOCATION",
+        "start": 53,
+        "end": 63
+      },
+      {
+        "text": "001-817-424-0050x455",
+        "entity_type": "PHONE_NUMBER",
+        "start": 72,
+        "end": 92
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0102",
+    "raw_text": "HR update: Charles Lester promoted to Engineer in Engineering, effective 2026-01-01.",
+    "annotated_entities": [
+      {
+        "text": "Charles Lester",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 25
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0132",
+    "raw_text": "Performance review \u2014 Laura Alexander, Director. Location: Port Ethanmouth. Phone: 392.640.7581.",
+    "annotated_entities": [
+      {
+        "text": "Laura Alexander",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 36
+      },
+      {
+        "text": "Port Ethanmouth",
+        "entity_type": "LOCATION",
+        "start": 58,
+        "end": 73
+      },
+      {
+        "text": "392.640.7581",
+        "entity_type": "PHONE_NUMBER",
+        "start": 82,
+        "end": 94
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0075",
+    "raw_text": "Performance review \u2014 Rick Lawrence, Director. Location: South Haleyfurt. Phone: (642)910-2499.",
+    "annotated_entities": [
+      {
+        "text": "Rick Lawrence",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "text": "South Haleyfurt",
+        "entity_type": "LOCATION",
+        "start": 56,
+        "end": 71
+      },
+      {
+        "text": "(642)910-2499",
+        "entity_type": "PHONE_NUMBER",
+        "start": 80,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0053",
+    "raw_text": "Finance team received complaint from Sarah Ashley about duplicate charge on #3060.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Ashley",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 49
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0121",
+    "raw_text": "Madison Weber transferred to New Brookefurt office as Manager in Engineering. Contact: 649-305-8147x7005.",
+    "annotated_entities": [
+      {
+        "text": "Madison Weber",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 13
+      },
+      {
+        "text": "New Brookefurt",
+        "entity_type": "LOCATION",
+        "start": 29,
+        "end": 43
+      },
+      {
+        "text": "649-305-8147x7005",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0076",
+    "raw_text": "Jon Bates joined the Legal department on 2026-03-19. Located in Wolfborough. Phone: 768-908-7603.",
+    "annotated_entities": [
+      {
+        "text": "Jon Bates",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "Wolfborough",
+        "entity_type": "LOCATION",
+        "start": 64,
+        "end": 75
+      },
+      {
+        "text": "768-908-7603",
+        "entity_type": "PHONE_NUMBER",
+        "start": 84,
+        "end": 96
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0331",
+    "raw_text": "Security alert: user megan85@example.net triggered credential stuffing from IP 146.76.164.219 on 2026-03-22.",
+    "annotated_entities": [
+      {
+        "text": "megan85@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 40
+      },
+      {
+        "text": "146.76.164.219",
+        "entity_type": "IP_ADDRESS",
+        "start": 79,
+        "end": 93
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0180",
+    "raw_text": "Discharge summary for Eric Sullivan: type-2 diabetes resolved. Next visit 2026-04-08.",
+    "annotated_entities": [
+      {
+        "text": "Eric Sullivan",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 35
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0179",
+    "raw_text": "Patient Eric Sullivan from Lake Karen requested prescription refill. Ref: 932.572.7956.",
+    "annotated_entities": [
+      {
+        "text": "Eric Sullivan",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "text": "Lake Karen",
+        "entity_type": "LOCATION",
+        "start": 27,
+        "end": 37
+      },
+      {
+        "text": "932.572.7956",
+        "entity_type": "PHONE_NUMBER",
+        "start": 74,
+        "end": 86
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0100",
+    "raw_text": "Employee record for Charles Lester: role Engineer, salary $96K, office Lake Robert.",
+    "annotated_entities": [
+      {
+        "text": "Charles Lester",
+        "entity_type": "PERSON",
+        "start": 20,
+        "end": 34
+      },
+      {
+        "text": "Lake Robert",
+        "entity_type": "LOCATION",
+        "start": 71,
+        "end": 82
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0344",
+    "raw_text": "IT security log \u2014 privilege escalation detected for wbarajas@example.net. Source IP: 87.255.80.5.",
+    "annotated_entities": [
+      {
+        "text": "wbarajas@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 52,
+        "end": 72
+      },
+      {
+        "text": "87.255.80.5",
+        "entity_type": "IP_ADDRESS",
+        "start": 85,
+        "end": 96
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0272",
+    "raw_text": "Toni Brooks emailed rogersmarcus@example.org with complaint about refund request.",
+    "annotated_entities": [
+      {
+        "text": "Toni Brooks",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "rogersmarcus@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 20,
+        "end": 44
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0369",
+    "raw_text": "IT security log \u2014 SQL injection attempt detected for nicholas38@example.com. Source IP: 135.146.184.233.",
+    "annotated_entities": [
+      {
+        "text": "nicholas38@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 53,
+        "end": 75
+      },
+      {
+        "text": "135.146.184.233",
+        "entity_type": "IP_ADDRESS",
+        "start": 88,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0325",
+    "raw_text": "Kelly Watts opened support ticket about account access issue. Contact: pstanley@example.com, (362)989-0028x772.",
+    "annotated_entities": [
+      {
+        "text": "Kelly Watts",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "pstanley@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 71,
+        "end": 91
+      },
+      {
+        "text": "(362)989-0028x772",
+        "entity_type": "PHONE_NUMBER",
+        "start": 93,
+        "end": 110
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0262",
+    "raw_text": "Legal notice sent to Angela Osborn by Johnson PLC LLP. Case reference #296694.",
+    "annotated_entities": [
+      {
+        "text": "Angela Osborn",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 34
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0379",
+    "raw_text": "Ticket #22656: jcox@example.com reported privilege escalation. IP address logged: 122.116.6.136.",
+    "annotated_entities": [
+      {
+        "text": "jcox@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 31
+      },
+      {
+        "text": "122.116.6.136",
+        "entity_type": "IP_ADDRESS",
+        "start": 82,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0087",
+    "raw_text": "Mark Mccall transferred to New Robert office as Manager in Sales. Contact: 001-817-424-0050x455.",
+    "annotated_entities": [
+      {
+        "text": "Mark Mccall",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 11
+      },
+      {
+        "text": "New Robert",
+        "entity_type": "LOCATION",
+        "start": 27,
+        "end": 37
+      },
+      {
+        "text": "001-817-424-0050x455",
+        "entity_type": "PHONE_NUMBER",
+        "start": 75,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0171",
+    "raw_text": "Patient Elizabeth Roberts admitted on 2026-02-10. Condition: migraine disorder. Contact: 001-344-719-8665x2404.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Roberts",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 25
+      },
+      {
+        "text": "001-344-719-8665x2404",
+        "entity_type": "PHONE_NUMBER",
+        "start": 89,
+        "end": 110
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0114",
+    "raw_text": "Gerald Smith transferred to Kimberlyshire office as Manager in Engineering. Contact: 7186366752.",
+    "annotated_entities": [
+      {
+        "text": "Gerald Smith",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Kimberlyshire",
+        "entity_type": "LOCATION",
+        "start": 28,
+        "end": 41
+      },
+      {
+        "text": "7186366752",
+        "entity_type": "PHONE_NUMBER",
+        "start": 85,
+        "end": 95
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0174",
+    "raw_text": "Discharge summary for Stephen Thompson: migraine disorder resolved. Next visit 2026-01-08.",
+    "annotated_entities": [
+      {
+        "text": "Stephen Thompson",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 38
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0159",
+    "raw_text": "Angela Fry scheduled for follow-up on 2026-04-22 at Washingtonborough clinic. Phone: +1-407-984-4736x4710.",
+    "annotated_entities": [
+      {
+        "text": "Angela Fry",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "Washingtonborough",
+        "entity_type": "LOCATION",
+        "start": 52,
+        "end": 69
+      },
+      {
+        "text": "+1-407-984-4736x4710",
+        "entity_type": "PHONE_NUMBER",
+        "start": 85,
+        "end": 105
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0203",
+    "raw_text": "Legal notice sent to Elizabeth Clayton by Johnson-Nelson LLP. Case reference #452737.",
+    "annotated_entities": [
+      {
+        "text": "Elizabeth Clayton",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 38
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0041",
+    "raw_text": "Account holder Jeffrey Rush emailed elizabeth14@example.net disputing invoice #5371 amount of $4448.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Rush",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "text": "elizabeth14@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 36,
+        "end": 59
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0269",
+    "raw_text": "Support request from Steven Osborne (xmoreno@example.net): delivery failure. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Steven Osborne",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 35
+      },
+      {
+        "text": "xmoreno@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 37,
+        "end": 56
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0206",
+    "raw_text": "Legal notice sent to Katherine Kelly DVM by Brown Group LLP. Case reference #612311.",
+    "annotated_entities": [
+      {
+        "text": "Katherine Kelly DVM",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 40
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0302",
+    "raw_text": "Customer Megan Romero called 682-651-3534x655 to report account access issue. Ticket created.",
+    "annotated_entities": [
+      {
+        "text": "Megan Romero",
+        "entity_type": "PERSON",
+        "start": 9,
+        "end": 21
+      },
+      {
+        "text": "682-651-3534x655",
+        "entity_type": "PHONE_NUMBER",
+        "start": 29,
+        "end": 45
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0359",
+    "raw_text": "Firewall blocked 138.157.46.67 after repeated credential stuffing attempts. Notified rebeccaarnold@example.net.",
+    "annotated_entities": [
+      {
+        "text": "138.157.46.67",
+        "entity_type": "IP_ADDRESS",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "text": "rebeccaarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 85,
+        "end": 110
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0125",
+    "raw_text": "Performance review \u2014 Nathaniel Douglas, Engineer. Location: Kyleborough. Phone: +1-762-291-4865x2816.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Douglas",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 38
+      },
+      {
+        "text": "Kyleborough",
+        "entity_type": "LOCATION",
+        "start": 60,
+        "end": 71
+      },
+      {
+        "text": "+1-762-291-4865x2816",
+        "entity_type": "PHONE_NUMBER",
+        "start": 80,
+        "end": 100
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0055",
+    "raw_text": "Dispute filed by Sarah Ashley (tracynelson@example.com) regarding invoice #3060 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Sarah Ashley",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "text": "tracynelson@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 31,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0382",
+    "raw_text": "Incident #23579: unauthorised access attempt by 153.242.232.158. User: mgonzales@example.net.",
+    "annotated_entities": [
+      {
+        "text": "153.242.232.158",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 63
+      },
+      {
+        "text": "mgonzales@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 71,
+        "end": 92
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0046",
+    "raw_text": "Invoice #5371 raised by Jeffrey Rush. Payment card 4773872148951345 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Rush",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 36
+      },
+      {
+        "text": "4773872148951345",
+        "entity_type": "CREDIT_CARD",
+        "start": 51,
+        "end": 67
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0186",
+    "raw_text": "Patient Jeffrey Fernandez admitted on 2026-01-11. Condition: type-2 diabetes. Contact: 001-559-895-3428.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Fernandez",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 25
+      },
+      {
+        "text": "001-559-895-3428",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 103
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0354",
+    "raw_text": "Security alert: user enewman@example.com triggered privilege escalation from IP 147.144.47.238 on 2026-01-11.",
+    "annotated_entities": [
+      {
+        "text": "enewman@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 40
+      },
+      {
+        "text": "147.144.47.238",
+        "entity_type": "IP_ADDRESS",
+        "start": 80,
+        "end": 94
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0384",
+    "raw_text": "Ticket #23579: mgonzales@example.net reported port scan. IP address logged: 153.242.232.158.",
+    "annotated_entities": [
+      {
+        "text": "mgonzales@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 36
+      },
+      {
+        "text": "153.242.232.158",
+        "entity_type": "IP_ADDRESS",
+        "start": 76,
+        "end": 91
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0317",
+    "raw_text": "Amber Wilson emailed qmartinez@example.com with complaint about account access issue.",
+    "annotated_entities": [
+      {
+        "text": "Amber Wilson",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "qmartinez@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 42
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0088",
+    "raw_text": "HR update: Mark Mccall promoted to Manager in Sales, effective 2026-02-14.",
+    "annotated_entities": [
+      {
+        "text": "Mark Mccall",
+        "entity_type": "PERSON",
+        "start": 11,
+        "end": 22
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0167",
+    "raw_text": "Kim Erickson scheduled for follow-up on 2026-02-28 at Hernandezbury clinic. Phone: +1-916-494-0974x99309.",
+    "annotated_entities": [
+      {
+        "text": "Kim Erickson",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Hernandezbury",
+        "entity_type": "LOCATION",
+        "start": 54,
+        "end": 67
+      },
+      {
+        "text": "+1-916-494-0974x99309",
+        "entity_type": "PHONE_NUMBER",
+        "start": 83,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0011",
+    "raw_text": "Dispute filed by Mark Diaz (jason41@example.net) regarding invoice #1434 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Mark Diaz",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 26
+      },
+      {
+        "text": "jason41@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 28,
+        "end": 47
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0374",
+    "raw_text": "Ticket #64239: cindydixon@example.org reported SQL injection attempt. IP address logged: 211.194.177.197.",
+    "annotated_entities": [
+      {
+        "text": "cindydixon@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 15,
+        "end": 37
+      },
+      {
+        "text": "211.194.177.197",
+        "entity_type": "IP_ADDRESS",
+        "start": 89,
+        "end": 104
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0059",
+    "raw_text": "Dispute filed by Lawrence Adkins (tamirodriguez@example.org) regarding invoice #8177 charged to account.",
+    "annotated_entities": [
+      {
+        "text": "Lawrence Adkins",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "text": "tamirodriguez@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 34,
+        "end": 59
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0149",
+    "raw_text": "Patient Jessica Martinez from Debrabury requested prescription refill. Ref: (775)857-1928.",
+    "annotated_entities": [
+      {
+        "text": "Jessica Martinez",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 24
+      },
+      {
+        "text": "Debrabury",
+        "entity_type": "LOCATION",
+        "start": 30,
+        "end": 39
+      },
+      {
+        "text": "(775)857-1928",
+        "entity_type": "PHONE_NUMBER",
+        "start": 76,
+        "end": 89
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0214",
+    "raw_text": "Correspondence to Elijah Patton regarding case #656711 scheduled in Cookberg.",
+    "annotated_entities": [
+      {
+        "text": "Elijah Patton",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 31
+      },
+      {
+        "text": "Cookberg",
+        "entity_type": "LOCATION",
+        "start": 68,
+        "end": 76
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0328",
+    "raw_text": "Agent spoke with Kelly Watts (pstanley@example.com) regarding account access issue on 2026-01-19.",
+    "annotated_entities": [
+      {
+        "text": "Kelly Watts",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 28
+      },
+      {
+        "text": "pstanley@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 30,
+        "end": 50
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0364",
+    "raw_text": "Incident #96363: unauthorised access attempt by 138.157.46.67. User: rebeccaarnold@example.net.",
+    "annotated_entities": [
+      {
+        "text": "138.157.46.67",
+        "entity_type": "IP_ADDRESS",
+        "start": 48,
+        "end": 61
+      },
+      {
+        "text": "rebeccaarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 69,
+        "end": 94
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0208",
+    "raw_text": "Case #612311 \u2014 Katherine Kelly DVM (plaintiff) vs Brown Group LLP. Hearing on 2026-03-25 in Seanview.",
+    "annotated_entities": [
+      {
+        "text": "Katherine Kelly DVM",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 34
+      },
+      {
+        "text": "Seanview",
+        "entity_type": "LOCATION",
+        "start": 92,
+        "end": 100
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0294",
+    "raw_text": "Lisa Davis emailed robinrussell@example.com with complaint about delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Lisa Davis",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "robinrussell@example.com",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 19,
+        "end": 43
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0220",
+    "raw_text": "Megan Martin retained Thomas, Price and Carlson LLP for case #147726 proceedings. Contact: 836.822.6609x379.",
+    "annotated_entities": [
+      {
+        "text": "Megan Martin",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "836.822.6609x379",
+        "entity_type": "PHONE_NUMBER",
+        "start": 91,
+        "end": 107
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0295",
+    "raw_text": "Callback requested by Lisa Davis at 001-485-508-2148x62890. Issue: delivery failure.",
+    "annotated_entities": [
+      {
+        "text": "Lisa Davis",
+        "entity_type": "PERSON",
+        "start": 22,
+        "end": 32
+      },
+      {
+        "text": "001-485-508-2148x62890",
+        "entity_type": "PHONE_NUMBER",
+        "start": 36,
+        "end": 58
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0161",
+    "raw_text": "Jim Allen scheduled for follow-up on 2026-04-24 at West Angela clinic. Phone: +1-874-280-1624x5650.",
+    "annotated_entities": [
+      {
+        "text": "Jim Allen",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "West Angela",
+        "entity_type": "LOCATION",
+        "start": 51,
+        "end": 62
+      },
+      {
+        "text": "+1-874-280-1624x5650",
+        "entity_type": "PHONE_NUMBER",
+        "start": 78,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0040",
+    "raw_text": "Account holder Stacey Russell emailed michellecherry@example.org disputing invoice #2489 amount of $4092.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Russell",
+        "entity_type": "PERSON",
+        "start": 15,
+        "end": 29
+      },
+      {
+        "text": "michellecherry@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 38,
+        "end": 64
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0236",
+    "raw_text": "William Reid retained Montoya-Mcneil LLP for case #678805 proceedings. Contact: 974.754.5892.",
+    "annotated_entities": [
+      {
+        "text": "William Reid",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "974.754.5892",
+        "entity_type": "PHONE_NUMBER",
+        "start": 80,
+        "end": 92
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0010",
+    "raw_text": "Finance team received complaint from Mark Diaz about duplicate charge on #1434.",
+    "annotated_entities": [
+      {
+        "text": "Mark Diaz",
+        "entity_type": "PERSON",
+        "start": 37,
+        "end": 46
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0224",
+    "raw_text": "Correspondence to Jenny Tucker regarding case #219629 scheduled in Ortizfort.",
+    "annotated_entities": [
+      {
+        "text": "Jenny Tucker",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "text": "Ortizfort",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 76
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0022",
+    "raw_text": "Mark Perez submitted a billing dispute for invoice #1750 on 2026-01-07. Email: chad34@example.net.",
+    "annotated_entities": [
+      {
+        "text": "Mark Perez",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "chad34@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 79,
+        "end": 97
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0380",
+    "raw_text": "Security alert: user mgonzales@example.net triggered port scan from IP 153.242.232.158 on 2026-02-04.",
+    "annotated_entities": [
+      {
+        "text": "mgonzales@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 42
+      },
+      {
+        "text": "153.242.232.158",
+        "entity_type": "IP_ADDRESS",
+        "start": 71,
+        "end": 86
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0204",
+    "raw_text": "Court filing: Brown Group LLP representing Katherine Kelly DVM, hearing 2026-03-25, Seanview.",
+    "annotated_entities": [
+      {
+        "text": "Katherine Kelly DVM",
+        "entity_type": "PERSON",
+        "start": 43,
+        "end": 62
+      },
+      {
+        "text": "Seanview",
+        "entity_type": "LOCATION",
+        "start": 84,
+        "end": 92
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0037",
+    "raw_text": "Invoice #2489 raised by Stacey Russell. Payment card 4541458685014290 was charged incorrectly.",
+    "annotated_entities": [
+      {
+        "text": "Stacey Russell",
+        "entity_type": "PERSON",
+        "start": 24,
+        "end": 38
+      },
+      {
+        "text": "4541458685014290",
+        "entity_type": "CREDIT_CARD",
+        "start": 53,
+        "end": 69
+      }
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "chunk_id": "chunk_0182",
+    "raw_text": "Patient Nichole Lane from Kanefurt requested prescription refill. Ref: 7178046226.",
+    "annotated_entities": [
+      {
+        "text": "Nichole Lane",
+        "entity_type": "PERSON",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "text": "Kanefurt",
+        "entity_type": "LOCATION",
+        "start": 26,
+        "end": 34
+      },
+      {
+        "text": "7178046226",
+        "entity_type": "PHONE_NUMBER",
+        "start": 71,
+        "end": 81
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0343",
+    "raw_text": "Security alert: user wbarajas@example.net triggered privilege escalation from IP 87.255.80.5 on 2026-04-14.",
+    "annotated_entities": [
+      {
+        "text": "wbarajas@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 21,
+        "end": 41
+      },
+      {
+        "text": "87.255.80.5",
+        "entity_type": "IP_ADDRESS",
+        "start": 81,
+        "end": 92
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0287",
+    "raw_text": "Support request from Renee Miller (rarnold@example.net): product defect. Priority: high.",
+    "annotated_entities": [
+      {
+        "text": "Renee Miller",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 33
+      },
+      {
+        "text": "rarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 35,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0257",
+    "raw_text": "Correspondence to Erika Chavez regarding case #953085 scheduled in Parkerview.",
+    "annotated_entities": [
+      {
+        "text": "Erika Chavez",
+        "entity_type": "PERSON",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "text": "Parkerview",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 77
+      }
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "chunk_id": "chunk_0118",
+    "raw_text": "Performance review \u2014 Jeffrey Anderson MD, Director. Location: Collierstad. Phone: 715.496.9664x160.",
+    "annotated_entities": [
+      {
+        "text": "Jeffrey Anderson MD",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 40
+      },
+      {
+        "text": "Collierstad",
+        "entity_type": "LOCATION",
+        "start": 62,
+        "end": 73
+      },
+      {
+        "text": "715.496.9664x160",
+        "entity_type": "PHONE_NUMBER",
+        "start": 82,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0361",
+    "raw_text": "IT security log \u2014 credential stuffing detected for rebeccaarnold@example.net. Source IP: 138.157.46.67.",
+    "annotated_entities": [
+      {
+        "text": "rebeccaarnold@example.net",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 51,
+        "end": 76
+      },
+      {
+        "text": "138.157.46.67",
+        "entity_type": "IP_ADDRESS",
+        "start": 89,
+        "end": 102
+      }
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "chunk_id": "chunk_0273",
+    "raw_text": "Agent spoke with Toni Brooks (rogersmarcus@example.org) regarding refund request on 2026-03-18.",
+    "annotated_entities": [
+      {
+        "text": "Toni Brooks",
+        "entity_type": "PERSON",
+        "start": 17,
+        "end": 28
+      },
+      {
+        "text": "rogersmarcus@example.org",
+        "entity_type": "EMAIL_ADDRESS",
+        "start": 30,
+        "end": 54
+      }
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "chunk_id": "chunk_0195",
+    "raw_text": "Dr. Watson, MD treated Nathaniel Singh MD for anxiety disorder on 2026-03-10.",
+    "annotated_entities": [
+      {
+        "text": "Nathaniel Singh MD",
+        "entity_type": "PERSON",
+        "start": 23,
+        "end": 41
+      }
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "chunk_id": "chunk_0067",
+    "raw_text": "Performance review \u2014 Margaret Mullins, Engineer. Location: North Angela. Phone: 620-347-1167x19022.",
+    "annotated_entities": [
+      {
+        "text": "Margaret Mullins",
+        "entity_type": "PERSON",
+        "start": 21,
+        "end": 37
+      },
+      {
+        "text": "North Angela",
+        "entity_type": "LOCATION",
+        "start": 59,
+        "end": 71
+      },
+      {
+        "text": "620-347-1167x19022",
+        "entity_type": "PHONE_NUMBER",
+        "start": 80,
+        "end": 98
+      }
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "chunk_id": "chunk_0090",
+    "raw_text": "Edward Lyons joined the Legal department on 2026-01-05. Located in Johnsonstad. Phone: 001-209-674-3953x39421.",
+    "annotated_entities": [
+      {
+        "text": "Edward Lyons",
+        "entity_type": "PERSON",
+        "start": 0,
+        "end": 12
+      },
+      {
+        "text": "Johnsonstad",
+        "entity_type": "LOCATION",
+        "start": 67,
+        "end": 78
+      },
+      {
+        "text": "001-209-674-3953x39421",
+        "entity_type": "PHONE_NUMBER",
+        "start": 87,
+        "end": 109
+      }
+    ],
+    "topic_cluster": "hr_record"
+  }
+]

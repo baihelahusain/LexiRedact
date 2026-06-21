@@ -1,0 +1,4 @@
+Mode,Mean_ms,Std_ms,Min_ms,p50_ms,p95_ms,Max_ms,Throughput_chunks_per_sec,Cache_Hit_Rate,Warmup_ms
+Raw (Baseline),137.44,14.57,97.87,135.55,156.48,248.56,7.28,0.0000,269.20
+Pre-Redacted,133.72,73.23,65.38,109.38,206.74,905.99,7.48,0.0000,626.94
+Dual (Proposed),75.11,8.59,60.26,74.33,87.96,146.17,13.31,0.0000,185.76

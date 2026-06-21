@@ -1,0 +1,1062 @@
+[
+  {
+    "query_id": "q_0027",
+    "query_text": "Find medical records for patients treated by Dr. Brown, MD.",
+    "relevant_chunk_ids": [
+      "chunk_0133",
+      "chunk_0134",
+      "chunk_0135",
+      "chunk_0136",
+      "chunk_0137",
+      "chunk_0138"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0037",
+    "query_text": "Find medical records for patients treated by Dr. Long, MD.",
+    "relevant_chunk_ids": [
+      "chunk_0160",
+      "chunk_0161",
+      "chunk_0162",
+      "chunk_0163"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0017",
+    "query_text": "Which employee started in Legal this year?",
+    "relevant_chunk_ids": [
+      "chunk_0076",
+      "chunk_0077",
+      "chunk_0078",
+      "chunk_0079"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0077",
+    "query_text": "Which IP addresses triggered security alerts?",
+    "relevant_chunk_ids": [
+      "chunk_0376",
+      "chunk_0377",
+      "chunk_0378",
+      "chunk_0379"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0008",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0029",
+      "chunk_0030",
+      "chunk_0031",
+      "chunk_0032",
+      "chunk_0033",
+      "chunk_0034"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0065",
+    "query_text": "Who reported a delivery failure complaint by email?",
+    "relevant_chunk_ids": [
+      "chunk_0308",
+      "chunk_0309",
+      "chunk_0310",
+      "chunk_0311",
+      "chunk_0312",
+      "chunk_0313"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0001",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0001",
+      "chunk_0002",
+      "chunk_0003",
+      "chunk_0004",
+      "chunk_0005",
+      "chunk_0006"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0031",
+    "query_text": "Find medical records for patients treated by Dr. Martinez, MD.",
+    "relevant_chunk_ids": [
+      "chunk_0144",
+      "chunk_0145",
+      "chunk_0146",
+      "chunk_0147",
+      "chunk_0148",
+      "chunk_0149"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0060",
+    "query_text": "Who reported a product defect complaint by email?",
+    "relevant_chunk_ids": [
+      "chunk_0286",
+      "chunk_0287",
+      "chunk_0288",
+      "chunk_0289",
+      "chunk_0290",
+      "chunk_0291"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0032",
+    "query_text": "Who was discharged recently after treatment?",
+    "relevant_chunk_ids": [
+      "chunk_0150",
+      "chunk_0151",
+      "chunk_0152",
+      "chunk_0153"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0061",
+    "query_text": "Who reported a delivery failure complaint by email?",
+    "relevant_chunk_ids": [
+      "chunk_0292",
+      "chunk_0293",
+      "chunk_0294",
+      "chunk_0295",
+      "chunk_0296",
+      "chunk_0297"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0076",
+    "query_text": "Which IP addresses triggered security alerts?",
+    "relevant_chunk_ids": [
+      "chunk_0371",
+      "chunk_0372",
+      "chunk_0373",
+      "chunk_0374",
+      "chunk_0375"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0007",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0023",
+      "chunk_0024",
+      "chunk_0025",
+      "chunk_0026",
+      "chunk_0027",
+      "chunk_0028"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0006",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0017",
+      "chunk_0018",
+      "chunk_0019",
+      "chunk_0020",
+      "chunk_0021",
+      "chunk_0022"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0034",
+    "query_text": "Find patients diagnosed with migraine disorder.",
+    "relevant_chunk_ids": [
+      "chunk_0154",
+      "chunk_0155",
+      "chunk_0156",
+      "chunk_0157",
+      "chunk_0158",
+      "chunk_0159"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0051",
+    "query_text": "Who is the plaintiff in case number #678805?",
+    "relevant_chunk_ids": [
+      "chunk_0233",
+      "chunk_0234",
+      "chunk_0235",
+      "chunk_0236"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0075",
+    "query_text": "Which IP addresses triggered security alerts?",
+    "relevant_chunk_ids": [
+      "chunk_0371",
+      "chunk_0372",
+      "chunk_0373",
+      "chunk_0374",
+      "chunk_0375"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0030",
+    "query_text": "Find medical records for patients treated by Dr. Martinez, MD.",
+    "relevant_chunk_ids": [
+      "chunk_0144",
+      "chunk_0145",
+      "chunk_0146",
+      "chunk_0147",
+      "chunk_0148",
+      "chunk_0149"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0081_hardneg",
+    "query_text": "Who was discharged recently after treatment?",
+    "relevant_chunk_ids": [
+      "chunk_0123",
+      "chunk_0120"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0049",
+    "query_text": "Find filings by law firm Potter, Evans and Kidd LLP.",
+    "relevant_chunk_ids": [
+      "chunk_0224",
+      "chunk_0225",
+      "chunk_0226",
+      "chunk_0227",
+      "chunk_0228"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0015",
+    "query_text": "Which employee transferred to the South Haleyfurt office recently?",
+    "relevant_chunk_ids": [
+      "chunk_0072",
+      "chunk_0073",
+      "chunk_0074",
+      "chunk_0075"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0022",
+    "query_text": "Which employee transferred to the Watsonside office recently?",
+    "relevant_chunk_ids": [
+      "chunk_0096",
+      "chunk_0097",
+      "chunk_0098",
+      "chunk_0099"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0082_hardneg",
+    "query_text": "Find support tickets about account access issue.",
+    "relevant_chunk_ids": [
+      "chunk_0028",
+      "chunk_0066"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0063",
+    "query_text": "Who reported a account access issue complaint by email?",
+    "relevant_chunk_ids": [
+      "chunk_0302",
+      "chunk_0303",
+      "chunk_0304",
+      "chunk_0305",
+      "chunk_0306",
+      "chunk_0307"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0078",
+    "query_text": "Which accounts were affected by unauthorised access attempts?",
+    "relevant_chunk_ids": [
+      "chunk_0376",
+      "chunk_0377",
+      "chunk_0378",
+      "chunk_0379"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0019",
+    "query_text": "Who was promoted in the latest HR update?",
+    "relevant_chunk_ids": [
+      "chunk_0084",
+      "chunk_0085",
+      "chunk_0086",
+      "chunk_0087",
+      "chunk_0088",
+      "chunk_0089"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0013",
+    "query_text": "Who emailed finance about an incorrect invoice?",
+    "relevant_chunk_ids": [
+      "chunk_0052",
+      "chunk_0053",
+      "chunk_0054",
+      "chunk_0055"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0036",
+    "query_text": "Who was discharged recently after treatment?",
+    "relevant_chunk_ids": [
+      "chunk_0160",
+      "chunk_0161",
+      "chunk_0162",
+      "chunk_0163"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0012",
+    "query_text": "Who emailed finance about an incorrect invoice?",
+    "relevant_chunk_ids": [
+      "chunk_0047",
+      "chunk_0048",
+      "chunk_0049",
+      "chunk_0050",
+      "chunk_0051"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0021",
+    "query_text": "Who was promoted in the latest HR update?",
+    "relevant_chunk_ids": [
+      "chunk_0090",
+      "chunk_0091",
+      "chunk_0092",
+      "chunk_0093",
+      "chunk_0094",
+      "chunk_0095"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0025",
+    "query_text": "Who was promoted in the latest HR update?",
+    "relevant_chunk_ids": [
+      "chunk_0105",
+      "chunk_0106",
+      "chunk_0107",
+      "chunk_0108",
+      "chunk_0109"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0087_hardneg",
+    "query_text": "Find medical records for patients treated by Dr. Brown, MD.",
+    "relevant_chunk_ids": [
+      "chunk_0093",
+      "chunk_0105"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0083_hardneg",
+    "query_text": "Find IT tickets involving firewall blocks.",
+    "relevant_chunk_ids": [
+      "chunk_0309",
+      "chunk_0320"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0009",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0029",
+      "chunk_0030",
+      "chunk_0031",
+      "chunk_0032",
+      "chunk_0033",
+      "chunk_0034"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0053",
+    "query_text": "Find support tickets about delivery failure.",
+    "relevant_chunk_ids": [
+      "chunk_0265",
+      "chunk_0266",
+      "chunk_0267",
+      "chunk_0268",
+      "chunk_0269",
+      "chunk_0270"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0054",
+    "query_text": "Find support tickets about refund request.",
+    "relevant_chunk_ids": [
+      "chunk_0271",
+      "chunk_0272",
+      "chunk_0273",
+      "chunk_0274",
+      "chunk_0275"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0010",
+    "query_text": "Who raised a payment dispute about invoice #2489?",
+    "relevant_chunk_ids": [
+      "chunk_0035",
+      "chunk_0036",
+      "chunk_0037",
+      "chunk_0038",
+      "chunk_0039",
+      "chunk_0040"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0002",
+    "query_text": "Find all billing disputes involving credit card charges.",
+    "relevant_chunk_ids": [
+      "chunk_0007",
+      "chunk_0008",
+      "chunk_0009",
+      "chunk_0010",
+      "chunk_0011",
+      "chunk_0012"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0058",
+    "query_text": "Which customer requested a callback recently?",
+    "relevant_chunk_ids": [
+      "chunk_0281",
+      "chunk_0282",
+      "chunk_0283",
+      "chunk_0284",
+      "chunk_0285"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0033",
+    "query_text": "Find medical records for patients treated by Dr. Le, MD.",
+    "relevant_chunk_ids": [
+      "chunk_0150",
+      "chunk_0151",
+      "chunk_0152",
+      "chunk_0153"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0070",
+    "query_text": "Which IP addresses triggered security alerts?",
+    "relevant_chunk_ids": [
+      "chunk_0343",
+      "chunk_0344",
+      "chunk_0345",
+      "chunk_0346",
+      "chunk_0347"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0026",
+    "query_text": "Find HR records for staff in the Engineering department.",
+    "relevant_chunk_ids": [
+      "chunk_0110",
+      "chunk_0111",
+      "chunk_0112",
+      "chunk_0113",
+      "chunk_0114",
+      "chunk_0115"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0090_hardneg",
+    "query_text": "Who is the plaintiff in case number #452737?",
+    "relevant_chunk_ids": [
+      "chunk_0196",
+      "chunk_0188"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0089_hardneg",
+    "query_text": "Which IP addresses triggered security alerts?",
+    "relevant_chunk_ids": [
+      "chunk_0306",
+      "chunk_0280"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0005",
+    "query_text": "Who raised a payment dispute about invoice #1750?",
+    "relevant_chunk_ids": [
+      "chunk_0017",
+      "chunk_0018",
+      "chunk_0019",
+      "chunk_0020",
+      "chunk_0021",
+      "chunk_0022"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0004",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0013",
+      "chunk_0014",
+      "chunk_0015",
+      "chunk_0016"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0041",
+    "query_text": "Who is the plaintiff in case number #452737?",
+    "relevant_chunk_ids": [
+      "chunk_0199",
+      "chunk_0200",
+      "chunk_0201",
+      "chunk_0202",
+      "chunk_0203"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0018",
+    "query_text": "Which employee transferred to the Mollybury office recently?",
+    "relevant_chunk_ids": [
+      "chunk_0080",
+      "chunk_0081",
+      "chunk_0082",
+      "chunk_0083"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0059",
+    "query_text": "Find support tickets about product defect.",
+    "relevant_chunk_ids": [
+      "chunk_0286",
+      "chunk_0287",
+      "chunk_0288",
+      "chunk_0289",
+      "chunk_0290",
+      "chunk_0291"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0040",
+    "query_text": "Who is the plaintiff in case number #452737?",
+    "relevant_chunk_ids": [
+      "chunk_0199",
+      "chunk_0200",
+      "chunk_0201",
+      "chunk_0202",
+      "chunk_0203"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0073",
+    "query_text": "Which accounts were affected by unauthorised access attempts?",
+    "relevant_chunk_ids": [
+      "chunk_0359",
+      "chunk_0360",
+      "chunk_0361",
+      "chunk_0362",
+      "chunk_0363",
+      "chunk_0364"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0047",
+    "query_text": "Who is the plaintiff in case number #147726?",
+    "relevant_chunk_ids": [
+      "chunk_0220",
+      "chunk_0221",
+      "chunk_0222",
+      "chunk_0223"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0003",
+    "query_text": "Find all billing disputes involving credit card charges.",
+    "relevant_chunk_ids": [
+      "chunk_0013",
+      "chunk_0014",
+      "chunk_0015",
+      "chunk_0016"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0071",
+    "query_text": "Which IP addresses triggered security alerts?",
+    "relevant_chunk_ids": [
+      "chunk_0348",
+      "chunk_0349",
+      "chunk_0350",
+      "chunk_0351",
+      "chunk_0352",
+      "chunk_0353"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0023",
+    "query_text": "Find HR records for staff in the Engineering department.",
+    "relevant_chunk_ids": [
+      "chunk_0096",
+      "chunk_0097",
+      "chunk_0098",
+      "chunk_0099"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0062",
+    "query_text": "Find support tickets about delivery failure.",
+    "relevant_chunk_ids": [
+      "chunk_0298",
+      "chunk_0299",
+      "chunk_0300",
+      "chunk_0301"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0045",
+    "query_text": "Find filings by law firm Henderson, Bennett and Cole LLP.",
+    "relevant_chunk_ids": [
+      "chunk_0210",
+      "chunk_0211",
+      "chunk_0212",
+      "chunk_0213",
+      "chunk_0214",
+      "chunk_0215"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0066",
+    "query_text": "Which accounts were affected by unauthorised access attempts?",
+    "relevant_chunk_ids": [
+      "chunk_0331",
+      "chunk_0332",
+      "chunk_0333",
+      "chunk_0334",
+      "chunk_0335",
+      "chunk_0336"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0028",
+    "query_text": "Find patients diagnosed with migraine disorder.",
+    "relevant_chunk_ids": [
+      "chunk_0133",
+      "chunk_0134",
+      "chunk_0135",
+      "chunk_0136",
+      "chunk_0137",
+      "chunk_0138"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0046",
+    "query_text": "Who is the plaintiff in case number #874483?",
+    "relevant_chunk_ids": [
+      "chunk_0216",
+      "chunk_0217",
+      "chunk_0218",
+      "chunk_0219"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0039",
+    "query_text": "Find medical records for patients treated by Dr. Bernard, MD.",
+    "relevant_chunk_ids": [
+      "chunk_0164",
+      "chunk_0165",
+      "chunk_0166",
+      "chunk_0167",
+      "chunk_0168"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0029",
+    "query_text": "Who was discharged recently after treatment?",
+    "relevant_chunk_ids": [
+      "chunk_0139",
+      "chunk_0140",
+      "chunk_0141",
+      "chunk_0142",
+      "chunk_0143"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0020",
+    "query_text": "Find HR records for staff in the Sales department.",
+    "relevant_chunk_ids": [
+      "chunk_0084",
+      "chunk_0085",
+      "chunk_0086",
+      "chunk_0087",
+      "chunk_0088",
+      "chunk_0089"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0069",
+    "query_text": "Which IP addresses triggered security alerts?",
+    "relevant_chunk_ids": [
+      "chunk_0337",
+      "chunk_0338",
+      "chunk_0339",
+      "chunk_0340",
+      "chunk_0341",
+      "chunk_0342"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0068",
+    "query_text": "Which accounts were affected by unauthorised access attempts?",
+    "relevant_chunk_ids": [
+      "chunk_0337",
+      "chunk_0338",
+      "chunk_0339",
+      "chunk_0340",
+      "chunk_0341",
+      "chunk_0342"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0072",
+    "query_text": "Find IT tickets involving firewall blocks.",
+    "relevant_chunk_ids": [
+      "chunk_0354",
+      "chunk_0355",
+      "chunk_0356",
+      "chunk_0357",
+      "chunk_0358"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0014",
+    "query_text": "Find HR records for staff in the Legal department.",
+    "relevant_chunk_ids": [
+      "chunk_0067",
+      "chunk_0068",
+      "chunk_0069",
+      "chunk_0070",
+      "chunk_0071"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0042",
+    "query_text": "Find filings by law firm Brown Group LLP.",
+    "relevant_chunk_ids": [
+      "chunk_0204",
+      "chunk_0205",
+      "chunk_0206",
+      "chunk_0207",
+      "chunk_0208",
+      "chunk_0209"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0038",
+    "query_text": "Which patient has an upcoming appointment in Hernandezbury?",
+    "relevant_chunk_ids": [
+      "chunk_0164",
+      "chunk_0165",
+      "chunk_0166",
+      "chunk_0167",
+      "chunk_0168"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0080_hardneg",
+    "query_text": "Who was promoted in the latest HR update?",
+    "relevant_chunk_ids": [
+      "chunk_0253",
+      "chunk_0261"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0085_hardneg",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0304",
+      "chunk_0270"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0074",
+    "query_text": "Find incidents related to SQL injection attempt.",
+    "relevant_chunk_ids": [
+      "chunk_0365",
+      "chunk_0366",
+      "chunk_0367",
+      "chunk_0368",
+      "chunk_0369",
+      "chunk_0370"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0055",
+    "query_text": "Who reported a service outage complaint by email?",
+    "relevant_chunk_ids": [
+      "chunk_0276",
+      "chunk_0277",
+      "chunk_0278",
+      "chunk_0279",
+      "chunk_0280"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0011",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0041",
+      "chunk_0042",
+      "chunk_0043",
+      "chunk_0044",
+      "chunk_0045",
+      "chunk_0046"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0088_hardneg",
+    "query_text": "Find high-priority support requests.",
+    "relevant_chunk_ids": [
+      "chunk_0018",
+      "chunk_0033"
+    ],
+    "topic_cluster": "billing_dispute"
+  },
+  {
+    "query_id": "q_0067",
+    "query_text": "Find IT tickets involving firewall blocks.",
+    "relevant_chunk_ids": [
+      "chunk_0331",
+      "chunk_0332",
+      "chunk_0333",
+      "chunk_0334",
+      "chunk_0335",
+      "chunk_0336"
+    ],
+    "topic_cluster": "it_security"
+  },
+  {
+    "query_id": "q_0086_hardneg",
+    "query_text": "Which employee started in Legal this year?",
+    "relevant_chunk_ids": [
+      "chunk_0249",
+      "chunk_0206"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0079_hardneg",
+    "query_text": "Which customer complained about an overcharge on their billing statement?",
+    "relevant_chunk_ids": [
+      "chunk_0275",
+      "chunk_0299"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0064",
+    "query_text": "Who reported a account access issue complaint by email?",
+    "relevant_chunk_ids": [
+      "chunk_0302",
+      "chunk_0303",
+      "chunk_0304",
+      "chunk_0305",
+      "chunk_0306",
+      "chunk_0307"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0024",
+    "query_text": "Which employee started in Engineering this year?",
+    "relevant_chunk_ids": [
+      "chunk_0100",
+      "chunk_0101",
+      "chunk_0102",
+      "chunk_0103",
+      "chunk_0104"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0044",
+    "query_text": "Who is the plaintiff in case number #656711?",
+    "relevant_chunk_ids": [
+      "chunk_0210",
+      "chunk_0211",
+      "chunk_0212",
+      "chunk_0213",
+      "chunk_0214",
+      "chunk_0215"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0050",
+    "query_text": "Which cases are scheduled in Candiceburgh?",
+    "relevant_chunk_ids": [
+      "chunk_0229",
+      "chunk_0230",
+      "chunk_0231",
+      "chunk_0232"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0057",
+    "query_text": "Find support tickets about account access issue.",
+    "relevant_chunk_ids": [
+      "chunk_0281",
+      "chunk_0282",
+      "chunk_0283",
+      "chunk_0284",
+      "chunk_0285"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0052",
+    "query_text": "Which cases are scheduled in North Corymouth?",
+    "relevant_chunk_ids": [
+      "chunk_0233",
+      "chunk_0234",
+      "chunk_0235",
+      "chunk_0236"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0056",
+    "query_text": "Find high-priority support requests.",
+    "relevant_chunk_ids": [
+      "chunk_0276",
+      "chunk_0277",
+      "chunk_0278",
+      "chunk_0279",
+      "chunk_0280"
+    ],
+    "topic_cluster": "customer_support"
+  },
+  {
+    "query_id": "q_0048",
+    "query_text": "Which cases are scheduled in Ortizfort?",
+    "relevant_chunk_ids": [
+      "chunk_0224",
+      "chunk_0225",
+      "chunk_0226",
+      "chunk_0227",
+      "chunk_0228"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0016",
+    "query_text": "Which employee started in Legal this year?",
+    "relevant_chunk_ids": [
+      "chunk_0076",
+      "chunk_0077",
+      "chunk_0078",
+      "chunk_0079"
+    ],
+    "topic_cluster": "hr_record"
+  },
+  {
+    "query_id": "q_0035",
+    "query_text": "Who was discharged recently after treatment?",
+    "relevant_chunk_ids": [
+      "chunk_0154",
+      "chunk_0155",
+      "chunk_0156",
+      "chunk_0157",
+      "chunk_0158",
+      "chunk_0159"
+    ],
+    "topic_cluster": "medical_record"
+  },
+  {
+    "query_id": "q_0043",
+    "query_text": "Which legal notices were sent recently?",
+    "relevant_chunk_ids": [
+      "chunk_0204",
+      "chunk_0205",
+      "chunk_0206",
+      "chunk_0207",
+      "chunk_0208",
+      "chunk_0209"
+    ],
+    "topic_cluster": "legal_correspondence"
+  },
+  {
+    "query_id": "q_0084_hardneg",
+    "query_text": "Who is the plaintiff in case number #452737?",
+    "relevant_chunk_ids": [
+      "chunk_0169",
+      "chunk_0195"
+    ],
+    "topic_cluster": "medical_record"
+  }
+]

@@ -1,0 +1,43 @@
+pipeline_mode: dual
+
+input_schema:
+  text_field: text
+  id_field: id
+  metadata_fields: []
+
+pii:
+  nlp_engine: spacy
+  nlp_model: en_core_web_sm
+  spacy_model: en_core_web_sm   # deprecated alias — kept for backward compat
+  entities:
+    - PERSON
+    - EMAIL_ADDRESS
+    - PHONE_NUMBER
+    - LOCATION
+    - CREDIT_CARD
+    - IBAN_CODE
+    - IP_ADDRESS
+  language: en
+  score_threshold: 0.7
+  batch_size: 16
+
+embedder:
+  backend: sentence_transformers
+  model_name: intfloat/e5-small-v2
+  document_prefix: "passage: "
+  query_prefix: "query: "
+  dimension: null          # null = auto-detect from model after load
+  batch_size: 32
+  device: cpu
+  normalize_embeddings: true
+
+cache:
+  enabled: false
+  redis_url: redis://localhost:6379
+  ttl_seconds: 86400
+  key_prefix: vs
+
+store:
+  provider: chroma
+  collection_name: LexiRedact
+  persist_directory: ./chroma_db
