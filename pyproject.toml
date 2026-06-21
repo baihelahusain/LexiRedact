@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lexiredact"
-version = "0.0.2"
+version = "0.2.0"
 description = "Privacy-preserving RAG ingestion middleware with dual-pipeline processing"
 readme = "README.md"
 requires-python = ">=3.10"
